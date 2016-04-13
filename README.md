@@ -918,7 +918,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 \item $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=NE_1 \cup \{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
 %wykres
 
-\includegraphics [width=0.3\textwidth] {wykre21.png}
+\includegraphics [width=0.3\textwidth] (wykre21.png)
 
 
 \item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
