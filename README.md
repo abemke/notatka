@@ -488,18 +488,18 @@ W_1(q)=  \begin{cases}
 Następnie znajdujemy odworownie $W_2(p)$ w zależności od parametrów $\gamma$ i $\delta$:
 \begin {enumerate}
 
-	\item $\gamma > 0$, $\delta > 0$, dlatego $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\ge\frac{\delta}{\gamma+\delta}$. Więc odwzorowanie najlepszych odpowiedzi Gracza 2 jest następujące: ${W_2(p)= \begin{cases}
+1. $\gamma > 0$, $\delta > 0$, dlatego $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\ge\frac{\delta}{\gamma+\delta}$. Więc odwzorowanie najlepszych odpowiedzi Gracza 2 jest następujące: ${W_2(p)= \begin{cases}
 1 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
 [0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
 0 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
 \end{cases}
 .}$
 
-	\item  $\gamma > 0$, $\delta < 0$. Wówczas nierówność $p (\gamma +\delta) \ge \delta$ jest spełniona dla każdego $p\in [0,1]$, gdyż jeżeli $\gamma<|\delta|$ to  $p (\gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma +\delta}$, ale $\frac{\delta}{\gamma +\delta}>1$. Jeżeli zaś $\gamma \ge |\delta|$, to lewa strona nierówności  $p (\gamma +\delta) \ge \delta$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy $\gamma>0$, $\delta<0$, to $W_2(p)=1$ dla każdego $p\in [0,1]$.
+2.  $\gamma > 0$, $\delta < 0$. Wówczas nierówność $p (\gamma +\delta) \ge \delta$ jest spełniona dla każdego $p\in [0,1]$, gdyż jeżeli $\gamma<|\delta|$ to  $p (\gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma +\delta}$, ale $\frac{\delta}{\gamma +\delta}>1$. Jeżeli zaś $\gamma \ge |\delta|$, to lewa strona nierówności  $p (\gamma +\delta) \ge \delta$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy $\gamma>0$, $\delta<0$, to $W_2(p)=1$ dla każdego $p\in [0,1]$.
 
-	\item  $\gamma < 0$, $\delta > 0$. Wówczas łatwo sprawdzamy, że dla każdego $p \in [0,1]$ spełniona jest nierówność $p ( \gamma +\delta) \le \delta$, a więc $W_2(p)=0$ dla każdego $p\in [0,1]$.
+3.  $\gamma < 0$, $\delta > 0$. Wówczas łatwo sprawdzamy, że dla każdego $p \in [0,1]$ spełniona jest nierówność $p ( \gamma +\delta) \le \delta$, a więc $W_2(p)=0$ dla każdego $p\in [0,1]$.
 
-	\item  $\gamma < 0$, $\delta < 0$. Wówczas $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma+\delta}$.
+4.  $\gamma < 0$, $\delta < 0$. Wówczas $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma+\delta}$.
 Co daje odwzorowanie najlepszych odpowiedzi Gracza 2:
 ${W_2(p)= \begin{cases}
 1 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
@@ -507,7 +507,7 @@ ${W_2(p)= \begin{cases}
 0 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
 \end{cases}
 .}$
-\end {enumerate}
+
 
 Wcześniejsze obliczenia możemy przedstawić w tabeli:
 
