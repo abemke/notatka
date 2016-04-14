@@ -40,7 +40,7 @@ Ostatni rozdział podsumowywuje wcześniejsze obliczenia i dzieli wszystkie moż
 
 Pracę podsumowują wnioski zawarte w zakończeniu i konkluzje wynikające z przedstawionych wyliczeń.
 
-\vspace{5mm}
+
 		##Wprowadzenie do teorii gier
 
 
@@ -48,7 +48,7 @@ Pracę podsumowują wnioski zawarte w zakończeniu i konkluzje wynikające z prz
 			###Rys historyczny teorii gier
 
 
-\vspace{5mm}
+
 Gry towarzyszą człowiekowi od początku istnienia, już w starożystności grano w szachy. Zaczęto także stosować strategie na polach bitewnych oraz szkolić oficerów wojskowych pod kątem strategii rozgrywania bitew.  Pomimo tak dużego udziału gier w życiu człowieka, dopiero od początków XX wieku matematycy i ekonomiści usiłują stworzyć  formuły matematyczne opisujące gry.
 
 Zalążkiem teorii gier jest artykuł Johna von Neumanna z roku 1928, w którym udowodnione było twierdzenie dotyczące gier dwuosobowych o sumie zerowej (tzw. twierdzenie o minimaxie).
