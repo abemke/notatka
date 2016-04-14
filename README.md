@@ -538,7 +538,6 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 0 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
 \end{cases}$ | (wykre104.png) |
 |+ | - | 1 dla $p\in[0,1]$ | (wykre106.png) |
-|$\gamma$ | $\delta$ | $W_2(p)$ | wykres|
 |- | + | 0 dla $p\in[0,1]$ | (wykre107.png) |
 |- | - | $\begin{cases}
 1 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
@@ -553,7 +552,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 
 1. $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
 
-{wykre1.png}
+(wykre1.png)
 
 W tym przypadku otrzymamy trzy równowagi Nasha:
 \\
