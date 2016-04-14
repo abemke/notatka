@@ -576,7 +576,7 @@ W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$N
 2. $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$:
 
 %wykres
-\includegraphics [width=0.3\textwidth](wykre2.png).
+\includegraphics ![width=0.3\textwidth](wykre2.png).
 		
 		\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
 %wykres
