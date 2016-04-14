@@ -107,7 +107,7 @@ Historia życia tego matematyka została opisana w książce biograficznej Sylvi
 
 
 
-Najbardziej podstawowym pojęciem w teorii gier jest pojęcie gry. Gra jest sformalizowanym opisem konfliktu. Dokładny opis gry zawiera wskazanie:
+Najbardziej podstawowym pojęciem w teorii gier jest pojęcie **gry**. Gra jest sformalizowanym opisem konfliktu. Dokładny opis gry zawiera wskazanie:
 
 - kto?
 
