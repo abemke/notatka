@@ -53,7 +53,7 @@ Gry towarzyszą człowiekowi od początku istnienia, już w starożystności gra
 
 Zalążkiem teorii gier jest artykuł Johna von Neumanna z roku 1928, w którym udowodnione było twierdzenie dotyczące gier dwuosobowych o sumie zerowej (tzw. twierdzenie o minimaxie).
 
-Teoria gier jako nauka zajmująca się badaniem sytuacji konfliktowych przy użyciu aparatu matematycznego ma swoje początki w 1944 roku. Jej ojcami są John von Neumann i  Oskar Morgenstern, którzy opublikowali książkę pt. ,,Theory of Games and Economic Behavior'' (\textit{Teoria gier i postępowanie ekonomiczne}).
+Teoria gier jako nauka zajmująca się badaniem sytuacji konfliktowych przy użyciu aparatu matematycznego ma swoje początki w 1944 roku. Jej ojcami są John von Neumann i  Oskar Morgenstern, którzy opublikowali książkę pt. ,,Theory of Games and Economic Behavior'' (Teoria gier i postępowanie ekonomiczne).
 
 Od tego czasu dziedzina ta znajduje zastosowanie w ekonomii i prężnie się rozwija. Uczeni zaczynają rowiązywać coraz bardziej złożone problemy matematyczne. W latach pięćdziesiątych XX wieku John Nash, noblista, rozpoczyna badanie gier o sumie niezerowej i definiuje pojęcie równowagi w grze.
 
