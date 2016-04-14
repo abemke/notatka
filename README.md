@@ -197,10 +197,12 @@ Inaczej mówiąc strategia mieszana jest rozkładem prawdopodobieństwa określo
 Dla uproszczenia zapisów w pracy zastosowaliśmy skrótową formę zapisu strategii graczy. Strategie obu graczy zapisane w jednym nawiasie $(\overrightarrow{p},\overrightarrow{q})$ oznaczają, że Gracz 1 gra strategię $\overrightarrow{p}=(p,1-p)$, natomiast Gracz 2 gra strategię ${\overrightarrow{q}=(q,1-q)}$. Gdy nie będzie budziło to wątpliwości symbol wektora będziemy pomijać i para strategii $\overrightarrow{p}=(p,1-p)$ oraz $\overrightarrow{q}=(q,1-q)$ będziemy oznaczać (p,q).
 
 >Przykład:
+
 >Wektor $\overrightarrow{p}=(p,1-p)=(1,0)$ jest strategią czystą Wiersza, czyli Gracz 1 gra strategię czystą $s_1$ nazwaną w >przykładowej bimacierzy strategią P. W tej samej grze Kolumna może grać strategię mieszaną, np. $ >\overrightarrow{q}=(q,1-q)=(\frac{1}{2},\frac{1}{2})$, w tym przypadku Gracz 2 wybiera strategię czystą I z prawdopodobieństwem >$\frac{1}{2}$ i strategię czystą II z prawdopodobieństwem $\frac{1}{2}$.
 
 
 >Definicja:
+
 >Gdy gracze w grze 2x2 grają strategie mieszane $(\overrightarrow{p},\overrightarrow{q})$, gdzie $\overrightarrow{p}=(p_1,p_2)$, >$\overrightarrow{q}=(q_1,q_2)$ funkcjami wypłaty są wartości oczekiwane
 >$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_ja_{ij},$$ 
 >$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_jb_{ij}.$$ 
@@ -209,6 +211,7 @@ Dla uproszczenia zapisów w pracy zastosowaliśmy skrótową formę zapisu strat
 W dalszej części pracy oznaczmy przez $\pi$ funkcję wypłat obu graczy, czyli: $$\pi=(\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)),\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)).$$
 
 >Przykład:
+
 >Jeżeli strategie graczy są następujące $\overrightarrow{q}=(q,1-q)$, $\overrightarrow{p}=(p,1-p)$ i jest to gra 2x2:
 >$$\left(A,B\right)=
 >\kbordermatrix{\mbox{ }&I~q&II~1-q\\
@@ -247,16 +250,19 @@ Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o wsp�
 >Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
->Uwaga:  
+>Uwaga: 
+
 >Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
 
 
 >Uwaga: 
+
 >Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
 
 
-*{Metoda graficzna** poszukiwania równowag Nasha w grach 2x2:
+**Metoda graficzna** poszukiwania równowag Nasha w grach 2x2:
 >
+
 >Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
 >$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) >=\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
 >$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) >=\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
