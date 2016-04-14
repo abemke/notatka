@@ -248,7 +248,8 @@ Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o wsp�
 >Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy **stanem równowagi Nasha gry** >$\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
 >$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) >\forall ~\overrightarrow{p} \in \Sigma_1,$$
 >$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
->Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
+
+Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
 >Uwaga: 
