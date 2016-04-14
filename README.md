@@ -551,6 +551,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 
 
 1. $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
+
 (wykre1.png)
 
 W tym przypadku otrzymamy trzy równowagi Nasha:
@@ -572,10 +573,10 @@ $NE_3=(0,0)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}=(\beta, \delta)$
 W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$NE_1=(1,1)$. Analogicznie zastosujemy skróty dla równowag Nasha $NE_2$, $NE_3$, $NE_4$ i $NE_5$.
 
 
-		\item $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$:
+2. $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$:
 
 %wykres
-\includegraphics [width=0.3\textwidth] {wykre2.png}.
+\includegraphics [width=0.3\textwidth](wykre2.png).
 		
 		\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
 %wykres
@@ -647,15 +648,13 @@ Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha
 		
 		\item $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre15.png}
+(wykre15.png)
 
-			\item $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
+1. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre13.png}
+(wykre13.png)
 
-\end {enumerate}
+
 
 
 
