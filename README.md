@@ -550,11 +550,10 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 
 Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $W_1(q)$ i $W_2(p)$ w jednym układzie współrzędnych oraz zaznaczyć zbiór równowag Nasha określony jako $W_1(q) \cap W_2(p)$ w zależności od wartości parametrów: $\alpha$, $\beta$, $\gamma$, $\delta$:
 
-\begin {enumerate}
-		\item $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre1.png}
+1. $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
+
+{wykre1.png}
 
 W tym przypadku otrzymamy trzy równowagi Nasha:
 \\
