@@ -551,92 +551,48 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 
 
 1. $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
-
-(wykre1.png)
-
+![width=0.3\textwidth](wykre1.png)
 W tym przypadku otrzymamy trzy równowagi Nasha:
 \\
 $NE_1=(1,1)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (\alpha, \gamma)$,
 \\
 $NE_2=(\frac{\delta}{\gamma+\delta},\frac{\beta}{\alpha+\beta})$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (\frac{\alpha \beta}{\alpha+\beta},\frac{\gamma \delta}{\gamma+ \delta})$, gdyż
-
 \begin{eqnarray*}
 \pi_1 & = & \alpha \frac{\delta}{\gamma+\delta} \frac{\beta}{\alpha+\beta}+ \beta (1-\frac{\delta}{\gamma+\delta})(1- \frac{\beta}{\alpha+\beta}) \\ & = & \frac{\alpha \delta \beta}{(\gamma+\delta)(\alpha+\beta)}+\frac{\beta \gamma \alpha}{(\gamma+\delta)(\alpha+\beta)} \\ & =&  \frac{\alpha \beta (\delta+\gamma)}{(\gamma+\delta)(\alpha+\beta)} \\ & = & \frac{\alpha \beta}{\alpha+\beta}
 \end{eqnarray*}
-
 \begin{eqnarray*}
 \pi_2 & = & \gamma \frac{\delta}{\gamma+\delta} \frac{\beta}{\alpha+\beta}+\delta(1-\frac{\delta}{\gamma+\delta})(1- \frac{\beta}{\alpha+\beta}) \\ & = & \frac{\gamma \delta \beta}{(\gamma+\delta)(\alpha+\beta)}+ \frac{\delta \gamma \alpha}{(\gamma+\delta)(\alpha+\beta)} \\&=& \frac{\delta \gamma(\alpha + \beta)}{(\gamma+\delta)(\alpha+\beta)}\\&=& \frac{\gamma \delta}{\gamma+ \delta}.
 \end{eqnarray*}
 \\
 $NE_3=(0,0)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}=(\beta, \delta)$.
-
 W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$NE_1=(1,1)$. Analogicznie zastosujemy skróty dla równowag Nasha $NE_2$, $NE_3$, $NE_4$ i $NE_5$.
 
-
 2. $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$:
-
-%wykres
-\includegraphics ![width=0.3\textwidth](wykre2.png).
-		
-		\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre3.png}
-
-		\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta<0$. Rysujemy wykres i odczytujemy z niego, iż jest tylko jedna równowaga Nasha: $NE_2$.
-
-%wykres
-\includegraphics [width=0.33\textwidth] {wykre4.png}
-
-
-		\item $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre16.png}
-
-		\item $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre17.png}
-
-			\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5=(1,0)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre14.png}
-
-		\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre18.png}
-
-		\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre5.png}
-
-
-		\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: 
+ ![width=0.3\textwidth](wykre2.png).
+3. $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
+![width=0.3\textwidth](wykre3.png)
+4. $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta<0$. Rysujemy wykres i odczytujemy z niego, iż jest tylko jedna równowaga Nasha: $NE_2$.
+![width=0.33\textwidth](wykre4.png)
+5. $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
+![width=0.3\textwidth] (wykre16.png)
+6. $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
+![width=0.3\textwidth](wykre17.png)
+7. $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5=(1,0)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
+![width=0.3\textwidth](wykre14.png)
+8. $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
+![width=0.3\textwidth](wykre18.png)
+9. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
+![width=0.3\textwidth](wykre5.png)
+10.$\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: 
 $NE_4=(0,1)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre7.png}
-
-		
-		\item $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: 
+![width=0.3\textwidth](wykre7.png)
+11. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: 
 $NE_3$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre8.png}
-
-
-		\item $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta<0$. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre10.png}
-
+![width=0.3\textwidth](wykre8.png)
+12.$\alpha<0$, $\beta>0$, $\gamma<0$, $\delta<0$. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+![width=0.3\textwidth](wykre10.png)
 Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha.
-
-		\item $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta>0$. Z wykresu odczytamy: $NE_2$.
+13. $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta>0$. Z wykresu odczytamy: $NE_2$.
 
 %wykres
 \includegraphics [width=0.3\textwidth] {wykre11.png}
