@@ -131,7 +131,7 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 Normalna forma zapisu gry jest definiowana poprzez określenie listy graczy, zbioru strategii każdego gracza oraz funkcji wypłat. Dodatkowo zakładamy, że gracze wybierają swoje strategie jednocześnie, a więc wybierając je nie wiedzą, jakie strategie wybrali pozostali gracze.
 
-''' 
+'''c 
 
 Rodzinę $\Theta=\left(N,\Sigma,\pi\right)$ nazywamy \textbf{n-osobową grą w postaci normalnej}, gdzie:
 \begin{enumerate}
