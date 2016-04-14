@@ -119,21 +119,21 @@ Najbardziej podstawowym pojęciem w teorii gier jest pojęcie **gry**. Gra jest 
 
 Charakterystyczne cechy gier są takie same bez względu na rodzaj gry, jej złożoność lub prostotę. Dodatkowo w przypadku każdej gry zakładamy znajomość reguł gry przez wszystkich jej uczestników.
 
-Osoby biorące udział w grze nazywamy graczami. Określenie gracz nie zawsze musi oznaczać jedną osobę, może to być grupa ludzi, firma, czy nawet państwo. Zazwyczaj zakładamy skończoną liczbę graczy. W niniejszej pracy rozpatrywać będziemy głównie gry dwuosobowe. 
+Osoby biorące udział w grze nazywamy **graczami**. Określenie gracz nie zawsze musi oznaczać jedną osobę, może to być grupa ludzi, firma, czy nawet państwo. Zazwyczaj zakładamy skończoną liczbę graczy. W niniejszej pracy rozpatrywać będziemy głównie gry dwuosobowe. 
 
-Działania graczy inaczej nazywamy akcjami, decyzjami, bądź ruchami gracza. Pełen opis postępowania gracza w każdej możliwej sytuacji nazywamy strategią. Często w grach opis strategii jest skomplikowany lub strategie nie są od razu widoczne. W niniejszej pracy będziemy na ogół zakładać, że każdy gracz posiada tylko dwie strategie. Zazwyczaj wyróżniamy dwa rodzaje strategii: czyste i mieszane (zostaną one opisane dokładniej w dalszej części pracy). 
+Działania graczy inaczej nazywamy akcjami, decyzjami, bądź ruchami gracza. Pełen opis postępowania gracza w każdej możliwej sytuacji nazywamy **strategią**. Często w grach opis strategii jest skomplikowany lub strategie nie są od razu widoczne. W niniejszej pracy będziemy na ogół zakładać, że każdy gracz posiada tylko dwie strategie. Zazwyczaj wyróżniamy dwa rodzaje strategii: czyste i mieszane (zostaną one opisane dokładniej w dalszej części pracy). 
 
- Gra kończy się wypłatą lub wygraną, która jest wyrażona liczbą rzeczywistą. Każdy gracz ma swój cel, którym jest zmaksymalizowanie swojej wygranej wszystkimi dostępnymi środkami. Wygrana danego gracza zatem zależy od sposobu jego postępowania, ale również od zachowań pozostałych graczy. Wygrane określane są poprzez funkcję wypłat poszczególnych graczy.
+ Gra kończy się **wypłatą** lub **wygraną**, która jest wyrażona liczbą rzeczywistą. Każdy gracz ma swój cel, którym jest zmaksymalizowanie swojej wygranej wszystkimi dostępnymi środkami. Wygrana danego gracza zatem zależy od sposobu jego postępowania, ale również od zachowań pozostałych graczy. Wygrane określane są poprzez **funkcję wypłat** poszczególnych graczy.
 
-Rozwiązaniem gry jest znalezienie optymalnych strategii gry dla wszystkich graczy biorących udział w grze. Zwykle przyjmujemy, że rozwiązaniem gry dwuosobowej jest para strategii tworząca równowagę Nasha (wyjaśnienie tego pojęcia znajduje się w dalszej części pracy). 
+**Rozwiązaniem gry** jest znalezienie optymalnych strategii gry dla wszystkich graczy biorących udział w grze. Zwykle przyjmujemy, że rozwiązaniem gry dwuosobowej jest para strategii tworząca równowagę Nasha (wyjaśnienie tego pojęcia znajduje się w dalszej części pracy). 
 
 Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formalną definicję gry.
 
-Normalna forma zapisu gry jest definiowana poprzez określenie listy graczy, zbioru strategii każdego gracza oraz funkcji wypłat. Dodatkowo zakładamy, że gracze wybierają swoje strategie jednocześnie, a więc wybierając je nie wiedzą, jakie strategie wybrali pozostali gracze.
+**Normalna** forma zapisu gry jest definiowana poprzez określenie listy graczy, zbioru strategii każdego gracza oraz funkcji wypłat. Dodatkowo zakładamy, że gracze wybierają swoje strategie jednocześnie, a więc wybierając je nie wiedzą, jakie strategie wybrali pozostali gracze.
 
-'''c 
+''' 
 
-Rodzinę $\Theta=\left(N,\Sigma,\pi\right)$ nazywamy \textbf{n-osobową grą w postaci normalnej}, gdzie:
+Rodzinę $\Theta=\left(N,\Sigma,\pi\right)$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
 \begin{enumerate}
 \item N={1,2,...n} jest zbiorem graczy;
 \item zbiór $\Sigma_{i}$ jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
