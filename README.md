@@ -496,45 +496,42 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 
 
 |$\alpha$ | $\beta$ | $W_1(q)$ | wykres|
-| ------------- |:-------------:| -----:|-------|
-+ | +| $\begin{cases} 
+| :--------: |:---------:| -------------------|---------------|
+|+ | +| $\begin{cases} 
 1 & \text{dla } \frac{\beta}{\alpha +\beta} \le q \le 1\\
 [0,1] & \text{dla } q=\frac{\beta}{\alpha +\beta}\\
 0 & \text{dla } 0\le q \le \frac{\beta}{\alpha +\beta}\\
 \end{cases}$ |  (wykre100.png)|
 
-+ | - | 1 dla $q\in[0,1]$ | (wykre101.png)|
+|+ | - | 1 dla $q\in[0,1]$ | (wykre101.png)|
 
-- | + | 0 dla $q\in[0,1]$ | (wykre102.png)|
+|- | + | 0 dla $q\in[0,1]$ | (wykre102.png)|
 
-- | - | $\begin{cases}
+|- | - | $\begin{cases}
 1 & \text{dla } 0 \le q \le \frac{\beta}{\alpha +\beta}\\
 [0,1] & \text{dla } q=\frac{\beta}{\alpha +\beta}\\
 0 & \text{dla } \frac{\beta}{\alpha +\beta} \le q \le 1\\
 \end{cases}$ |(wykre103.png)|
 
-$\gamma$ | $\delta$ | $W_2(p)$ | wykres|
-
-+ | + | $\begin{cases}
+|$\gamma$ | $\delta$ | $W_2(p)$ | wykres|
+| :--------: |:---------:| -------------------|---------------|
+|+ | + | $\begin{cases}
 1 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
 [0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
 0 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
-\end{cases}$ |(wykre104.png)|
+\end{cases}$ | (wykre104.png) |
 
-+ | - | 1 dla $p\in[0,1]$ |(wykre106.png)|
+|+ | - | 1 dla $p\in[0,1]$ | (wykre106.png) |
 
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-$\gamma$ & $\delta$ & $W_2(p)$ & wykres\\
-\hline
-\hline
-- & + & 0 dla $p\in[0,1]$ & \raisebox{-\height}{\includegraphics [width=0.2\textwidth] {wykre107.png}}\\
-\hline
-- & - & $\begin{cases}
+
+|$\gamma$ | $\delta$ | $W_2(p)$ | wykres|
+
+|- | + | 0 dla $p\in[0,1]$ | (wykre107.png) |
+
+|- | - | $\begin{cases}
 1 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
-[0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
+[0,1]  \text{dla } p=\frac{\delta}{\gamma +\delta}\\
 0 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
 \end{cases}$ & \includegraphics [width=0.2\textwidth] {wykre105.png}\\
 \hline
