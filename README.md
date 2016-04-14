@@ -108,15 +108,15 @@ Historia życia tego matematyka została opisana w książce biograficznej Sylvi
 
 
 Najbardziej podstawowym pojęciem w teorii gier jest pojęcie \textbf{gry}. Gra jest sformalizowanym opisem konfliktu. Dokładny opis gry zawiera wskazanie:
-\\
+\
 - kto?
-\\
+\
 - w jaki sposób bierze udział w konflikcie?
-\\
+\
 - jakie są możliwe wyniki?
-\\
+\
 - kto i w jakiej formie jest zainteresowany możliwymi wynikami?
-\\
+\
 Charakterystyczne cechy gier są takie same bez względu na rodzaj gry, jej złożoność lub prostotę. Dodatkowo w przypadku każdej gry zakładamy znajomość reguł gry przez wszystkich jej uczestników.
 
 Osoby biorące udział w grze nazywamy \textbf{graczami}. Określenie \textit{gracz} nie zawsze musi oznaczać jedną osobę, może to być grupa ludzi, firma, czy nawet państwo. Zazwyczaj zakładamy skończoną liczbę graczy. W niniejszej pracy rozpatrywać będziemy głównie gry dwuosobowe. 
