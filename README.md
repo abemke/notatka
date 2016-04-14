@@ -1,9 +1,9 @@
 # UNIWERSYTET GDAŃSKI
 WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI
 Aleksandra Bemke
-Kierunek studiów: \textbf{MATEMATYKA}\\
-Numer albumu: \textbf{179863}
-\huge\textbf{Równowagi Nasha w grach 2x2}
+Kierunek studiów: MATEMATYKA
+Numer albumu: 179863
+Równowagi Nasha w grach 2x2
 PRACA MAGISTERSKA \\
 wykonana w Zakładzie Analizy Matematycznej pod kierunkiem \\
 Prof. UG dr. hab. Jarosława Pykacza
