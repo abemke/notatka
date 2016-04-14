@@ -138,8 +138,8 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 >1. N={1,2,...n} jest zbiorem graczy;
 >1. zbiór $\Sigma_{i}$ jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
 >1. $\Sigma=\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n}$ jest zbiorem stanów w grze $\Theta$;
->1. funkcja $\pi_{i}:\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) >i-tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
->1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem >wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
+>1. funkcja $\pi_{i}:\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
+>1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
 
 >Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $\Sigma_i$.
 
