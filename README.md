@@ -1,56 +1,13 @@
-# notatka
-
-\begin{document}
-
-
-\thispagestyle{empty}
-\begin{center}
-\textbf{UNIWERSYTET GDAŃSKI}
-\end{center}
- 
-\begin{center}
-\textbf{WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI}
-\end{center}
- 
-\vspace{2cm}
- 
-\begin{center}
-\textbf{Aleksandra Bemke}
-\end{center}
- 
-\vspace{2cm}
- 
-\begin{flushleft}
+# UNIWERSYTET GDAŃSKI
+WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI
+Aleksandra Bemke
 Kierunek studiów: \textbf{MATEMATYKA}\\
 Numer albumu: \textbf{179863}
-\end{flushleft}
- 
-\vspace{3cm}
- 
-\begin{center}
 \huge\textbf{Równowagi Nasha w grach 2x2}
-\end{center}
- 
- \vspace{3cm}
-
- 
-\begin{flushright}
 PRACA MAGISTERSKA \\
 wykonana w Zakładzie Analizy Matematycznej pod kierunkiem \\
 Prof. UG dr. hab. Jarosława Pykacza
-\end{flushright}
- 
-\vspace{5cm}
- 
-\begin{center}
 Gdańsk 2013
-\end{center}
-
-\newpage
-\thispagestyle{empty}
-\vfill\eject
-\tableofcontents
-% \listoftables %spis tabel
 
 
 
