@@ -1,5 +1,4 @@
-# UNIWERSYTET GDAŃSKI
-WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI
+# UNIWERSYTET GDAŃSKI WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI
 
 Aleksandra Bemke
 
@@ -20,9 +19,8 @@ Gdańsk 2013
 
 
 
-\chapter*{Wstęp}
+##Wstęp
 
-\addcontentsline{toc}{chapter}{Wstęp} 
 
 Matematyka jest dziedziną nauk bardzo potrzebną w życiu. W wielu innych dziedzinach takich jak fizyka, geografia, chemia używa się matematycznych wzorów lub wyliczeń. Teoria gier jest dziedziną wykorzystującą analizę matematyczną i rachunek prawdopodobieństwa do podejmowania decyzji biznesowych.
 
