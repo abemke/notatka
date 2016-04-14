@@ -243,36 +243,38 @@ W dalszej części pracy oznaczmy przez $\pi$ funkcję wypłat obu graczy, czyli
 Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o współczynnikach rzeczywistych, będącymi wypłatami odpowiednio Wiersza i Kolumny, przy założeniu, że strategiami czystymi pierwszego gracza są wiersze, a drugiego kolumny. Zatem ich wypłaty przy zastosowaniu i-tej oraz j-tej strategii czystej, $i,j=1,2$ wynoszą odpowiednio $\pi_1\left(i,j\right)=a_{ij}$ oraz $\pi_2\left(i,j\right)=b_{ij}$.
 
 
-
->Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy \textbf{stanem równowagi Nasha gry} >$\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
+>Definicja:
+>
+>Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy **stanem równowagi Nasha gry** >$\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
 >$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) >\forall ~\overrightarrow{p} \in \Sigma_1,$$
 >$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
 >Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
 >Uwaga: 
-
+>
 >Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
 
 
 >Uwaga: 
-
+>
 >Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
 
 
 **Metoda graficzna** poszukiwania równowag Nasha w grach 2x2:
->
 
+>Definicja:
+>
 >Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
 >$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) >=\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
 >$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) >=\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
 >nazywamy **zbiorami najlepszych odpowiedzi**, odpowiednio dla pierwszego i dla drugiego gracza.
 
+>Twierdzenie:
 >
->\label{rNasha}
 >Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha wtedy i tylko wtedy, gdy >$(\overrightarrow{p^*},\overrightarrow{q^*}) \in W_1 \cap W_2$.
 
->
+>Dowód:
 >Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
 >
 
@@ -283,29 +285,32 @@ Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o wsp�
 
 
 
-```c
-Lokalnymi przesunięciami w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat Gracza 2:
-$$\left[\begin{array}{cc}
-(a_{11} ,b_{11} )&(a_{12},b_{12})\\
-(a_{21},b_{21})&(a_{22},b_{22})\\
-\end{array}\right] 
-\\ \to
-\left[\begin{array}{cc}
-(a_{11} ,b_{11}+d )&(a_{12},b_{12}+d)\\
-(a_{21},b_{21}+g)&(a_{22},b_{22}+g)\\
-\end{array}\right]$$
-\\
-i dodanie tej samej liczby w poszczególnych kolumnach macierzy wypłat Gracza 1:
-$$\left[\begin{array}{cc}
-(a_{11} ,b_{11} )&(a_{12},b_{12})\\
-(a_{21},b_{21})&(a_{22},b_{22})\\
-\end{array}\right]
-\\ \to
-\left[\begin{array}{cc}
-(a_{11}+c ,b_{11} )&(a_{12}+f,b_{12})\\
-(a_{21}+c,b_{21})&(a_{22}+f,b_{22})\\
-\end{array}\right]$$
-```
+>
+>
+>Lokalnymi przesunięciami w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat >Gracza 2:
+>$$\left[\begin{array}{cc}
+>(a_{11} ,b_{11} )&(a_{12},b_{12})\\
+>(a_{21},b_{21})&(a_{22},b_{22})\\
+>\end{array}\right] 
+>\\ \to
+>\left[\begin{array}{cc}
+>(a_{11} ,b_{11}+d )&(a_{12},b_{12}+d)\\
+>(a_{21},b_{21}+g)&(a_{22},b_{22}+g)\\
+>\end{array}\right]$$
+>\\
+>i dodanie tej samej liczby w poszczególnych kolumnach macierzy wypłat Gracza 1:
+>$$\left[\begin{array}{cc}
+>(a_{11} ,b_{11} )&(a_{12},b_{12})\\
+>(a_{21},b_{21})&(a_{22},b_{22})\\
+>\end{array}\right]
+>\\ \to
+>\left[\begin{array}{cc}
+>(a_{11}+c ,b_{11} )&(a_{12}+f,b_{12})\\
+>(a_{21}+c,b_{21})&(a_{22}+f,b_{22})\\
+>\end{array}\right]$$
+>
+
+
 ```c
 Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
 ```
