@@ -288,7 +288,7 @@ Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 >Definicja:
 >
->Lokalnymi przesunięciami w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat >Gracza 2:
+>**Lokalnymi przesunięciami** w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat >Gracza 2:
 >$$\left[\begin{array}{cc}
 >(a_{11} ,b_{11} )&(a_{12},b_{12})\\
 >(a_{21},b_{21})&(a_{22},b_{22})\\
@@ -312,11 +312,11 @@ Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 >
 
 
->
+>Uwaga:
 >
 >Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
 
->
+>Twierdzenie:
 >
 >Lokalne przesunięcia w grach bimacierzowych nie zmieniają zbiorów najlepszych odpowiedzi i położenia równowag Nasha.
 
