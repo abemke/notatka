@@ -614,40 +614,33 @@ Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha
 
 Rozpoczynamy od znaleznienia zbiorów $W_1(q)$ w zależności od wartości parametrów $\alpha$ i $\beta$:
 
-\begin {enumerate}
 
-	\item $\alpha > 0$, $\beta = 0$. Mamy $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \alpha \ge 0 \Leftrightarrow q\ge0$.
+1. $\alpha > 0$, $\beta = 0$. Mamy $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \alpha \ge 0 \Leftrightarrow q\ge0$.
 Więc 
 \\${W_1(q)= \begin{cases}
 1 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=0\\
 \end{cases}
 .}$
-
-
-	\item $\alpha < 0$, $\beta = 0$. Mamy $q ( \alpha + \beta) \le \beta \Leftrightarrow q \alpha \le 0 \Leftrightarrow \ge0$.
+2. $\alpha < 0$, $\beta = 0$. Mamy $q ( \alpha + \beta) \le \beta \Leftrightarrow q \alpha \le 0 \Leftrightarrow \ge0$.
 Więc \\${W_1(q)= \begin{cases}
 0 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=0\\
 \end{cases}
 .}$
-
-	\item $\alpha = 0$, $\beta > 0$. Mamy $q ( \alpha + \beta) \le \beta \Leftrightarrow  \beta \le \beta \Leftrightarrow q\le1$.
+3. $\alpha = 0$, $\beta > 0$. Mamy $q ( \alpha + \beta) \le \beta \Leftrightarrow  \beta \le \beta \Leftrightarrow q\le1$.
 Więc \\${W_1(q)= \begin{cases}
 0 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=1\\
 \end{cases}
 .}$
-
-	\item $\alpha = 0$, $\beta < 0$. Mamy $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \beta \ge \beta \Leftrightarrow q\le1$.
+4. $\alpha = 0$, $\beta < 0$. Mamy $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \beta \ge \beta \Leftrightarrow q\le1$.
 Więc \\${W_1(q)= \begin{cases}
 1 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=1\\
 \end{cases}
 .}$
-
-
-	\item $\alpha = 0$, $\beta = 0$, Wówczas $q(\alpha+\beta)=\beta$ dla dowolnego $q\in [0,1]$, więc 
+5. $\alpha = 0$, $\beta = 0$, Wówczas $q(\alpha+\beta)=\beta$ dla dowolnego $q\in [0,1]$, więc 
 \\${W_1(q)= [0,1]  \text{ dla } q\in [0,1].}$
 Zauważamy, że $\alpha=0$ i $\beta=0$ oznacza, że $a_{11}=a_{21}$ oraz $a_{22}=a_{21}$, a więc bimacierz gry wyjściowej wygląda tak:
 $$\left[\begin{array}{cc}
@@ -656,44 +649,43 @@ $$\left[\begin{array}{cc}
 \end{array}\right].$$
 Widzimy więc, że Graczowi 1 jest obojętne, czy gra strategię czystą p=1, czy p=0, czy jakąkolwiek strategię mieszaną. Gdy $a_{11}\ne a_{22}$, jego wypłata zależy nie od niego, lecz od wyboru strategii przez Gracza 2.
 
-\end {enumerate}
 
 
 Następnie wyznaczamy zbiór $W_2(p)$ w zależności od parametrów $\gamma$ i $\delta$ dla przypadków zdegenerowanych:
 \begin {enumerate}
 
-	\item $\gamma > 0$, $\delta = 0$. Mamy $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\gamma \ge 0 \Leftrightarrow p\ge 0$. Co daje \\${W_2(p)= \begin{cases}
+1. $\gamma > 0$, $\delta = 0$. Mamy $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\gamma \ge 0 \Leftrightarrow p\ge 0$. Co daje \\${W_2(p)= \begin{cases}
 1 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=0\\
 \end{cases}
 .}$
 
-	\item $\gamma < 0$, $\delta = 0$. Mamy $p ( \gamma +\delta) \le \delta \Leftrightarrow \gamma p \le 0 \Leftrightarrow p \ge 0$. Więc \\${W_2(p)= \begin{cases}
+2. $\gamma < 0$, $\delta = 0$. Mamy $p ( \gamma +\delta) \le \delta \Leftrightarrow \gamma p \le 0 \Leftrightarrow p \ge 0$. Więc \\${W_2(p)= \begin{cases}
 0 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=0\\
 \end{cases}
 .}$
 
-	\item $\gamma = 0$, $\delta > 0$. Mamy $p(\gamma+\delta)\le\delta \Leftrightarrow \delta p \le \delta \Leftrightarrow p \le 1$. Więc \\${W_2(p)= \begin{cases}
+3. $\gamma = 0$, $\delta > 0$. Mamy $p(\gamma+\delta)\le\delta \Leftrightarrow \delta p \le \delta \Leftrightarrow p \le 1$. Więc \\${W_2(p)= \begin{cases}
 0 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=1\\
 \end{cases}
 .}$
 
-	\item $\gamma = 0$, $\delta < 0$. Mamy $p(\gamma+\delta)  \ge \delta  \Leftrightarrow p \delta \ge \delta \Leftrightarrow p\le 1$. Co daje \\${W_2(p)= \begin{cases}
+4. $\gamma = 0$, $\delta < 0$. Mamy $p(\gamma+\delta)  \ge \delta  \Leftrightarrow p \delta \ge \delta \Leftrightarrow p\le 1$. Co daje \\${W_2(p)= \begin{cases}
 1 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=1\\
 \end{cases}
 .}$
 
-	\item $\gamma = 0$, $\delta = 0$. Mamy $p(\gamma+\delta)  \ge \delta $ dla dowolnego $p\in[0,1]$, co daje \\${W_2(p)=[0,1]  \text{ dla } p\in [0,1].}$
+5. $\gamma = 0$, $\delta = 0$. Mamy $p(\gamma+\delta)  \ge \delta $ dla dowolnego $p\in[0,1]$, co daje \\${W_2(p)=[0,1]  \text{ dla } p\in [0,1].}$
 Znowu zauważamy, że w tym przypadku $b_{11}=b_{21}$ oraz $b_{22}=b_{21}$, a więc bimacierz gry wyjściowej wygląda tak:
 $$\left[\begin{array}{cc}
 (a_{11} ,b_{11} )&(a_{22},b_{12})\\
 (a_{11},b_{21})&(a_{22},b_{22})\\
 \end{array}\right].$$
 Widzimy więc, że Graczowi 2 jest obojętne, czy gra strategię czystą q=1, czy q=0, czy jakąkolwiek strategię mieszaną. Gdy $b_{11}\ne b_{22}$, jego wypłata zależy nie od niego, lecz od wyboru strategii przez Gracza 1.
-\end {enumerate}
+
 
 
 Wcześniejsze obliczenia możemy przedstawić w tabeli:
