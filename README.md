@@ -41,11 +41,11 @@ Ostatni rozdział podsumowywuje wcześniejsze obliczenia i dzieli wszystkie moż
 Pracę podsumowują wnioski zawarte w zakończeniu i konkluzje wynikające z przedstawionych wyliczeń.
 
 \vspace{5mm}
-		\chapter{Wprowadzenie do teorii gier}
+		##Wprowadzenie do teorii gier
 
 
 
-			\section{Rys historyczny teorii gier}
+			###Rys historyczny teorii gier
 
 
 \vspace{5mm}
@@ -75,7 +75,7 @@ Tak więc ostatnie 30 lat jest okresem ekspansji teorii gier i wielu jej aspekt�
 
 \vspace{5mm}
 
-				\subsection{John Nash}
+				###John Nash
 
   \vspace{5mm}
 John Forbes Nash Jr. jest to  amerykański matematyk i ekonomista. Urodził się on 13 czerwca 1928 w Bluefield w Wirginii. Był opisywany przez innych jako indywidualista, samotnik zamknięty w sobie. Dorastał w kochającej rodzinie i miał młodszą siostrę Martę.
@@ -98,13 +98,13 @@ Historia życia tego matematyka została opisana w książce biograficznej Sylvi
 
  
 \vspace{5mm}
-			\section{Podstawowe pojęcia teorii gier}
+			##Podstawowe pojęcia teorii gier
 
 
 
 
 
-				\subsection{Definicja gry i pojęć z nią powiązanych}
+				###Definicja gry i pojęć z nią powiązanych
 
 
 
@@ -149,7 +149,7 @@ Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wyb�
 
 \vspace{5mm}
 
-				\subsection{Gry 2x2}
+				###Gry 2x2
 
 
 \vspace{5mm}
@@ -221,7 +221,7 @@ $$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqb_{11}+p(1-q)b_{1
 
 \vspace{5mm}
 
-				\subsection{Równowagi Nasha i ich poszukiwanie metodą graficzną}
+				###Równowagi Nasha i ich poszukiwanie metodą graficzną
 
 
 \vspace{5mm}
@@ -260,7 +260,7 @@ Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie 
 
 \vspace{5mm}
 
-				\subsection{Inwariantność równowag Nasha względem lokalnych przesunięć}
+				###Inwariantność równowag Nasha względem lokalnych przesunięć
 
 
 \vspace{5mm}
@@ -320,9 +320,9 @@ Dzięki powyższemu twierdzeniu dowolną grę 2x2 możemy przekształcić do pos
 
 \vspace{5mm}
 
-		\chapter{Podział gier 2x2 ze względu na wartość parametrów}
+		##Podział gier 2x2 ze względu na wartość parametrów
  
-			\section{Sprowadzenie dowolnej gry 2x2 do postaci bimacierzy diagonalnej}
+			###Sprowadzenie dowolnej gry 2x2 do postaci bimacierzy diagonalnej
 
 \vspace{5mm}
 Rozważmy grę w postaci normalnej określoną przez bimacierz:
@@ -364,7 +364,7 @@ Jest to bimacierz diagonalna.
 
 
 \vspace{5mm}
-				\section{Graficzne wyznaczanie równowag Nasha w grach 2x2 sprowadzonych do postaci diagonalnej}
+				###Graficzne wyznaczanie równowag Nasha w grach 2x2 sprowadzonych do postaci diagonalnej
 \vspace{5mm}
 
 Rozbijamy bimacierz gry 2x2 sprowadzonej do postaci diagonalnej  na dwie macierze:
@@ -432,7 +432,7 @@ Dzielimy je na przypadki niedegenerowne, gdy żaden z parmetrów nie jest zerowy
 
 	
  
-			\section{Przypadki niezdegenerowane}
+			###Przypadki niezdegenerowane
 
 
 \vspace{5mm}
@@ -660,7 +660,7 @@ Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha
 
 
 
-		\section{Przypadki zdegenerowane}
+		###Przypadki zdegenerowane
 
 
 \vspace{5mm}
@@ -1154,13 +1154,13 @@ Widzimy, że żaden z graczy nie ma wpływu na to, ile będzie wynosiła jego wy
 \vspace{5mm}
 
 
-		\chapter{Podział gier 2x2 ze względu na ilość równowag Nasha}
+		##Podział gier 2x2 ze względu na ilość równowag Nasha
 \vspace{5mm}
 Podsumowując wcześniejsze rozpatrywania poszczególnych przypadków zauważamy, iż gry 2x2 mają tylko i wyłącznie jedną, dwie, trzy lub nieskończenie wiele równowag Nasha.
 
 Rozdział ten jest poświęcony na zebranie poszczególnych przypadków pod kątem ilości równowag Nasha i ich rozmieszczenia w kwadracie jednostkowym \\$\{(p,q): p,q\in[0,1]\}$.
 \vspace{5mm}
-			\section{Jedna równowaga Nasha}
+			###Jedna równowaga Nasha
 \vspace{5mm}
 Gier 2x2, które posiadają tylko jedną równowagę Nasha jest pięć rodzajów w zależności od jej umiejscowienia w macierzy gry.
 Są cztery postacie gier, których rozwiązaniem są pary strategii czystych nazwanych w pracy: $NE_1$, $NE_3$, $NE_4$ i $NE_5$, oraz jedna do  której rozwiązania prowadzi para strategii mieszanych nazwana $NE_2$.
@@ -1289,7 +1289,7 @@ Rozwiązaniem tej gry jest wypłata $\overrightarrow{\pi}=(0,1)$ osiągana przy 
 \end{ex}
 
 \vspace{5mm}
-			\section{Dwie równowagi Nasha}
+			###Dwie równowagi Nasha
 \vspace{5mm}
 Gier 2x2, posiadających dwie równowagi Nasha są tylko dwa rodzaje.
 
@@ -1332,7 +1332,7 @@ Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłaty $\overrightar
 \end{ex}
 
 \vspace{5mm}
-			\section{Trzy równowagi Nasha}
+			###Trzy równowagi Nasha
 \vspace{5mm}
 Gier 2x2, których rozwiązaniami są trzy równowagi Nasha, są dwa rodzaje.
 
@@ -1387,7 +1387,7 @@ Pojedyncze równowagi Nasha możemy przedstawić na jednym wykresie:
 \includegraphics [width=0.33\textwidth] {wykre200.png}
 
 \vspace{5mm}
-			\section{Continuum równowag Nasha}
+			###Continuum równowag Nasha
 \vspace{5mm}
 Jeżeli gra 2x2 nie należy do którejś z wymienionych wcześniej klas, to ma nieskończenie wiele równowag Nasha. Gry takie możemy podzielić na kilka grup. Takie, w których równowagi Nasha tworzą odcinek i punkt, takie w których tworzą tylko odcinek, łamaną i w końcu cały kwadrat jednostkowy.
 
@@ -1867,9 +1867,9 @@ $\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
 
 
 \vspace{5mm}
-\chapter*{Zakończenie}
+##Zakończenie
 
-\addcontentsline{toc}{chapter}{Zakończenie}
+
 
 Celem niniejszej pracy było systematyczne przebadanie wszystkich możliwych typów gier 2x2 pod kątem ilości i rozmieszczenia równowag Nasha. Problem ten nie był dotychczas poruszany w literaturze.
 
@@ -1883,7 +1883,7 @@ Na końcu zaprezentowano tabelę przedstawiającą zależność ilość równowa
 
 
 
-		\begin{thebibliography}{99}
+##thebibliography
 
 \bibitem{Kaluski} 
 Kałuski J., \textit{Teoria gier}, Wydawnictwo Politechniki Śląskiej, Gliwice 2002. 
@@ -1893,32 +1893,7 @@ Peters H., \textit{Game Theory. A Multi-Leveled Approach}, Springer-Verlag, Berl
 Płonka E., \textit{Wykłady z teorii gier}, Wydawnictwo Politechniki Śląskiej, Gliwice 2001.
 \bibitem{Watson} 
 Watson J., \textit{Strategia. Wprowadzenie do teorii gier}, Wydwnictwo Naukowo-Techniczne, Warszawa 2002.
- 
 
-
-
-
-
-		\end{thebibliography}
-
-\vfill\eject
-\chapter*{Oświadczenie}
-\addcontentsline{toc}{chapter}{Oświadczenie}
-
-\vspace{5mm}
-
-Ja, niżej podpisany(a) oświadczam, iż przedłożona praca dyplomowa
-została wykonana przeze mnie samodzielnie, nie narusza praw autorskich,
-interesów prawnych i materialnych innych osób. Oświadczam również, że zgadzam się na udostępnienie jej osobom trzecim.
-
-
-\vspace{15mm}
-
-
-\hspace{15mm} ..................................    \hspace{25mm}
-.......................................
-
-\hspace{30mm} data         \hspace{55mm}             podpis
 
  
 \end{document} 
