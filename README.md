@@ -495,8 +495,8 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 
 
 
-|alpha$ | $\beta$ | $W_1(q)$ & wykres|
-
+|$\alpha$ | $\beta$ | $W_1(q)$ | wykres|
+| ------------- |:-------------:| -----:|-------|
 + | +| $\begin{cases} 
 1 & \text{dla } \frac{\beta}{\alpha +\beta} \le q \le 1\\
 [0,1] & \text{dla } q=\frac{\beta}{\alpha +\beta}\\
