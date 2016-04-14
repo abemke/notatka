@@ -73,11 +73,9 @@ Tak więc ostatnie 30 lat jest okresem ekspansji teorii gier i wielu jej aspekt�
 
 
 
-\vspace{5mm}
+###John Nash
 
-				###John Nash
 
-  \vspace{5mm}
 John Forbes Nash Jr. jest to  amerykański matematyk i ekonomista. Urodził się on 13 czerwca 1928 w Bluefield w Wirginii. Był opisywany przez innych jako indywidualista, samotnik zamknięty w sobie. Dorastał w kochającej rodzinie i miał młodszą siostrę Martę.
 
 Młody John czytał wiele  książek, zaś mało czasu spędzał z rówieśnikami. W związku z taką sytuacją matka Johna entuzjastycznie podeszła do jego nauki, dokształcając go dodatkowo w domu. Z kolei ojciec Johna dawał mu książki naukowe i traktował jak dorosłego. Nauczyciele Johna nie odkryli jego geniuszu. W wieku 12 lat John był bardzo zainteresowany robieniem doświadczeń naukowych. 
@@ -97,18 +95,18 @@ Po roku 1958 karierę Johna na długo przerwała choroba psychiczna. Podczas swe
 Historia życia tego matematyka została opisana w książce biograficznej Sylvii Nasar pt.: ,,Piękny umysł'' i w filmie z roku 2001 o takim samym tytułe. W 2012 roku Nash został członkiem American Mathematical Society. Matematyk ten nadal żyje i jest aktywny naukowo pomimo skończonych 85 lat.
 
  
-\vspace{5mm}
-			##Podstawowe pojęcia teorii gier
+
+##Podstawowe pojęcia teorii gier
 
 
 
 
 
-				###Definicja gry i pojęć z nią powiązanych
+###Definicja gry i pojęć z nią powiązanych
 
 
 
- \vspace{5mm}
+
 Najbardziej podstawowym pojęciem w teorii gier jest pojęcie \textbf{gry}. Gra jest sformalizowanym opisem konfliktu. Dokładny opis gry zawiera wskazanie:
 \\
 - kto?
@@ -147,12 +145,11 @@ Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wyb�
  \end{df}
 
 
-\vspace{5mm}
 
-				###Gry 2x2
+###Gry 2x2
 
 
-\vspace{5mm}
+
 \textbf{Gra 2x2} jest to gra dwóch graczy, w której każdy z graczy posiada dwie strategie. Zapis 2x2 onacza model gry w postaci normalnej, a dokładniej w postaci macierzowej, dlatego pominiemy pozostałe możliwe klasyfikacje modeli gier.
 
 Grę 2x2 w postaci normalnej zapisujemy za pomocą bimacierzy:
@@ -219,12 +216,11 @@ $$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqb_{11}+p(1-q)b_{1
 
 
 
-\vspace{5mm}
 
-				###Równowagi Nasha i ich poszukiwanie metodą graficzną
+###Równowagi Nasha i ich poszukiwanie metodą graficzną
 
 
-\vspace{5mm}
+
 Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o współczynnikach rzeczywistych, będącymi wypłatami odpowiednio Wiersza i Kolumny, przy założeniu, że strategiami czystymi pierwszego gracza są wiersze, a drugiego kolumny. Zatem ich wypłaty przy zastosowaniu i-tej oraz j-tej strategii czystej, $i,j=1,2$ wynoszą odpowiednio $\pi_1\left(i,j\right)=a_{ij}$ oraz $\pi_2\left(i,j\right)=b_{ij}$.
 
 
@@ -258,12 +254,12 @@ Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha 
 Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
 \end{dw}
 
-\vspace{5mm}
-
-				###Inwariantność równowag Nasha względem lokalnych przesunięć
 
 
-\vspace{5mm}
+###Inwariantność równowag Nasha względem lokalnych przesunięć
+
+
+
 
 \begin{df}\textbf{Lokalnymi przesunięciami} w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat Gracza 2:
 $$\left[\begin{array}{cc}
@@ -318,13 +314,13 @@ Dzięki powyższemu twierdzeniu dowolną grę 2x2 możemy przekształcić do pos
 
 
 
-\vspace{5mm}
 
-		##Podział gier 2x2 ze względu na wartość parametrów
+
+##Podział gier 2x2 ze względu na wartość parametrów
  
-			###Sprowadzenie dowolnej gry 2x2 do postaci bimacierzy diagonalnej
+###Sprowadzenie dowolnej gry 2x2 do postaci bimacierzy diagonalnej
 
-\vspace{5mm}
+
 Rozważmy grę w postaci normalnej określoną przez bimacierz:
 $$\left(A,B\right)=\left[\begin{array}{cc}
 (a_{11} ,b_{11} )&(a_{12},b_{12})\\
@@ -363,9 +359,9 @@ Jest to bimacierz diagonalna.
 
 
 
-\vspace{5mm}
-				###Graficzne wyznaczanie równowag Nasha w grach 2x2 sprowadzonych do postaci diagonalnej
-\vspace{5mm}
+
+###Graficzne wyznaczanie równowag Nasha w grach 2x2 sprowadzonych do postaci diagonalnej
+
 
 Rozbijamy bimacierz gry 2x2 sprowadzonej do postaci diagonalnej  na dwie macierze:
 $$(A^{\prime},B^{\prime})=\left[\begin{array}{cc}
@@ -425,17 +421,11 @@ W zależności od wartości jakie przyjmują parametry $\alpha$, $\beta$, $\gamm
 
 Dzielimy je na przypadki niedegenerowne, gdy żaden z parmetrów nie jest zerowy i zdegenerowane, gdy chociażby jeden z parametrów $\alpha$, $\beta$, $\gamma$, $\delta$ przyjmuje wartość zero.
 
-\vspace{5mm}
-			
+
+###Przypadki niezdegenerowane
 
 
 
-	
- 
-			###Przypadki niezdegenerowane
-
-
-\vspace{5mm}
 
 Rozpoczynamy od znalezienia odwzorowania $W_1(q)$ w zależności od warości parametrów $\alpha$ i $\beta$:
 
@@ -655,15 +645,15 @@ Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha
 \includegraphics [width=0.3\textwidth] {wykre13.png}
 
 \end {enumerate}
-\vspace{5mm}
 
 
 
 
-		###Przypadki zdegenerowane
+
+###Przypadki zdegenerowane
 
 
-\vspace{5mm}
+
 
 Rozpoczynamy od znaleznienia zbiorów $W_1(q)$ w zależności od wartości parametrów $\alpha$ i $\beta$:
 
@@ -1151,17 +1141,17 @@ Widzimy, że żaden z graczy nie ma wpływu na to, ile będzie wynosiła jego wy
 
 \end {enumerate}
 
-\vspace{5mm}
 
 
-		##Podział gier 2x2 ze względu na ilość równowag Nasha
-\vspace{5mm}
+
+##Podział gier 2x2 ze względu na ilość równowag Nasha
+
 Podsumowując wcześniejsze rozpatrywania poszczególnych przypadków zauważamy, iż gry 2x2 mają tylko i wyłącznie jedną, dwie, trzy lub nieskończenie wiele równowag Nasha.
 
 Rozdział ten jest poświęcony na zebranie poszczególnych przypadków pod kątem ilości równowag Nasha i ich rozmieszczenia w kwadracie jednostkowym \\$\{(p,q): p,q\in[0,1]\}$.
-\vspace{5mm}
-			###Jedna równowaga Nasha
-\vspace{5mm}
+
+###Jedna równowaga Nasha
+
 Gier 2x2, które posiadają tylko jedną równowagę Nasha jest pięć rodzajów w zależności od jej umiejscowienia w macierzy gry.
 Są cztery postacie gier, których rozwiązaniem są pary strategii czystych nazwanych w pracy: $NE_1$, $NE_3$, $NE_4$ i $NE_5$, oraz jedna do  której rozwiązania prowadzi para strategii mieszanych nazwana $NE_2$.
 
@@ -1288,9 +1278,11 @@ $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$.
 Rozwiązaniem tej gry jest wypłata $\overrightarrow{\pi}=(0,1)$ osiągana przy strategiach graczy (1,0).
 \end{ex}
 
-\vspace{5mm}
-			###Dwie równowagi Nasha
-\vspace{5mm}
+
+###Dwie równowagi Nasha
+
+
+
 Gier 2x2, posiadających dwie równowagi Nasha są tylko dwa rodzaje.
 
 Pierwszy rodzaj to gry, mające równowagi nazwane w pracy $NE_1$ i $NE_3$. Strategie graczy prowadzące do nich zostały już szczegółowo opisane wcześniej. Przypadkami gier, których rozwiązaniami opytymalnymi są konkretnie te dwie równowagi są gry, w których $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta=0$, lub $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta>0$.
@@ -1331,9 +1323,9 @@ $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta=0$.
 Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłaty $\overrightarrow{\pi}=(1,1)$ i otrzymamy ją przy parze  strategii (1,0), natomiast druga równowaga jest osiągana dzięki parze strategii (0,1) i wygrana wynosi $\overrightarrow{\pi}=(2,1)$.
 \end{ex}
 
-\vspace{5mm}
-			###Trzy równowagi Nasha
-\vspace{5mm}
+
+###Trzy równowagi Nasha
+
 Gier 2x2, których rozwiązaniami są trzy równowagi Nasha, są dwa rodzaje.
 
 Pierwszy rodzaj takich gier ma równowagi nazwane $NE_1$, $NE_2$ i $NE_3$. Są one wynikami gry, w której wartości wszystkich parametrów są dodatnie ($\alpha>0$, $\beta>0$, $\gamma>0$, $\delta>0$).
@@ -1386,9 +1378,11 @@ Pojedyncze równowagi Nasha możemy przedstawić na jednym wykresie:
 
 \includegraphics [width=0.33\textwidth] {wykre200.png}
 
-\vspace{5mm}
-			###Continuum równowag Nasha
-\vspace{5mm}
+
+
+###Continuum równowag Nasha
+
+
 Jeżeli gra 2x2 nie należy do którejś z wymienionych wcześniej klas, to ma nieskończenie wiele równowag Nasha. Gry takie możemy podzielić na kilka grup. Takie, w których równowagi Nasha tworzą odcinek i punkt, takie w których tworzą tylko odcinek, łamaną i w końcu cały kwadrat jednostkowy.
 
 Pierwszą grupą będą gry, w których równowagi Nasha tworzą odcinek i punkt. Możemy wyniki wcześniejszych obliczeń podzielić ze względu na zbiory strategii.
@@ -1866,7 +1860,6 @@ $\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
 
 
 
-\vspace{5mm}
 ##Zakończenie
 
 
