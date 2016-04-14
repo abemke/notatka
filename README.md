@@ -41,11 +41,11 @@ Ostatni rozdział podsumowywuje wcześniejsze obliczenia i dzieli wszystkie moż
 Pracę podsumowują wnioski zawarte w zakończeniu i konkluzje wynikające z przedstawionych wyliczeń.
 
 
-		##Wprowadzenie do teorii gier
+##Wprowadzenie do teorii gier
 
 
 
-			###Rys historyczny teorii gier
+###Rys historyczny teorii gier
 
 
 
