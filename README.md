@@ -286,7 +286,7 @@ Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
 
->
+>Definicja:
 >
 >Lokalnymi przesunięciami w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat >Gracza 2:
 >$$\left[\begin{array}{cc}
@@ -312,28 +312,31 @@ Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 >
 
 
-```c
-Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
-```
-```c
-Lokalne przesunięcia w grach bimacierzowych nie zmieniają zbiorów najlepszych odpowiedzi i położenia równowag Nasha.
-```
-```c
- Dowód zostanie przeprowadzony dla gier 2x2. Dowód w przypadku ogólnym jest analogiczny. Niech w grze wyjściowej spełnione będą nierówności: 
-$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$ i $\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$, gdzie $\overrightarrow{p}=(p_1,p_2)$ oraz $\overrightarrow{q}=(q_1,q_2)$, czyli:
-\\
-$p_1q_1^*a_{11}+p_1q_2^*a_{12}+p_2q_1^*a_{21}+p_2q_2^*a_{22}  \le p_1^*q_1^*a_{11}+p_1^*q_2^*a_{12}+p_2^*q_1^*a_{21}+p_2^*q_2^*a_{22}$ i 
-$p_1^*q_1b_{11}+p_1^*q_2b_{12}+p_2^*q_1b_{21}+p_2^*q_2b_{22} \le p_1^*q_1^*b_{11}+p_1^*q_2^*b_{12}+p_2^*q_1^*b_{21}+p_2^*q_2^*b_{22}$. \\
-Jeżeli zastosujmy lokalne przesunięcia w kolumnach i wierszach, to odpowiadające im nierówności w grze przekształconej będą miały postać:
-\\
-$p_1q_1^*(a_{11}+c)+p_1q_2^*(a_{12}+f)+p_2q_1^*(a_{21}+c)+p_2q_2^*(a_{22}+f)  \le p_1^*q_1^*(a_{11}+c)+\\p_1^*q_2^*(a_{12}+f)+p_2^*q_1^*(a_{21}+c)+p_2^*q_2^*(a_{22}+f)$,\\
-$p_1^*q_1(b_{11}+d)+p_1^*q_2(b_{12}+d)+p_2^*q_1(b_{21}+g)+p_2^*q_2(b_{22}+g) \le p_1^*q_1^*(b_{11}+d)+\\p_1^*q_2^*(b_{12}+d)+p_2^*q_1^*(b_{21}+g)+p_2^*q_2^*(b_{22}+g)$.\\
-Oznaczmy przez $L_1$, $L_2$, $L'_1$, $L'_2$ oraz $R_1$, $R_2$, $ R'_1$, $ R'_2$ lewe i prawe strony tych nierówności. Indeksy 1 i 2 odnoszą się, odpowiednio, do nierówności dotyczących wypłat Gracza 1 i 2, symbole nieprimowane odnoszą się do nierówności dotyczących gry wyjściowej, zaś primowane - przekształconej. Po wymnożeniu i pogrupowaniu wyrazów otrzymamy:
-$$L'_1=L_1+(p_1+p_2)q^*_1c+(p_1+p_2)q^*_2f=L_1+q^*_1c+q^*_2f,$$
-$$R'_1=R_1+(p^*_1+p^*_2)q^*_1c+(p^*_1+p^*_2)q^*_2f=R_1+q^*_1c+q^*_2f,$$
-a więc nierówność $L_1\le R_1$ dla gry wyjściowej jest równoważna nierówności \\$L'_1\le R'_1$ dla gry przekształconej. Analogiczny związek zachodzi także dla nierówności dotyczących wypłat Gracza 2: $L_1\le R_2 \Leftrightarrow L'_2 \le R'_2$.
-Widzimy więc, że lokalne przesunięcia nie zmieniają nierówności występujących w definicji stanu równowagi Nasha, więc położenie równowag Nasha i zbiorów najlepszych odpowiedzi nie ulega zmianie.
-```
+>
+>
+>Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
+
+>
+>
+>Lokalne przesunięcia w grach bimacierzowych nie zmieniają zbiorów najlepszych odpowiedzi i położenia równowag Nasha.
+
+>Dowód:
+>
+>Dowód zostanie przeprowadzony dla gier 2x2. Dowód w przypadku ogólnym jest analogiczny. Niech w grze wyjściowej spełnione będą >nierówności: 
+<$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$ <i $\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 <\left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$, gdzie $\overrightarrow{p}=(p_1,p_2)$ oraz $\overrightarrow{q}=(q_1,q_2)$, <czyli:
+<\\
+<$p_1q_1^*a_{11}+p_1q_2^*a_{12}+p_2q_1^*a_{21}+p_2q_2^*a_{22}  \le <p_1^*q_1^*a_{11}+p_1^*q_2^*a_{12}+p_2^*q_1^*a_{21}+p_2^*q_2^*a_{22}$ i 
+<$p_1^*q_1b_{11}+p_1^*q_2b_{12}+p_2^*q_1b_{21}+p_2^*q_2b_{22} \le <p_1^*q_1^*b_{11}+p_1^*q_2^*b_{12}+p_2^*q_1^*b_{21}+p_2^*q_2^*b_{22}$. \\
+<Jeżeli zastosujmy lokalne przesunięcia w kolumnach i wierszach, to odpowiadające im nierówności w grze przekształconej będą miały <postać:
+<\\
+<$p_1q_1^*(a_{11}+c)+p_1q_2^*(a_{12}+f)+p_2q_1^*(a_{21}+c)+p_2q_2^*(a_{22}+f)  \le <p_1^*q_1^*(a_{11}+c)+\\p_1^*q_2^*(a_{12}+f)+p_2^*q_1^*(a_{21}+c)+p_2^*q_2^*(a_{22}+f)$,\\
+<$p_1^*q_1(b_{11}+d)+p_1^*q_2(b_{12}+d)+p_2^*q_1(b_{21}+g)+p_2^*q_2(b_{22}+g) \le <p_1^*q_1^*(b_{11}+d)+\\p_1^*q_2^*(b_{12}+d)+p_2^*q_1^*(b_{21}+g)+p_2^*q_2^*(b_{22}+g)$.\\
+<Oznaczmy przez $L_1$, $L_2$, $L'_1$, $L'_2$ oraz $R_1$, $R_2$, $ R'_1$, $ R'_2$ lewe i prawe strony tych nierówności. Indeksy 1 i 2 <odnoszą się, odpowiednio, do nierówności dotyczących wypłat Gracza 1 i 2, symbole nieprimowane odnoszą się do nierówności <dotyczących gry wyjściowej, zaś primowane - przekształconej. Po wymnożeniu i pogrupowaniu wyrazów otrzymamy:
+<$$L'_1=L_1+(p_1+p_2)q^*_1c+(p_1+p_2)q^*_2f=L_1+q^*_1c+q^*_2f,$$
+<$$R'_1=R_1+(p^*_1+p^*_2)q^*_1c+(p^*_1+p^*_2)q^*_2f=R_1+q^*_1c+q^*_2f,$$
+<a więc nierówność $L_1\le R_1$ dla gry wyjściowej jest równoważna nierówności \\$L'_1\le R'_1$ dla gry przekształconej. Analogiczny <związek zachodzi także dla nierówności dotyczących wypłat Gracza 2: $L_1\le R_2 \Leftrightarrow L'_2 \le R'_2$.
+<Widzimy więc, że lokalne przesunięcia nie zmieniają nierówności występujących w definicji stanu równowagi Nasha, więc położenie <równowag Nasha i zbiorów najlepszych odpowiedzi nie ulega zmianie.
+>
 
 Dzięki powyższemu twierdzeniu dowolną grę 2x2 możemy przekształcić do postaci diagonalnej, co znacznie ułatwia badanie zbiorów równowag Nasha w tych grach.
 
