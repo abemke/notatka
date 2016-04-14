@@ -152,7 +152,7 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 
 
-Gra 2x2 jest to gra dwóch graczy, w której każdy z graczy posiada dwie strategie. Zapis 2x2 onacza model gry w postaci normalnej, a dokładniej w postaci macierzowej, dlatego pominiemy pozostałe możliwe klasyfikacje modeli gier.
+**Gra 2x2** jest to gra dwóch graczy, w której każdy z graczy posiada dwie strategie. Zapis 2x2 onacza model gry w postaci normalnej, a dokładniej w postaci macierzowej, dlatego pominiemy pozostałe możliwe klasyfikacje modeli gier.
 
 Grę 2x2 w postaci normalnej zapisujemy za pomocą bimacierzy:
 
@@ -187,10 +187,10 @@ b_{21}&b_{22}
 
 przedstawiających, odpowiednio, wypłaty dla Gracza 1 (Wiersza) i Gracza 2 (Kolumny). W przedstawionej bimacierzy Wiersz gra jedną z dwóch strategii P lub L i są one reprezentowne prez wiersze. Kolumna gra również jedną z dwóch strategii I lub II oraz odpowiadają im kolumny. W miejscu przecięcia się wiersza i kolumny znajdują się liczby reprezentujące wypłaty dla graczy odpowiadające wybranym przez graczy strategiom. Na przykład jeżeli Wiersz gra według strategii P i Kolumna postępuje zgodnie ze strategią II to wypłatami będą liczby $a_{12}$ i $b_{12}$. Kwota $a_{12}$ jest wypłatą jaką otrzyma Wiersz, natomiast $ b_{12}$ jest wygraną Kolumny.
 
-```c  
-Jeżeli gracz ma do dyspozycji zbiór strategii $\{ s_1,s_2\}$ i wybiera je z prawdopodobieństwami $\{p_1,p_2\}$, $0\leq p_i \leq 1$, $p_1+p_2 =1$, to mówimy, że gra \textbf{strategię mieszaną} określoną rozkładem prawdopodobieństwa $\{p_1,p_2\}$. 
-Natomiast o strategiach $s_1,s_2$ mówimy, że są to \textbf{strategie czyste}.
-```
+ 
+>Jeżeli gracz ma do dyspozycji zbiór strategii $\{ s_1,s_2\}$ i wybiera je z prawdopodobieństwami $\{p_1,p_2\}$, $0\leq p_i \leq 1$, >$p_1+p_2 =1$, to mówimy, że gra **strategię mieszaną** określoną rozkładem prawdopodobieństwa $\{p_1,p_2\}$. 
+>Natomiast o strategiach $s_1,s_2$ mówimy, że są to **strategie czyste**.
+
 
 Inaczej mówiąc strategia mieszana jest rozkładem prawdopodobieństwa określonym na zbiorze strategii czystych. Zauważamy, że strategie czyste są szczególnymi przypadkami strategi mieszanych. W strategiach czystych dla pewnego indeksu \\i=1 lub 2~$p_i=1$, natomiast $ p_j=0~ dla~~ j\ne i$. 
 
@@ -199,11 +199,11 @@ Dla uproszczenia zapisów w pracy zastosowaliśmy skrótową formę zapisu strat
 \begin{ex} Wektor $\overrightarrow{p}=(p,1-p)=(1,0)$ jest strategią czystą Wiersza, czyli Gracz 1 gra strategię czystą $s_1$ nazwaną w przykładowej bimacierzy strategią P. W tej samej grze Kolumna może grać strategię mieszaną, np. $ \overrightarrow{q}=(q,1-q)=(\frac{1}{2},\frac{1}{2})$, w tym przypadku Gracz 2 wybiera strategię czystą I z prawdopodobieństwem $\frac{1}{2}$ i strategię czystą II z prawdopodobieństwem $\frac{1}{2}$.
 \end{ex}
 
-```c
-Gdy gracze w grze 2x2 grają strategie mieszane $(\overrightarrow{p},\overrightarrow{q})$, gdzie $\overrightarrow{p}=(p_1,p_2)$, $\overrightarrow{q}=(q_1,q_2)$ funkcjami wypłaty są wartości oczekiwane
-$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_ja_{ij},$$ 
-$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_jb_{ij}.$$ 
-```
+
+>Gdy gracze w grze 2x2 grają strategie mieszane $(\overrightarrow{p},\overrightarrow{q})$, gdzie $\overrightarrow{p}=(p_1,p_2)$, >$\overrightarrow{q}=(q_1,q_2)$ funkcjami wypłaty są wartości oczekiwane
+>$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_ja_{ij},$$ 
+>$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_jb_{ij}.$$ 
+
 
 W dalszej części pracy oznaczmy przez $\pi$ funkcję wypłat obu graczy, czyli: $$\pi=(\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)),\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)).$$
 
@@ -239,35 +239,35 @@ $$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqb_{11}+p(1-q)b_{1
 Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o współczynnikach rzeczywistych, będącymi wypłatami odpowiednio Wiersza i Kolumny, przy założeniu, że strategiami czystymi pierwszego gracza są wiersze, a drugiego kolumny. Zatem ich wypłaty przy zastosowaniu i-tej oraz j-tej strategii czystej, $i,j=1,2$ wynoszą odpowiednio $\pi_1\left(i,j\right)=a_{ij}$ oraz $\pi_2\left(i,j\right)=b_{ij}$.
 
 
-```c
-Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy \textbf{stanem równowagi Nasha gry} $\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
-$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{p} \in \Sigma_1,$$
-$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
-Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
-```
 
-\begin{uw}  
-Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
-\end{uw}
+>Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy \textbf{stanem równowagi Nasha gry} >$\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
+>$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) >\forall ~\overrightarrow{p} \in \Sigma_1,$$
+>$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
+>Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
-\begin{uw}  
-Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
-\end{uw}
 
-\textbf{Metoda graficzna} poszukiwania równowag Nasha w grach 2x2:
-```c
-Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
-$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) =\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
-$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) =\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
-nazywamy \textbf{zbiorami najlepszych odpowiedzi}, odpowiednio dla pierwszego i dla drugiego gracza.
-```
-```c
-\label{rNasha}
-Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha wtedy i tylko wtedy, gdy $(\overrightarrow{p^*},\overrightarrow{q^*}) \in W_1 \cap W_2$.
-```
-```c
-Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
-```
+>Uwaga:  
+>Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
+
+
+>Uwaga: 
+>Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
+
+
+*{Metoda graficzna** poszukiwania równowag Nasha w grach 2x2:
+>
+>Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
+>$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) >=\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
+>$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) >=\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
+>nazywamy **zbiorami najlepszych odpowiedzi**, odpowiednio dla pierwszego i dla drugiego gracza.
+
+>
+>\label{rNasha}
+>Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha wtedy i tylko wtedy, gdy >$(\overrightarrow{p^*},\overrightarrow{q^*}) \in W_1 \cap W_2$.
+
+>
+>Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
+>
 
 
 
