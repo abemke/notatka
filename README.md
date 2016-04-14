@@ -583,32 +583,23 @@ W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$N
 ![width=0.3\textwidth](wykre18.png)
 9. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
 ![width=0.3\textwidth](wykre5.png)
-10.$\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: 
+10. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: 
 $NE_4=(0,1)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
 ![width=0.3\textwidth](wykre7.png)
 11. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: 
 $NE_3$.
 ![width=0.3\textwidth](wykre8.png)
-12.$\alpha<0$, $\beta>0$, $\gamma<0$, $\delta<0$. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+12. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta<0$. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
 ![width=0.3\textwidth](wykre10.png)
 Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha.
 13. $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta>0$. Z wykresu odczytamy: $NE_2$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre11.png}
-
-		\item $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre12.png}
-		
-		\item $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
-
-(wykre15.png)
-
-1. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
-
-(wykre13.png)
+![width=0.3\textwidth](wykre11.png)
+14. $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
+![width=0.3\textwidth](wykre12.png)
+15. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
+![width=0.3\textwidth](wykre15.png)
+16. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta<0$. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
+![width=0.3\textwidth](wykre13.png)
 
 
 
