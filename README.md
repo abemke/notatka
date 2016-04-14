@@ -527,6 +527,9 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 [0,1] & \text{dla } q=\frac{\beta}{\alpha +\beta}\\
 0 & \text{dla } \frac{\beta}{\alpha +\beta} \le q \le 1\\
 \end{cases}$ |(wykre103.png)|
+
+
+
 |$\gamma$ | $\delta$ | $W_2(p)$ | wykres|
 | :--------: |:---------:| -------------------|---------------|
 |+ | + | $\begin{cases}
