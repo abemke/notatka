@@ -551,8 +551,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 
 
 1. $\alpha > 0$, $\beta > 0$, $\gamma > 0$, $\delta > 0$.
-
-!(wykre1.png)
+(wykre1.png)
 
 W tym przypadku otrzymamy trzy równowagi Nasha:
 \\
