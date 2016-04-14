@@ -461,9 +461,9 @@ Dzielimy je na przypadki niedegenerowne, gdy żaden z parmetrów nie jest zerowy
 
 Rozpoczynamy od znalezienia odwzorowania $W_1(q)$ w zależności od warości parametrów $\alpha$ i $\beta$:
 
-\begin {enumerate}
 
-	\item $\alpha > 0$, $\beta > 0$, co daje $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \ge \frac{\beta}{\alpha+\beta} \in [0,1]$.
+
+1. $\alpha > 0$, $\beta > 0$, co daje $q ( \alpha + \beta) \ge \beta \Leftrightarrow q \ge \frac{\beta}{\alpha+\beta} \in [0,1]$.
 Otrzymamy więc odwzorowanie najlepszych odpowiedzi Gracza 1:
 $
 W_1(q)=  \begin{cases}
@@ -472,17 +472,17 @@ W_1(q)=  \begin{cases}
 0 & \text{dla } 0\le q \le \frac{\beta}{\alpha +\beta}\\
 \end{cases}
 .$
-	\item $\alpha > 0$, $\beta < 0$. Wówczas nierówność $q(\alpha + \beta)\ge \beta$ jest spełniona dla każdego $q \in [0,1]$, gdyż jeżeli $\alpha < |\beta|$ to $q(\alpha + \beta)\ge \beta \Leftrightarrow q \le \frac{\beta}{\alpha+\beta}$, ale $\frac{\beta}{\alpha+\beta}>1$. Jeżeli zaś $\alpha \ge |\beta|$, to lewa strona nierówności $q(\alpha + \beta)\ge \beta$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy $\alpha>0$, $\beta<0$, to $W_1(q)=1$ dla każdego $q\in [0,1]$.
+2. $\alpha > 0$, $\beta < 0$. Wówczas nierówność $q(\alpha + \beta)\ge \beta$ jest spełniona dla każdego $q \in [0,1]$, gdyż jeżeli $\alpha < |\beta|$ to $q(\alpha + \beta)\ge \beta \Leftrightarrow q \le \frac{\beta}{\alpha+\beta}$, ale $\frac{\beta}{\alpha+\beta}>1$. Jeżeli zaś $\alpha \ge |\beta|$, to lewa strona nierówności $q(\alpha + \beta)\ge \beta$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy $\alpha>0$, $\beta<0$, to $W_1(q)=1$ dla każdego $q\in [0,1]$.
 
-	\item $\alpha < 0$, $\beta > 0$. Wówczas łatwo sprawdzimy, że dla każdego $q\in [0,1]$ spełniona jest nierówność  $q(\alpha + \beta)\le \beta$, a więc $W_1(q)=0$ dla każdego $q\in [0,1]$.
+3. $\alpha < 0$, $\beta > 0$. Wówczas łatwo sprawdzimy, że dla każdego $q\in [0,1]$ spełniona jest nierówność  $q(\alpha + \beta)\le \beta$, a więc $W_1(q)=0$ dla każdego $q\in [0,1]$.
 
-	\item $\alpha < 0$, $\beta < 0$, więc $q ( \alpha + \beta) \ge \beta \Leftrightarrow q\le \frac{\beta}{\alpha+\beta} \in [0,1]$, co daje: \\ ${W_1(q)= \begin{cases}
+4. $\alpha < 0$, $\beta < 0$, więc $q ( \alpha + \beta) \ge \beta \Leftrightarrow q\le \frac{\beta}{\alpha+\beta} \in [0,1]$, co daje: \\ ${W_1(q)= \begin{cases}
 1 & \text{dla } 0 \le q \le \frac{\beta}{\alpha +\beta}\\
 [0,1] & \text{dla } q=\frac{\beta}{\alpha +\beta}\\
 0 & \text{dla } \frac{\beta}{\alpha +\beta} \le q \le 1\\
 \end{cases}
 .}$
-\end {enumerate}
+
 
 
 Następnie znajdujemy odworownie $W_2(p)$ w zależności od parametrów $\gamma$ i $\delta$:
