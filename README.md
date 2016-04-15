@@ -161,16 +161,13 @@ jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
 
 Grę 2x2 w postaci normalnej zapisujemy za pomocą bimacierzy:
 
-
+~Math
 $$\left(A,B\right)=
-
 \kbordermatrix{\mbox{ }&I&II
-
 P&(a_{11} ,b_{11} )&(a_{12},b_{12})
-
 L&(a_{21},b_{21})&(a_{22},b_{22})
-
 }$$
+~
 
 Jest to zapis w postaci podwójnej macierzy gry, gdyż bimacierz (A,B) jest parą macierzy 
 
