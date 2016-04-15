@@ -133,6 +133,8 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 **Normalna** forma zapisu gry jest definiowana poprzez określenie listy graczy, zbioru strategii każdego gracza oraz funkcji wypłat. Dodatkowo zakładamy, że gracze wybierają swoje strategie jednocześnie, a więc wybierając je nie wiedzą, jakie strategie wybrali pozostali gracze.
 
+~Math
+
 >**Definicja:** 
 
 >Rodzinę $\Theta=\left(N,\Sigma,\pi\right)$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
@@ -144,8 +146,7 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 >1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
 
 >Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $\Sigma_i$.
-
-
+~
 
 
 ###Gry 2x2
