@@ -1421,7 +1421,7 @@ Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilośc
 
 
 
-| α | β=0 | γ | δ | NE | Lp. |
+| α | β | γ | δ | NE | Lp. |
 | :--------: | :------: | :-------: | :--------: | :-----: | :----: |
 | + | + | + | + | 3 | N1 |
 | + | + | + | - | 1 | N2 |
