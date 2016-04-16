@@ -1420,6 +1420,12 @@ Więc każda możliwa para strategii graczy $(p,q)$, $p,q \in [0,1]$ jest równo
 Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilości rownówag Nasha gry 2x2 od wartości parametrów charakteryzujacych daną grę. W tabeli został zastosowany symbol $|NE|$ oznaczający ilość równowag Nasha. Symbol ,,+"~oznacza, iż parametr jest większy od 0, ,,-", że mniejszy od 0, a ,,0'' oznacza, iż wartość parametru jest równa 0. Ostatnia kolumna w tabeli podaje, jaki to przypadek z rodziału drugiego pracy. ,,N'' oznacza przypadek niezdegenerowany, a ,,Z'' oznacza zdegenerowany.
 \\
 \\
+
+|$\alpha$ | $\beta$ | $\gammas$ |$\delta$ | $|NE|$ | Lp.|
+| :-----: |:-------:| :-------:|:--------:|:-----:|:--:|
+|+|+|+|+|3 | N1
+
+
 \begin{tabular}{cc}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
