@@ -1421,9 +1421,9 @@ Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilośc
 
 
 
-|$\alpha$ | $\beta$ | $\gammas$ |$\delta$ | $|NE|$ | Lp.|
-| :-----: |:-------:| :-------:|:--------:|:-----:|:--:|
-|+|+|+|+|3 | N1|
+|$\alpha$ | $\beta$ | $\gammas$ | $\delta$ | $|NE|$ | Lp. |
+| :--------: | :------: | :-------: | :--------: | :-----: | :----: |
+| + | + | + | + | 3 | N1 |
 
 
 \begin{tabular}{cc}
