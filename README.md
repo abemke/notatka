@@ -481,7 +481,7 @@ W_1(q)=  \begin{cases}
 
 
 Następnie znajdujemy odworownie $W_2(p)$ w zależności od parametrów $\gamma$ i $\delta$:
-\begin {enumerate}
+
 
 1. $\gamma > 0$, $\delta > 0$, dlatego $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\ge\frac{\delta}{\gamma+\delta}$. Więc odwzorowanie najlepszych odpowiedzi Gracza 2 jest następujące: ${W_2(p)= \begin{cases}
 1 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
@@ -647,7 +647,7 @@ Widzimy więc, że Graczowi 1 jest obojętne, czy gra strategię czystą p=1, cz
 
 
 Następnie wyznaczamy zbiór $W_2(p)$ w zależności od parametrów $\gamma$ i $\delta$ dla przypadków zdegenerowanych:
-\begin {enumerate}
+
 
 1. $\gamma > 0$, $\delta = 0$. Mamy $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\gamma \ge 0 \Leftrightarrow p\ge 0$. Co daje \\${W_2(p)= \begin{cases}
 1 & \text{dla }  p \in [0,1]\\
@@ -749,332 +749,212 @@ $\gamma$ & $\delta$ & $W_2(p)$ & wykres\\
 
 Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $W_1(q)$ i $W_2(p)$ w jednym układzie współrzędnych oraz zaznaczyć zbiór równowag Nasha określony jako $W_1(q) \cap W_2(p)$ w zależności od wartości parametrów: $\alpha$, $\beta$, $\gamma$, $\delta$:
 
-\begin {enumerate}
-\item $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=NE_1 \cup \{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
-%wykres
+
+1. $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=NE_1 \cup \{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
+
 
 ![width=0.3\textwidth] (wykre21.png)
 
 
-\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
+2. $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{ (0,q):0\le q\le \frac{\beta}{\alpha+\beta}\}$.
 
-\includegraphics [width=0.3\textwidth] {wykre22.png}
+![width=0.3\textwidth](wykre22.png)
 
-\item $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta>0$, $NE=NE_3 \cup \{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre32.png}
-
-\item $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta<0$, $NE=\{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre33.png}
-
-\item $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta=0$, \\$NE=\{(0,q):0\le q \le \frac{\beta}{\alpha+\beta}\} \cup \{ (p,\frac{\beta}{\alpha+\beta}): 0 \le p \le 1\} \cup\{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre34.png}
-
-\item $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta=0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre29.png}
-
-\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta=0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre30.png}
-
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{(1,q):0\le q \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre42.png}
-
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=\{(1,q):0\le q \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre43.png}
+3. $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta>0$, $NE=NE_3 \cup \{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
 
 
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$, $NE=\{(1,q):0\le q \le 1 \}$.
-%wykres
+![width=0.3\textwidth](wykre32.png)
 
-\includegraphics [width=0.3\textwidth] {wykre44.png}
+4. $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta<0$, $NE=\{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
+
+![width=0.3\textwidth](wykre33.png)
+
+5. $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta=0$, \\$NE=\{(0,q):0\le q \le \frac{\beta}{\alpha+\beta}\} \cup \{ (p,\frac{\beta}{\alpha+\beta}): 0 \le p \le 1\} \cup\{ (1,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
+
+![width=0.3\textwidth](wykre34.png)
+
+6. $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta=0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
+![width=0.3\textwidth](wykre29.png)
+
+7.$\alpha>0$, $\beta<0$, $\gamma<0$, $\delta=0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
+![width=0.3\textwidth](wykre30.png)
+
+8. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{(1,q):0\le q \le 1 \}$.
+![width=0.3\textwidth] (wykre42.png)
+
+9. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=\{(1,q):0\le q \le 1 \}$.
+![width=0.3\textwidth](wykre43.png)
+
+
+10. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$, $NE=\{(1,q):0\le q \le 1 \}$.
+![width=0.3\textwidth](wykre44.png)
 	
-\item $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta>0$, $NE=NE_1 \cup\{(p,0):0 \le p \le \frac{\delta}{\gamma+\delta} \}$.
-%wykres
+11. $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta>0$, $NE=NE_1 \cup\{(p,0):0 \le p \le \frac{\delta}{\gamma+\delta} \}$.
+![width=0.3\textwidth](wykre45.png)
 
-\includegraphics [width=0.3\textwidth] {wykre45.png}
+12. $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
+![width=0.3\textwidth](wykre46.png)
 
-\item $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_1$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre46.png}
-
-\item $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta=0$. Otrzymamy dwie równowagi Nasha: $NE_1$ i $NE_3$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre48.png}
+13. $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta=0$. Otrzymamy dwie równowagi Nasha: $NE_1$ i $NE_3$.
+![width=0.3\textwidth](wykre48.png)
 
 
-\item $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre49.png}
+14. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre49.png)
 		
-\item $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta<0$, $NE=\{(p,0): \frac{\delta}{\gamma+ \delta}\le p \le 1 \}$.
-%wykres
+16. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta<0$, $NE=\{(p,0): \frac{\delta}{\gamma+ \delta}\le p \le 1 \}$.
+![width=0.3\textwidth](wykre47.png)
 
-\includegraphics [width=0.3\textwidth] {wykre47.png}
-
-\item $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(p,0): 0\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre50.png}
+17. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(p,0): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre50.png)
 
 
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \} \cup \{(1,q):0\le q \le 1\}$.
-%wykres
+18. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \} \cup \{(1,q):0\le q \le 1\}$.
+![width=0.3\textwidth](wykre51.png)
 
-\includegraphics [width=0.3\textwidth] {wykre51.png}
+19. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta<0$, $NE=\{(1,q):0\le q \le 1\}$.
+![width=0.3\textwidth](wykre52.png)
 
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta<0$, $NE=\{(1,q):0\le q \le 1\}$.
-%wykres
+20. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(p,0): 0\le p \le 1 \} \cup \{(1,q):0\le q \le 1\}$.
+![width=0.3\textwidth](wykre53.png)
 
-\includegraphics [width=0.3\textwidth] {wykre52.png}
+21. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=\{ (0,q):0\le q\le 1\}$.
+![width=0.3\textwidth](wykre23.png)
 
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(p,0): 0\le p \le 1 \} \cup \{(1,q):0\le q \le 1\}$.
-%wykres
+22.$\alpha<0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{ (0,q):0\le q\le 1\}$.
+![width=0.3\textwidth](wykre25.png)
 
-\includegraphics [width=0.3\textwidth] {wykre53.png}
+23. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
+![width=0.3\textwidth](wykre36.png)
 
-\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=\{ (0,q):0\le q\le 1\}$.
-%wykres
+24. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
+![width=0.3\textwidth](wykre37.png)
 
-\includegraphics [width=0.3\textwidth] {wykre23.png}
+25. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta=0$, $NE=\{ (0,q):0 \le q\le 1\}$.
+![width=0.3\textwidth](wykre38.png)
 
-\item $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{ (0,q):0\le q\le 1\}$.
-%wykres
+26. $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta=0$, $NE=\{ (0,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
+![width=0.3\textwidth](wykre27.png)
 
-\includegraphics [width=0.3\textwidth] {wykre25.png}
+27. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta=0$, $NE=NE_5 \cup \{ (0,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
+![width=0.3\textwidth](wykre28.png)
 
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_3$.
-%wykres
+28. $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{ (1,q): 0\le q\le \frac{\beta}{\alpha+\beta}\}$.
+![width=0.3\textwidth](wykre40.png)
 
-\includegraphics [width=0.3\textwidth] {wykre36.png}
+29. $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=NE_4 \cup\{ (1,q): 0\le q\le \frac{\beta}{\alpha+\beta}\}$.
+![width=0.3\textwidth](wykre41.png)
 
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
-%wykres
+30. $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta=0$, \\$NE=\{(0,q): \frac{\beta}{\alpha+\beta} \le q \le1\} \cup \{ (p,\frac{\beta}{\alpha+\beta}): 0 \le p \le 1\} \cup\{ (1,q):0 \le q\le \frac{\beta}{\alpha+\beta}\}$.
+![width=0.3\textwidth](wykre39.png)
 
-\includegraphics [width=0.3\textwidth] {wykre37.png}
+31. $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre54.png)
 
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta=0$, $NE=\{ (0,q):0 \le q\le 1\}$.
-%wykres
+32. $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
+![width=0.3\textwidth](wykre55.png)
 
-\includegraphics [width=0.3\textwidth] {wykre38.png}
+33.$\alpha<0$, $\beta=0$, $\gamma>0$, $\delta=0$, $NE=NE_4 \cup\{(p,0): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre57.png)
 
-\item $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta=0$, $NE=\{ (0,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
-%wykres
+34. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0):0\le p \le 1\}$.
+![width=0.3\textwidth](wykre58.png)
 
-\includegraphics [width=0.3\textwidth] {wykre27.png}
+35. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta<0$, $NE=NE_4 \cup\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1 \}$.
+![width=0.3\textwidth](wykre56.png)
 
-\item $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta=0$, $NE=NE_5 \cup \{ (0,q):\frac{\beta}{\alpha+\beta} \le q\le 1\}$.
+36. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
+![width=0.3\textwidth](wykre59.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre28.png}
+37. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0: 0 \le p \le 1 \}$.
+![width=0.3\textwidth](wykre60.png)
 
-\item $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{ (1,q): 0\le q\le \frac{\beta}{\alpha+\beta}\}$.
-%wykres
+38. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta<0$. Otrzymamy tu dwie równowagi: $NE_4$ i $NE_5$.
+![width=0.3\textwidth](wykre61.png)
 
-\includegraphics [width=0.3\textwidth] {wykre40.png}
+39. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
+![width=0.3\textwidth](wykre62.png)
 
-\item $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=NE_4 \cup\{ (1,q): 0\le q\le \frac{\beta}{\alpha+\beta}\}$.
-%wykres
+40. $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta>0$, $NE=NE_3 \cup \{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
+![width=0.3\textwidth](wykre63.png)
 
-\includegraphics [width=0.3\textwidth] {wykre41.png}
-
-\item $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta=0$, \\$NE=\{(0,q): \frac{\beta}{\alpha+\beta} \le q \le1\} \cup \{ (p,\frac{\beta}{\alpha+\beta}): 0 \le p \le 1\} \cup\{ (1,q):0 \le q\le \frac{\beta}{\alpha+\beta}\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre39.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta>0$, $NE=\{(p,0): 0\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre54.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta<0$. Otrzymamy jedną równowagę Nasha: $NE_4$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre55.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta=0$, $NE=NE_4 \cup\{(p,0): 0\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre57.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0):0\le p \le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre58.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta<0$, $NE=NE_4 \cup\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre56.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre59.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0: 0 \le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre60.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta<0$. Otrzymamy tu dwie równowagi: $NE_4$ i $NE_5$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre61.png}
-
-\item $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre62.png}
-
-\item $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta>0$, $NE=NE_3 \cup \{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre63.png}
-
-\item $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1): 0\le p \le 1 \}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre64.png}
+41. $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre64.png)
 		
-\item $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=\{(0,q):0\le q \le 1\}\cup\{(p,1): 0\le p \le 1 \}$.
+42. $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta=0$, $NE=\{(0,q):0\le q \le 1\}\cup\{(p,1): 0\le p \le 1 \}$.
+![width=0.3\textwidth](wykre88.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre88.png}
-
-\item $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta>0$, $NE=\{(0,q):0\le q \le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre67.png}
+43. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta>0$, $NE=\{(0,q):0\le q \le 1\}$.
+![width=0.3\textwidth](wykre67.png)
 		
-\item $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
+44. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
+![width=0.3\textwidth](wykre65.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre65.png}
+45. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q): 0 \le q \le 1\}$.
+![width=0.3\textwidth](wykre66.png)
 
-\item $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q): 0 \le q \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre66.png}
-
-\item $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta>0$. Otrzymamy tu dwie równowagi: $NE_1$ i $NE_3$.
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre74.png}
+46. $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta>0$. Otrzymamy tu dwie równowagi: $NE_1$ i $NE_3$.
+![width=0.3\textwidth](wykre74.png)
 
 
-\item $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}$.
+47. $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}$.
+![width=0.3\textwidth](wykre75.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre75.png}
+48. $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta=0$, $NE=\{(0,q):0 \le q \le 1 \} \cup \{(p,1):0\le p \le 1\}$.
+![width=0.3\textwidth](wykre76.png)
 
-\item $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta=0$, $NE=\{(0,q):0 \le q \le 1 \} \cup \{(p,1):0\le p \le 1\}$.
+49. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta>0$, $NE=\{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
+![width=0.3\textwidth](wykre69.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre76.png}
-
-\item $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta>0$, $NE=\{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre69.png}
-
-\item $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre70.png}
+50. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le 1\}$.
+![width=0.3\textwidth](wykre70.png)
 		
-\item $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta=0$, $NE=\{(p,1): 0 \le p \le 1\}$.
+51. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta=0$, $NE=\{(p,1): 0 \le p \le 1\}$.
+![width=0.3\textwidth](wykre72.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre72.png}
+52. $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
+![width=0.3\textwidth](wykre71.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta>0$. Otrzymamy jedną równowagę Nasha: $NE_5$.
+53. $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
+![width=0.3\textwidth](wykre89.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre71.png}
+54. $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta=0$. Otrzymamy tu dwie równowagi: $ NE_4$ i $NE_5$.
+![width=0.3\textwidth](wykre73.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta<0$, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
-%wykres
+55. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{(1,q):0 \le q \le 1 \}$.
+![width=0.3\textwidth](wykre77.png)
 
-\includegraphics [width=0.3\textwidth] {wykre89.png}
+56. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+![width=0.3\textwidth](wykre78.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta=0$. Otrzymamy tu dwie równowagi: $ NE_4$ i $NE_5$.
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre73.png}
+57. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+![width=0.3\textwidth](wykre79.png)
+58. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta>0$, \\$NE=\{(p,0):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,1): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+![width=0.3\textwidth](wykre80.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta>0$, $NE=\{(1,q):0 \le q \le 1 \}$.
+59. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}$.
+![width=0.3\textwidth](wykre81.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre77.png}
+60. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta=0$, $NE=\{(0,q):0\le q\le1\}\cup\{(p,1):0\le p\le1\}$.
+![width=0.3\textwidth](wykre83.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+61. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0):0\le p\le1\}$.
+![width=0.3\textwidth](wykre84.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre78.png}
+62. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta<0$, \\$NE=\{(p,1):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+![width=0.3\textwidth](wykre82.png)
 
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+63. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q):0\le q \le1\}\cup\{(p,0):0\le p \le 1\}$.
+![width=0.3\textwidth](wykre85.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre79.png}
-\item $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta>0$, \\$NE=\{(p,0):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,1): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+64. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0):0\le p \le 1 \} \cup \{(1,q):0\le q \le 1 \}$.
+![width=0.3\textwidth](wykre86.png)
 
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre80.png}
+65. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1 \} \cup \{(1,q):0\le q \le 1 \}$.
+![width=0.3\textwidth](wykre79.png)
 
-\item $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre81.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta=0$, $NE=\{(0,q):0\le q\le1\}\cup\{(p,1):0\le p\le1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre83.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta>0$, $NE=\{(p,0):0\le p\le1\}$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre84.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta<0$, \\$NE=\{(p,1):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre82.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta=0$, $NE=\{(0,q):0\le q \le1\}\cup\{(p,0):0\le p \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre85.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta>0$, $NE=\{(p,0):0\le p \le 1 \} \cup \{(1,q):0\le q \le 1 \}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre86.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta<0$, $NE=\{(p,1):0\le p \le 1 \} \cup \{(1,q):0\le q \le 1 \}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre79.png}
-
-\item $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(p,q):0\le p \le 1, 0\le q \le 1\}$.
-
-%wykres
-\includegraphics [width=0.3\textwidth] {wykre87.png}
+66. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$, $NE=\{(p,q):0\le p \le 1, 0\le q \le 1\}$.
+![width=0.3\textwidth](wykre87.png)
 
 Możemy zauważyć w tym przypadku, że jest to bardzo mocno zdegenerowany przypadek, gdyż bimacierz gry wyjściowej wygląda następująco:
 $$(A,B)=\left[\begin{array}{cc}
@@ -1083,7 +963,7 @@ $$(A,B)=\left[\begin{array}{cc}
 \end{array}\right].$$
 Widzimy, że żaden z graczy nie ma wpływu na to, ile będzie wynosiła jego wygrana, natomiast każdy z graczy ma wpływ na to, ile będzie wynosić wygrana przeciwnika. Ponieważ w żadnej możliwej sytuacji żaden z graczy nie może podwyższyć swojej wygranej poprzez jednostronną zmianę strategii na jakąkolwiek inną, wszystkie możliwe pary strategii są równowagami Nasha tej gry.
 
-\end {enumerate}
+
 
 
 
@@ -1101,15 +981,15 @@ Są cztery postacie gier, których rozwiązaniem są pary strategii czystych naz
 
 Poniżej wymieniamy poszczególne przypadki, jakie dają pierwszą rownowagę Nasha nazwaną 
 $NE_1$. Odpowiada jej para strategii czystych obu graczy $(1,1)$:
-\begin {enumerate}
-\item $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$,
-\item $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta>0$,
-\item $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta<0$,
-\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$,
-\item $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta<0$.
-\end {enumerate}
+
+1. $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$,
+2. $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta>0$,
+3. $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta<0$,
+4. $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$,
+5. $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta<0$.
+
  
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (4,6 )&(1, 2)\\
@@ -1124,12 +1004,12 @@ $$
 Zauważamy, iż jest to przypadek gry postaci:
 $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta<0$.
  Posiada więc ona jedną równowagę Nasha, która osiągana jest przy strategii graczy (1,1) i daje ona wygrane w wysokości $\overrightarrow{\pi}=(4,6)$.
-\end{ex}
+
 
 
 Nstępnym rozwiązaniem jest równowaga  $NE_2 $, prowadzi do niej para strategii $(\frac{\delta}{\gamma+\delta},\frac{\beta}{\alpha+\beta})$. Uzyskamy ją w dwóch przypadkach: $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta<0$, lub $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta>0$.
 
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (-1,1 )&(0, -1)\\
@@ -1144,17 +1024,17 @@ $$
 Zauważmy, iż jest to przypadek postaci:
 $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta>0$.
 Więc jego rozwiązaniem jest jedna równowaga Nasha. Prowadzi do niej para strategii $(\frac{1}{2},\frac{2}{3})$, a wypłata jaką osiągną gracze jest równa $\overrightarrow{\pi}=(\frac{-5}{6},0)$.
-\end{ex}
+
 
 Kolejną pojedyńczą równowagą Nasha jest $NE_3$, odpowiadająca jej para strategii to $(0,0)$. Jest ona wynikiem w przypadkach:
-\begin {enumerate}
-\item $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$,
-\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta>0$,
-\item $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta>0$,
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta>0$.
-\end {enumerate}
 
-\begin{ex}
+1. $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$,
+2. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta>0$,
+3. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta>0$,
+4. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta>0$.
+
+
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (4,0 )&(-1, 1)\\
@@ -1169,17 +1049,17 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta>0$.
 Posiada on jedną równowagę Nasha i prowadzi do niej para strategii (0,0). Daje ona wypłaty w wysokości $\overrightarrow{\pi}=(2,1)$.
-\end{ex}
+
 
 Przedostatnią pojedyńczą równowagą Nasha w grach 2x2 jest $NE_4$, która osiagana jest przy strategiach graczy $(0,1)$. Takie rozwiązanie gry otrzymujemy w przypadkach:
-\begin {enumerate}
-\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$,
-\item $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta<0$,
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta<0$, 
-\item $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta<0$.
-\end {enumerate}
 
-\begin{ex}
+1. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta<0$,
+2. $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta<0$,
+3. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta<0$, 
+4. $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta<0$.
+
+
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (1,2 )&(3, 0)\\
@@ -1194,18 +1074,18 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha>0$, $\beta<0$, $\gamma>0$, $\delta<0$.
 Rozwiązaniem tej gry są wypłaty $\overrightarrow{\pi}=(2,0)$ osiągane przy parze strategii graczy (0,1).
-\end{ex}
+
 
 Ostanim rodzajem gier 2x2, których rozwiązaniem jest tylko jedna równowaga to gry, w których jedyną równowagą Nasha jest $NE_5$. Gracze kierują się wówczas strategiami $(1,0)$. Efekt ten jest osiągnięty w przypadkach:
-\begin {enumerate}
-\item $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$,
-\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta>0$,
-\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta=0$,
-\item $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta>0$,
-\item $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta<0$.
-\end {enumerate}
 
-\begin{ex}
+1. $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$,
+2. $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta>0$,
+3. $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta=0$,
+4. $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta>0$,
+5. $\alpha>0$, $\beta<0$, $\gamma<0$, $\delta<0$.
+
+
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (-1,-2 )&(3,1)\\
@@ -1220,7 +1100,7 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta>0$.
 Rozwiązaniem tej gry jest wypłata $\overrightarrow{\pi}=(0,1)$ osiągana przy strategiach graczy (1,0).
-\end{ex}
+
 
 
 ###Dwie równowagi Nasha
@@ -1231,7 +1111,7 @@ Gier 2x2, posiadających dwie równowagi Nasha są tylko dwa rodzaje.
 
 Pierwszy rodzaj to gry, mające równowagi nazwane w pracy $NE_1$ i $NE_3$. Strategie graczy prowadzące do nich zostały już szczegółowo opisane wcześniej. Przypadkami gier, których rozwiązaniami opytymalnymi są konkretnie te dwie równowagi są gry, w których $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta=0$, lub $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta>0$.
 
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (1,2 )&(1,2)\\
@@ -1246,11 +1126,11 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta>0$.
 Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłatę $\overrightarrow{\pi}=(1,2)$ i otrzymamy ją przy strategiach (1,1), natomiast druga równowaga jest osiągana dzięki strategiom (0,0) i wygrana wynosi $\overrightarrow{\pi}=(2,3)$.
-\end{ex}
+
 
 Drugim rodzajem takich gier są gry, których rowiązanie znajduje się w punktach $NE_4$ i $NE_5$. Otrzymamy je w przypadku $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta<0$, lub $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta=0$.
 
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (2,-1 )&(1,1)\\
@@ -1265,7 +1145,7 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta=0$.
 Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłaty $\overrightarrow{\pi}=(1,1)$ i otrzymamy ją przy parze  strategii (1,0), natomiast druga równowaga jest osiągana dzięki parze strategii (0,1) i wygrana wynosi $\overrightarrow{\pi}=(2,1)$.
-\end{ex}
+
 
 
 ###Trzy równowagi Nasha
@@ -1274,7 +1154,7 @@ Gier 2x2, których rozwiązaniami są trzy równowagi Nasha, są dwa rodzaje.
 
 Pierwszy rodzaj takich gier ma równowagi nazwane $NE_1$, $NE_2$ i $NE_3$. Są one wynikami gry, w której wartości wszystkich parametrów są dodatnie ($\alpha>0$, $\beta>0$, $\gamma>0$, $\delta>0$).
 
-\begin{ex} Gra ,,Problem koordynacji''.
+>PRZYKŁAD: Gra ,,Problem koordynacji''.
 \\
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
@@ -1290,11 +1170,11 @@ Więc rozwiązaniem są trzy równowagi Nasha:
 \item $NE_2$: strategie graczy wyglądają następująco: \\$(\frac{\delta}{\gamma+\delta},\frac{\beta}{\alpha+\beta})=(\frac{1}{2+1},\frac{1}{2+1})=(\frac{1}{3},\frac{1}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3},\frac{2}{3})$,
 \item $NE_3$: strategie graczy wyglądają następująco: $(0,0)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(a_{22}, b_{22})=(1,1)$.
 \end{enumerate}
-\end{ex}
+
 
 Inny rodzaj takich gier to gry, które kończą się równowagami w punktach $NE_2$, $NE_4$ i $NE_5$. Prowadzi do takiego rozwiązania  przypadek $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta<0$.
 
-\begin{ex}Gra  ,,Jastrząb i gołąb".
+>PRZYKŁAD: Gra  ,,Jastrząb i gołąb".
 \\
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
@@ -1315,12 +1195,10 @@ Więc jego rozwiązaniem są trzy równowagi Nasha:
 \item $NE_2$: strategie graczy wyglądają następująco: $(\frac{\delta}{\gamma+\delta},\frac{\beta}{\alpha+\beta})=(\frac{-2}{-2-1},\frac{-2}{-2-1})=(\frac{2}{3},\frac{2}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3}, \frac{2}{3})$,
 \item $NE_5$:strategie graczy wyglądają następująco: $(1,0)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(4,0)$.
 \end {enumerate}
-\end{ex}
+
 
 Pojedyncze równowagi Nasha możemy przedstawić na jednym wykresie:
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre200.png}
+![width=0.33\textwidth](wykre200.png)
 
 
 
@@ -1331,41 +1209,27 @@ Jeżeli gra 2x2 nie należy do którejś z wymienionych wcześniej klas, to ma n
 
 Pierwszą grupą będą gry, w których równowagi Nasha tworzą odcinek i punkt. Możemy wyniki wcześniejszych obliczeń podzielić ze względu na zbiory strategii.
 W ten sposób otrzymamy pierwszy zbiór składający sie ze strategii: (1,1) i \\$(0,q): q\in [0,\frac{\beta}{\alpha+\beta}]$. Takie rozwiązanie otrzymamy w przypadku: $\alpha>0$, $\beta>0$, $\gamma>0$, $\delta=0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre201.png}
+![width=0.33\textwidth](wykre201.png)
 
 Następny zbiór równowag Nasha składa się ze strategii $(0,0)$ i \\$(p,1): p\in [\frac{\delta}{\gamma+\delta},1]$, otrzymamy go w przypadku: $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre202.png}
+![width=0.33\textwidth](wykre202.png)
 
 Kolejnym przykładem zbioru równowag Nasha składającego się z odcinka i punktu jest zbiór strategii (0,1) i $(p,0): p\in [\frac{\delta}{\gamma+\delta},1]$, otrzymamy go w przypadku: $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta<0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre203.png}
+![width=0.33\textwidth](wykre203.png)
 
 Innym przykładem analogicznego zbioru równowag Nasha są strategie (1,1) i $(p,0):p \in [0,\frac{\delta}{\gamma+\delta}]$. Osiągamy je w przypadku: $\alpha>0$, $\beta=0$, $\gamma>0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre204.png}
+![width=0.33\textwidth](wykre204.png)
 
 Jeszcze inny rodzaj zbioru równowag Nasha postaci odcinek i punkt dają strategie (0,1) i $(1,q): q\in [0,\frac{\beta}{\alpha+\beta}]$. Jest to efekt przypadku: $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta<0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre205.png}
+![width=0.33\textwidth](wykre205.png)
 
 Przedostatnim zbiorem równowag Nasha postaci odcinek i punkt są strategie (0,0) i $(1,q): q\in [\frac{\beta}{\alpha+\beta},1]$. Powstaje on w przypadku: $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta>0$,.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre206.png}
+![width=0.33\textwidth](wykre206.png)
 
 Ostatnim zbiorem równowag Nasha  jest zbiór strategii postaci \\(1,0) i $(0,q):q\in [\frac{\beta}{\alpha+\beta},1]$, jest tak w przypadku: $\alpha<0$, $\beta<0$, $\gamma<0$, $\delta=0$.
-%wykres
+![width=0.33\textwidth](wykre207.png)
 
-\includegraphics [width=0.33\textwidth] {wykre207.png}
-
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (1,1 )&(4, 2)\\
@@ -1381,101 +1245,78 @@ Zauważamy, iż jest to przypadek postaci:
 $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta<0$.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: 
 strategie (0,1) i wypłaty \\$\overrightarrow{\pi}=(4,1)$ oraz kombinacja strategii $(p,0): p\in [\frac{1}{2},1]$ i daje ona wypłatę \\$\overrightarrow{\pi}=(4,p+1),p\in [\frac{1}{2},1]$.
-\end{ex}
+
 
 Drugą grupą gier są gry, w których równowagi Nasha tworzą odcinek. Otrzymamy kilka rodzajów odcinków. Pierwym rodzajem są odcinki postaci \\$(p,1):p\in [0,\frac{\delta}{\gamma+\delta}]$. Powstają one w dwóch przypadkach: $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta<0$, lub $\alpha=0$, $\beta<0$, $\gamma<0$, $\delta<0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre208.png}
+![width=0.33\textwidth](wykre208.png)
 
 Następnym rodzajem są odcinki postaci $(1,q):q\in [0,\frac{\beta}{\alpha+\beta}]$ i jest tak w przypadku 
  $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre209.png}
+![width=0.33\textwidth](wykre209.png)
 
 Kolejnym są odcinki postaci $(p,0):p\in [\frac{\delta}{\gamma+\delta},1]$ i osiągamy je w dwóch przypadkach:
  $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta<0$, lub $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta<0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre210.png}
+![width=0.33\textwidth](wykre210.png)
 
 Inne odcinki równowag Nasha uzyskamy ze strategii $(0,q): q\in [\frac{\beta}{\alpha+\beta},1]$. Dzieje się tak w przypadku: $\alpha<0$, $\beta<0$, $\gamma>0$, $\delta=0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre211.png}
+![width=0.33\textwidth](wykre211.png)
 
 Kolejne odcinki powstają ze strategii $(1,q):q\in [\frac{\beta}{\alpha+\beta},1]$ i osiągamy je w przypadku: 
 $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta<0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre212.png}
+![width=0.33\textwidth](wykre212.png)
 
 Następny rodzaj równowag Nasha powstaje ze strategii $(p,0):p\in [0,\frac{\delta}{\gamma+\delta}]$. Powstają one w przypadku: $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre213.png}
+![width=0.33\textwidth](wykre213.png)
 
 Jeszcze inny rodzaj odcinków tworzą strategie $(p,1):p\in [\frac{\delta}{\gamma+\delta},1]$ i jest tak w przypadku:
  $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre214.png}
+![width=0.33\textwidth](wykre214.png)
 
 Kolejne odcinki uzyskamy ze strategii $(0,q):q\in [0,\frac{\beta}{\alpha+\beta}]$. Zbiór tych strategii możemy otrzymać w przypadku:  $\alpha>0$, $\beta>0$, $\gamma<0$, $\delta=0$.
-%wykres
-
-\includegraphics [width=0.33\textwidth] {wykre215.png}
+![width=0.33\textwidth](wykre215.png)
 
 Następne odcinki powstają ze strategii $(p,0:p\in [0,1]$ i jest tak w przypadkach:
-\begin {enumerate}
-\item $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta>0$,
-\item $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta=0$,
-\item $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta>0$,
-\item $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$,
-\item $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta>0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.33\textwidth] {wykre216.png}
+1. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta>0$,
+2. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta=0$,
+3. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta>0$,
+4. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$,
+5. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta>0$.
+
+![width=0.33\textwidth](wykre216.png)
 
 Inny rodzaj odcinków jest efektem zagrania strategii postaci: $(0,q):q\in [0,1]$ i uzyskamy je w poniższych przypadkach:
-\begin {enumerate}
-\item $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta=0$,
-\item $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta=0$,
-\item $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta=0$,
-\item $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta=0$,
-\item $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta>0$,
-\item $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta=0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.33\textwidth] {wykre217.png}
+1. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta=0$,
+2. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta=0$,
+3. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta=0$,
+4. $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta=0$,
+5. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta>0$,
+6. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta=0$.
+
+![width=0.33\textwidth](wykre217.png)
 
 Przedostatni rodzaj odcinków tworzą strategie $(1,q)):q\in [0,1]$ i uzyskamy je w przypadkach:
-\begin {enumerate}
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta>0$,
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta<0$,
-\item $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$,
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta<0$,
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta>0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.33\textwidth] {wykre218.png}
+1. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta>0$,
+2. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta<0$,
+3. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$,
+4. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta<0$,
+5. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta>0$.
+
+![width=0.33\textwidth](wykre218.png)
 
 Ostatni zbiór równowag Nasha uzyskamy jako zbiór strategii $(p,1):p\in[0,1]$. Jest to efekt rozwiązania przypadków postaci: 
-\begin {enumerate}
-\item $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta<0$,
-\item $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta<0$,
-\item $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta=0$,
-\item $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta<0$,
-\item $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta<0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.33\textwidth] {wykre219.png}
-\begin{ex}
+1. $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta<0$,
+2. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta<0$,
+3. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta=0$,
+4. $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta<0$,
+5. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta<0$.
+
+![width=0.33\textwidth](wykre219.png)
+
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (1,1 )&(1, 1)\\
@@ -1491,69 +1332,55 @@ Zauważamy, iż jest to przypadek postaci:
 $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: 
 strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,p+2), p\in [0,1]$.
-\end{ex}
+
 
 Zbiory rozwiązań w postaci łamanej możemy podzielić na osiem rodzajów. Pierwszy zbiór składa się ze strategii $(p,1):p\in [0,1]$ i $(1,q)):q\in [0,1]$ i jest to wynik rozwiązania przypadków:
-\begin {enumerate}
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta<0$,
-\item $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$,
-\item $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta<0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.3\textwidth] {wykre220.png}
+1. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta<0$,
+2. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$,
+3. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta<0$.
+
+![width=0.3\textwidth](wykre220.png)
 
 Drugim zbiorem postaci łamanej jest zbiór strategii $(p,0):p\in [0,1]$ i \\$(1,q):q\in[0,1]$. Jest to wynik przypadków:
-\begin {enumerate}
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta>0$,
-\item $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta=0$,
-\item $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta>0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.3\textwidth] {wykre221.png}
+1. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta>0$,
+2. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta=0$,
+3. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta>0$.
+
+![width=0.3\textwidth](wykre221.png})
 
 Trzecim zbiorem równowag Nasha jest zbiór strategii postaci $(0,q):q\in[0,1]$ i \\$(p,0):p\in[0,1]$, który powstaje w rezultacie przypadków:
-\begin {enumerate}
-\item $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta=0$,
-\item $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta=0$,
-\item $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta=0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.3\textwidth] {wykre222.png}
+1. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta=0$,
+2. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta=0$,
+3. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta=0$.
+
+![width=0.3\textwidth](wykre222.png)
 
 Czwartym rodzajem łamamnej są zbiory strategii $(p,1)):p\in[0,1]$ i \\$(0,q):q\in[0,1]$, które są rezultatem przypadków:
-\begin {enumerate}
-\item $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta=0$,
-\item $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta=0$,
-\item $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta=0$.
-\end {enumerate}
-%wykres
 
-\includegraphics [width=0.3\textwidth] {wykre223.png}
+1.  $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta=0$,
+2.  $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta=0$,
+3. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta=0$.
+
+![width=0.3\textwidth](wykre223.png)
 
 Kolejnym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(0,q):q\in[\frac{\beta}{\alpha+\beta},1]$, $(p,\frac{\beta}{\alpha+\beta}):p\in[0,1]$ i $(1,q):q\in[0,\frac{\beta}{\alpha+\beta}]$. Dzieje się tak w dwóch przypadkach: $\alpha<0$, $\beta<0$, $\gamma=0$, $\delta=0$, lub $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$ i $|\alpha|<|\beta|$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre224.png}
+![width=0.3\textwidth](wykre224.png)
 
 Następnym zbiorem rozwiązań tworzących łamaną tworzą strategie postaci \\$(0,q):q\in[0,\frac{\beta}{\alpha+\beta}]$, $(p,\frac{\beta}{\alpha+\beta}):p\in[0,1]$ i $(1,q):q\in[\frac{\beta}{\alpha+\beta},1]$. Jest to efekt przypadku: $\alpha>0$, $\beta>0$, $\gamma=0$, $\delta=0$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre225.png}
+![width=0.3\textwidth](wykre225.png)
 
 Innym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,0):p\in[0,\frac{\delta}{\gamma+\delta}]$, $(\frac{\delta}{\gamma+\delta},q):q\in[0,1]$ i $(p,1):p\in[\frac{\delta}{\gamma+\delta},1]$. Dzieje się tak w przypadku: $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta>0$.
-%wykres
-
-\includegraphics [width=0.3\textwidth] {wykre226.png}
+![width=0.3\textwidth](wykre226.png)
 
 Ostatnim zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,1):p\in[0,\frac{\delta}{\gamma+\delta}]$, $(\frac{\delta}{\gamma+\delta},q):q\in[0,1]$ i $(p,0):p\in[\frac{\delta}{\gamma+\delta},1]$. Jest ona uzyskiwana w przypadku:
  $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta<0$.
-%wykres
+![width=0.3\textwidth](wykre227.png)
 
-\includegraphics [width=0.3\textwidth] {wykre227.png}
-\begin{ex}
+
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (1,2 )&(0, 2)\\
@@ -1568,13 +1395,12 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,1+p), p\in[0,1]$ oraz kombinacja strategii $(1,q):q\in [0,1]$ i daje ona wypłatę $\overrightarrow{\pi}=(q,2),q\in [0,1]$.
-\end{ex}
+
 
 Ostatnia grupa rozwiązań to wszystkie możliwe strategie mieszane i czyste jakie mogą zastosować gracze w grze. Ogólnie możemy je zapisać jako \\$(p,q):p\in [0,1], q\in[0,1]$ i są one rezultatem przypadku: $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$.
-%wykres
+![width=0.3\textwidth](wykre228.png)
 
-\includegraphics [width=0.3\textwidth] {wykre228.png}
-\begin{ex}
+>PRZYKŁAD:
 Mamy grę w postaci macierzowej:
 $$\left[\begin{array}{cc}
 (7,1)&(8,1)\\
@@ -1589,7 +1415,7 @@ $$
 Zauważamy, iż jest to przypadek postaci:
 $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$.
 Więc każda możliwa para strategii graczy $(p,q)$, $p,q \in [0,1]$ jest równowagą Nasha tej gry i daje ona wypłaty wysokości $\overrightarrow{\pi}=(8-q,-3+4p):p\in[0,1],q\in[0,1]$.
-\end{ex}
+
 
 Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilości rownówag Nasha gry 2x2 od wartości parametrów charakteryzujacych daną grę. W tabeli został zastosowany symbol $|NE|$ oznaczający ilość równowag Nasha. Symbol ,,+"~oznacza, iż parametr jest większy od 0, ,,-", że mniejszy od 0, a ,,0'' oznacza, iż wartość parametru jest równa 0. Ostatnia kolumna w tabeli podaje, jaki to przypadek z rodziału drugiego pracy. ,,N'' oznacza przypadek niezdegenerowany, a ,,Z'' oznacza zdegenerowany.
 \\
