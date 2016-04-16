@@ -1329,40 +1329,40 @@ $$
 (0,0)&(0,1)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-$\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$.
+α<0, $\beta=0$, $\gamma=0$, $\delta>0$.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: 
 strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,p+2), p\in [0,1]$.
 
 
 Zbiory rozwiązań w postaci łamanej możemy podzielić na osiem rodzajów. Pierwszy zbiór składa się ze strategii $(p,1):p\in [0,1]$ i $(1,q)):q\in [0,1]$ i jest to wynik rozwiązania przypadków:
 
-1. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta<0$,
-2. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$,
-3. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta<0$.
+1. α=0, $\beta<0$, $\gamma=0$, $\delta<0$,
+2. α=0, $\beta<0$, $\gamma=0$, $\delta=0$,
+3. α=0, $\beta=0$, $\gamma=0$, $\delta<0$.
 
 ![width=0.3\textwidth](wykre220.png)
 
 Drugim zbiorem postaci łamanej jest zbiór strategii $(p,0):p\in [0,1]$ i \\$(1,q):q\in[0,1]$. Jest to wynik przypadków:
 
-1. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta>0$,
-2. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta=0$,
-3. $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta>0$.
+1. α>0, $\beta=0$, $\gamma=0$, $\delta>0$,
+2. α>0, $\beta=0$, $\gamma=0$, $\delta=0$,
+3. α=0, $\beta=0$, $\gamma=0$, $\delta>0$.
 
 ![width=0.3\textwidth](wykre221.png})
 
 Trzecim zbiorem równowag Nasha jest zbiór strategii postaci $(0,q):q\in[0,1]$ i \\$(p,0):p\in[0,1]$, który powstaje w rezultacie przypadków:
 
-1. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta=0$,
-2. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta=0$,
-3. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta=0$.
+1. α<0, $\beta=0$, $\gamma=0$, $\delta=0$,
+2. α<0, $\beta=0$, $\gamma<0$, $\delta=0$,
+3. α=0, $\beta=0$, $\gamma<0$, $\delta=0$.
 
 ![width=0.3\textwidth](wykre222.png)
 
 Czwartym rodzajem łamamnej są zbiory strategii $(p,1)):p\in[0,1]$ i \\$(0,q):q\in[0,1]$, które są rezultatem przypadków:
 
-1.  $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta=0$,
-2.  $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta=0$,
-3. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta=0$.
+1.  α=0, $\beta>0$, $\gamma>0$, $\delta=0$,
+2.  α=0, $\beta>0$, $\gamma=0$, $\delta=0$,
+3. α=0, $\beta=0$, $\gamma>0$, $\delta=0$.
 
 ![width=0.3\textwidth](wykre223.png)
 
@@ -1413,7 +1413,7 @@ $$
 (0,0)&(0,0)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-$\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$.
+$α=0$, $\beta=0$, $\gamma=0$, $\delta=0$.
 Więc każda możliwa para strategii graczy $(p,q)$, $p,q \in [0,1]$ jest równowagą Nasha tej gry i daje ona wypłaty wysokości $\overrightarrow{\pi}=(8-q,-3+4p):p\in[0,1],q\in[0,1]$.
 
 
@@ -1421,7 +1421,7 @@ Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilośc
 
 
 
-|$\alpha$ | $\beta$ | $\gammas$ | $\delta$ | $NE$ | Lp. |
+| α | Beta | Gammas | Delta | NE | Lp. |
 | :--------: | :------: | :-------: | :--------: | :-----: | :----: |
 | + | + | + | + | 3 | N1 |
 | + | + | + | - | 1 | N2 |
@@ -1434,77 +1434,77 @@ Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilośc
 | - | + | + | + | 1 | N9 |
 | - | + | + | - | 1 | N10 |
 | - | + | - | + | 1 | N11|
-| - | + | - | - | $$\infty$$ | N12 |
+| - | + | - | - | ∞ | N12 |
 | - | - | + | + | 1 | N13 |
 | - | - | + | - | 1 | N14 |
 | - | - | - | + | 1 | N15 |
 | - | - | - | - | 3 | N16 |
-| + | + | + | 0 |  $$\infty$$ | Z1 |
-| + | + | - | 0 |  $$\infty$$ | Z2 |
-| + | + | 0 | + |  $$\infty$$ | Z3 |
-| + | + | 0 | - |  $$\infty$$ | Z4 |
-| + | + | 0 | 0 |  $$\infty$$ | Z5 |
+| + | + | + | 0 |  ∞ | Z1 |
+| + | + | - | 0 |  ∞ | Z2 |
+| + | + | 0 | + |  ∞ | Z3 |
+| + | + | 0 | - |  ∞ | Z4 |
+| + | + | 0 | 0 |  ∞ | Z5 |
 | + | - | + | 0 |  1 | Z6 |
 | + | - | - | 0 |  1 | Z7 |
-| + | - | 0 | + |  $$\infty$$ | Z8 |
-| + | - | 0 | - |  $$\infty$$ | Z9 |
-| + | - | 0 | 0 |  $$\infty$$ | Z10 |
-| + | 0 | + | + |  $$\infty$$ | Z11 |
-| + | 0 | + | - |  $$\infty$$ | Z12 |
+| + | - | 0 | + |  ∞ | Z8 |
+| + | - | 0 | - |  ∞ | Z9 |
+| + | - | 0 | 0 |  ∞ | Z10 |
+| + | 0 | + | + |  ∞ | Z11 |
+| + | 0 | + | - |  ∞ | Z12 |
 | + | 0 | + | 0 |  2 | Z13 |
-| + | 0 | - | + |  $$\infty$$ | Z14 |
-| + | 0 | - | - |  $$\infty$$ | Z15 |
-| + | 0 | - | 0 |  $$\infty$$ | Z16 |
-| + | 0 | 0 | + |  $$\infty$$ | Z17 |
-| + | 0 | 0 | - |  $$\infty$$ | Z18 |
-| + | 0 | 0 | 0 |  $$\infty$$ | Z19 |
-| - | + | + | 0 |  $$\infty$$ | Z20 |
-| - | + | - | 0 |  $$\infty$$ | Z21 |
+| + | 0 | - | + |  ∞ | Z14 |
+| + | 0 | - | - |  ∞ | Z15 |
+| + | 0 | - | 0 |  ∞ | Z16 |
+| + | 0 | 0 | + |  ∞ | Z17 |
+| + | 0 | 0 | - |  ∞ | Z18 |
+| + | 0 | 0 | 0 |  ∞ | Z19 |
+| - | + | + | 0 |  ∞ | Z20 |
+| - | + | - | 0 |  ∞ | Z21 |
 | - | + | 0 | + |  1 | Z22 |
-| - | + | 0 | - |  $$\infty$$ | Z23 |
-| - | + | 0 | 0 |  $$\infty$$ | Z24 |
-| - | - | + | 0 |  $$\infty$$ | Z25 |
-| - | - | - | 0 |  $$\infty$$ | Z26 |
-| - | - | 0 | + |  $$\infty$$ | Z27 |
-| - | - | 0 | - |  $$\infty$$ | Z28 |
-| - | - | 0 | 0 |  $$\infty$$ | Z29 |
-| - | 0 | + | + |  $$\infty$$ | Z30 |
+| - | + | 0 | - |  ∞ | Z23 |
+| - | + | 0 | 0 |  ∞ | Z24 |
+| - | - | + | 0 |  ∞ | Z25 |
+| - | - | - | 0 |  ∞ | Z26 |
+| - | - | 0 | + |  ∞ | Z27 |
+| - | - | 0 | - |  ∞ | Z28 |
+| - | - | 0 | 0 |  ∞ | Z29 |
+| - | 0 | + | + |  ∞ | Z30 |
 | - | 0 | + | - |  1 | Z31 |
-| - | 0 | + | 0 |  $$\infty$$ | Z32 |
-| - | 0 | - | + |  $$\infty$$ | Z33 |
-| - | 0 | - | - |  $$\infty$$ | Z34 |
-| - | 0 | - | 0 |  $$\infty$$ | Z35 |
-| - | 0 | 0 | + |  $$\infty$$ | Z36 |
+| - | 0 | + | 0 |  ∞ | Z32 |
+| - | 0 | - | + |  ∞ | Z33 |
+| - | 0 | - | - |  ∞ | Z34 |
+| - | 0 | - | 0 |  ∞ | Z35 |
+| - | 0 | 0 | + |  ∞ | Z36 |
 | - | 0 | 0 | - |  2 | Z37 |
-| - | 0 | 0 | 0 |  $$\infty$$ | Z38 |
-| 0 | + | + | + |  $$\infty$$ | Z39 |
-| 0 | + | + | - |  $$\infty$$ | Z40 |
-| 0 | + | + | 0 |  $$\infty$$ | Z41 |
-| 0 | + | - | + |  $$\infty$$ | Z42 |
-| 0 | + | - | - |  $$\infty$$ | Z43 |
-| 0 | + | - | 0 |  $$\infty$$ | Z44 |
+| - | 0 | 0 | 0 |  ∞ | Z38 |
+| 0 | + | + | + |  ∞ | Z39 |
+| 0 | + | + | - |  ∞ | Z40 |
+| 0 | + | + | 0 |  ∞ | Z41 |
+| 0 | + | - | + |  ∞ | Z42 |
+| 0 | + | - | - |  ∞ | Z43 |
+| 0 | + | - | 0 |  ∞ | Z44 |
 | 0 | + | 0 | + |  2 | Z45 |
-| 0 | + | + | 0 |  $$\infty$$ | Z46 |
-| 0 | + | 0 | 0 |  $$\infty$$ | Z47 |
-| 0 | - | + | + |  $$\infty$$ | Z48 |
-| 0 | - | + | - |  $$\infty$$ | Z49 |
-| 0 | - | + | 0 |  $$\infty$$ | Z50 |
-| 0 | - | - | + |  $$\infty$$ | Z51 |
-| 0 | - | - | - |  $$\infty$$ | Z52 |
+| 0 | + | + | 0 |  ∞ | Z46 |
+| 0 | + | 0 | 0 |  ∞ | Z47 |
+| 0 | - | + | + |  ∞ | Z48 |
+| 0 | - | + | - |  ∞ | Z49 |
+| 0 | - | + | 0 |  ∞ | Z50 |
+| 0 | - | - | + |  ∞ | Z51 |
+| 0 | - | - | - |  ∞ | Z52 |
 | 0 | - | - | 0 |  2 | Z53 |
-| 0 | - | 0 | + |  $$\infty$$ | Z54 |
-| 0 | - | 0 | - |  $$\infty$$ | Z55 |
-| 0 | - | 0 | 0 |  $$\infty$$ | Z56 |
-| 0 | 0 | + | + |  $$\infty$$ | Z57 |
-| 0 | 0 | + | + |  $$\infty$$ | Z57 |
-| 0 | 0 | + | - |  $$\infty$$ | Z58 |
-| 0 | 0 | + | 0 |  $$\infty$$ | Z59 |
-| 0 | 0 | - | + |  $$\infty$$ | Z60 |
-| 0 | 0 | - | - |  $$\infty$$ | Z61 |
-| 0 | 0 | - | 0 |  $$\infty$$ | Z62 |
-| 0 | 0 | 0 | + |  $$\infty$$ | Z63 |
-| 0 | 0 | 0 | - |  $$\infty$$ | Z64 |
-| 0 | 0 | 0 | 0 |  $$\infty$$ | Z65 |
+| 0 | - | 0 | + |  ∞ | Z54 |
+| 0 | - | 0 | - |  ∞ | Z55 |
+| 0 | - | 0 | 0 |  ∞ | Z56 |
+| 0 | 0 | + | + |  ∞ | Z57 |
+| 0 | 0 | + | + |  ∞ | Z57 |
+| 0 | 0 | + | - |  ∞ | Z58 |
+| 0 | 0 | + | 0 |  ∞ | Z59 |
+| 0 | 0 | - | + |  ∞ | Z60 |
+| 0 | 0 | - | - |  ∞ | Z61 |
+| 0 | 0 | - | 0 |  ∞ | Z62 |
+| 0 | 0 | 0 | + |  ∞ | Z63 |
+| 0 | 0 | 0 | - |  ∞ | Z64 |
+| 0 | 0 | 0 | 0 |  ∞ | Z65 |
 		
 
 
