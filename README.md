@@ -1277,42 +1277,42 @@ Kolejne odcinki uzyskamy ze strategii $(0,q):q\in [0,\frac{\beta}{\alpha+\beta}]
 
 Następne odcinki powstają ze strategii $(p,0:p\in [0,1]$ i jest tak w przypadkach:
 
-1. $\alpha>0$, β=0, γ<0, $\delta>0$,
-2. $\alpha>0$, β=0, γ<0, $\delta=0$,
-3. $\alpha<0$, β=0, γ<0, $\delta>0$,
-4. $\alpha<0$, β=0, γ=0, $\delta>0$,
-5. $\alpha=0$, β=0, γ<0, $\delta>0$.
+1. α>0, β=0, γ<0, $\delta>0$,
+2. α>0, β=0, γ<0, $\delta=0$,
+3. α<0, β=0, γ<0, $\delta>0$,
+4. α<0, β=0, γ=0, $\delta>0$,
+5. α=0, β=0, γ<0, $\delta>0$.
 
 ![width=0.33\textwidth](wykre216.png)
 
 Inny rodzaj odcinków jest efektem zagrania strategii postaci: $(0,q):q\in [0,1]$ i uzyskamy je w poniższych przypadkach:
 
-1. $\alpha<0$, β>0, γ>0, $\delta=0$,
-2. $\alpha<0$, β>0, γ<0, $\delta=0$,
-3. $\alpha<0$, β>0, γ=0, $\delta=0$,
-4. $\alpha<0$, β=0, γ>0, $\delta=0$,
-5. $\alpha=0$, β>0, γ<0, $\delta>0$,
-6. $\alpha=0$, β>0, γ<0, $\delta=0$.
+1. α<0, β>0, γ>0, $\delta=0$,
+2. α<0, β>0, γ<0, $\delta=0$,
+3. α<0, β>0, γ=0, $\delta=0$,
+4. α<0, β=0, γ>0, $\delta=0$,
+5. α=0, β>0, γ<0, $\delta>0$,
+6. α=0, β>0, γ<0, $\delta=0$.
 
 ![width=0.33\textwidth](wykre217.png)
 
 Przedostatni rodzaj odcinków tworzą strategie $(1,q)):q\in [0,1]$ i uzyskamy je w przypadkach:
 
-1. $\alpha>0$, β<0, γ=0, $\delta>0$,
-2. $\alpha>0$, β<0, γ=0, $\delta<0$,
-3. $\alpha>0$, β<0, γ=0, $\delta=0$,
-4. $\alpha>0$, β=0, γ=0, $\delta<0$,
-5. $\alpha=0$, β<0, γ=0, $\delta>0$.
+1. α>0, β<0, γ=0, $\delta>0$,
+2. α>0, β<0, γ=0, $\delta<0$,
+3. α>0, β<0, γ=0, $\delta=0$,
+4. α>0, β=0, γ=0, $\delta<0$,
+5. α=0, β<0, γ=0, $\delta>0$.
 
 ![width=0.33\textwidth](wykre218.png)
 
 Ostatni zbiór równowag Nasha uzyskamy jako zbiór strategii $(p,1):p\in[0,1]$. Jest to efekt rozwiązania przypadków postaci: 
 
-1. $\alpha=0$, β>0, γ>0, $\delta<0$,
-2. $\alpha=0$, β<0, γ>0, $\delta<0$,
-3. $\alpha=0$, β<0, γ>0, $\delta=0$,
-4. $\alpha=0$, β>0, γ=0, $\delta<0$,
-5. $\alpha=0$, β=0, γ>0, $\delta<0$.
+1. α=0, β>0, γ>0, $\delta<0$,
+2. α=0, β<0, γ>0, $\delta<0$,
+3. α=0, β<0, γ>0, $\delta=0$,
+4. α=0, β>0, γ=0, $\delta<0$,
+5. α=0, β=0, γ>0, $\delta<0$.
 
 ![width=0.33\textwidth](wykre219.png)
 
