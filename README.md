@@ -1654,15 +1654,10 @@ Na końcu zaprezentowano tabelę przedstawiającą zależność ilość równowa
 
 ##thebibliography
 
-\bibitem{Kaluski} 
-Kałuski J., \textit{Teoria gier}, Wydawnictwo Politechniki Śląskiej, Gliwice 2002. 
-\bibitem{Peters}
-Peters H., \textit{Game Theory. A Multi-Leveled Approach}, Springer-Verlag, Berlin 2008. 
-\bibitem{Plonka} 
-Płonka E., \textit{Wykłady z teorii gier}, Wydawnictwo Politechniki Śląskiej, Gliwice 2001.
-\bibitem{Watson} 
-Watson J., \textit{Strategia. Wprowadzenie do teorii gier}, Wydwnictwo Naukowo-Techniczne, Warszawa 2002.
+1. Kałuski J.,*Teoria gier*, Wydawnictwo Politechniki Śląskiej, Gliwice 2002. 
+2. Peters H., *Game Theory*. A Multi-Leveled Approach}, Springer-Verlag, Berlin 2008. 
+3. Płonka E., *Wykłady z teorii gier*, Wydawnictwo Politechniki Śląskiej, Gliwice 2001.
+4. Watson J., *Strategia. Wprowadzenie do teorii gier*, Wydwnictwo Naukowo-Techniczne, Warszawa 2002.
 
 
- 
-\end{document} 
+
