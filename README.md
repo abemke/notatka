@@ -1277,42 +1277,42 @@ Kolejne odcinki uzyskamy ze strategii $(0,q):q\in [0,\frac{\beta}{\alpha+\beta}]
 
 Następne odcinki powstają ze strategii $(p,0:p\in [0,1]$ i jest tak w przypadkach:
 
-1. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta>0$,
-2. $\alpha>0$, $\beta=0$, $\gamma<0$, $\delta=0$,
-3. $\alpha<0$, $\beta=0$, $\gamma<0$, $\delta>0$,
-4. $\alpha<0$, $\beta=0$, $\gamma=0$, $\delta>0$,
-5. $\alpha=0$, $\beta=0$, $\gamma<0$, $\delta>0$.
+1. $\alpha>0$, β=0, γ<0, $\delta>0$,
+2. $\alpha>0$, β=0, γ<0, $\delta=0$,
+3. $\alpha<0$, β=0, γ<0, $\delta>0$,
+4. $\alpha<0$, β=0, γ=0, $\delta>0$,
+5. $\alpha=0$, β=0, γ<0, $\delta>0$.
 
 ![width=0.33\textwidth](wykre216.png)
 
 Inny rodzaj odcinków jest efektem zagrania strategii postaci: $(0,q):q\in [0,1]$ i uzyskamy je w poniższych przypadkach:
 
-1. $\alpha<0$, $\beta>0$, $\gamma>0$, $\delta=0$,
-2. $\alpha<0$, $\beta>0$, $\gamma<0$, $\delta=0$,
-3. $\alpha<0$, $\beta>0$, $\gamma=0$, $\delta=0$,
-4. $\alpha<0$, $\beta=0$, $\gamma>0$, $\delta=0$,
-5. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta>0$,
-6. $\alpha=0$, $\beta>0$, $\gamma<0$, $\delta=0$.
+1. $\alpha<0$, β>0, γ>0, $\delta=0$,
+2. $\alpha<0$, β>0, γ<0, $\delta=0$,
+3. $\alpha<0$, β>0, γ=0, $\delta=0$,
+4. $\alpha<0$, β=0, γ>0, $\delta=0$,
+5. $\alpha=0$, β>0, γ<0, $\delta>0$,
+6. $\alpha=0$, β>0, γ<0, $\delta=0$.
 
 ![width=0.33\textwidth](wykre217.png)
 
 Przedostatni rodzaj odcinków tworzą strategie $(1,q)):q\in [0,1]$ i uzyskamy je w przypadkach:
 
-1. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta>0$,
-2. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta<0$,
-3. $\alpha>0$, $\beta<0$, $\gamma=0$, $\delta=0$,
-4. $\alpha>0$, $\beta=0$, $\gamma=0$, $\delta<0$,
-5. $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta>0$.
+1. $\alpha>0$, β<0, γ=0, $\delta>0$,
+2. $\alpha>0$, β<0, γ=0, $\delta<0$,
+3. $\alpha>0$, β<0, γ=0, $\delta=0$,
+4. $\alpha>0$, β=0, γ=0, $\delta<0$,
+5. $\alpha=0$, β<0, γ=0, $\delta>0$.
 
 ![width=0.33\textwidth](wykre218.png)
 
 Ostatni zbiór równowag Nasha uzyskamy jako zbiór strategii $(p,1):p\in[0,1]$. Jest to efekt rozwiązania przypadków postaci: 
 
-1. $\alpha=0$, $\beta>0$, $\gamma>0$, $\delta<0$,
-2. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta<0$,
-3. $\alpha=0$, $\beta<0$, $\gamma>0$, $\delta=0$,
-4. $\alpha=0$, $\beta>0$, $\gamma=0$, $\delta<0$,
-5. $\alpha=0$, $\beta=0$, $\gamma>0$, $\delta<0$.
+1. $\alpha=0$, β>0, γ>0, $\delta<0$,
+2. $\alpha=0$, β<0, γ>0, $\delta<0$,
+3. $\alpha=0$, β<0, γ>0, $\delta=0$,
+4. $\alpha=0$, β>0, γ=0, $\delta<0$,
+5. $\alpha=0$, β=0, γ>0, $\delta<0$.
 
 ![width=0.33\textwidth](wykre219.png)
 
@@ -1336,33 +1336,33 @@ strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,p+2), p\in [0,1
 
 Zbiory rozwiązań w postaci łamanej możemy podzielić na osiem rodzajów. Pierwszy zbiór składa się ze strategii $(p,1):p\in [0,1]$ i $(1,q)):q\in [0,1]$ i jest to wynik rozwiązania przypadków:
 
-1. α=0, $\beta<0$, $\gamma=0$, $\delta<0$,
-2. α=0, $\beta<0$, $\gamma=0$, $\delta=0$,
-3. α=0, $\beta=0$, $\gamma=0$, $\delta<0$.
+1. α=0, β<0, γ=0, $\delta<0$,
+2. α=0, β<0, γ=0, $\delta=0$,
+3. α=0, β=0, γ=0, $\delta<0$.
 
 ![width=0.3\textwidth](wykre220.png)
 
 Drugim zbiorem postaci łamanej jest zbiór strategii $(p,0):p\in [0,1]$ i \\$(1,q):q\in[0,1]$. Jest to wynik przypadków:
 
-1. α>0, $\beta=0$, $\gamma=0$, $\delta>0$,
-2. α>0, $\beta=0$, $\gamma=0$, $\delta=0$,
-3. α=0, $\beta=0$, $\gamma=0$, $\delta>0$.
+1. α>0, β=0, γ=0, $\delta>0$,
+2. α>0, β=0, γ=0, $\delta=0$,
+3. α=0, β=0, γ=0, $\delta>0$.
 
 ![width=0.3\textwidth](wykre221.png})
 
 Trzecim zbiorem równowag Nasha jest zbiór strategii postaci $(0,q):q\in[0,1]$ i \\$(p,0):p\in[0,1]$, który powstaje w rezultacie przypadków:
 
-1. α<0, $\beta=0$, $\gamma=0$, $\delta=0$,
-2. α<0, $\beta=0$, $\gamma<0$, $\delta=0$,
-3. α=0, $\beta=0$, $\gamma<0$, $\delta=0$.
+1. α<0, β=0, γ=0, $\delta=0$,
+2. α<0, β=0, γ<0, $\delta=0$,
+3. α=0, β=0, γ<0, $\delta=0$.
 
 ![width=0.3\textwidth](wykre222.png)
 
 Czwartym rodzajem łamamnej są zbiory strategii $(p,1)):p\in[0,1]$ i \\$(0,q):q\in[0,1]$, które są rezultatem przypadków:
 
-1.  α=0, $\beta>0$, $\gamma>0$, $\delta=0$,
-2.  α=0, $\beta>0$, $\gamma=0$, $\delta=0$,
-3. α=0, $\beta=0$, $\gamma>0$, $\delta=0$.
+1.  α=0, $\beta>0$, γ>0, $\delta=0$,
+2.  α=0, $\beta>0$, γ=0, $\delta=0$,
+3. α=0, $\beta=0$, γ>0, $\delta=0$.
 
 ![width=0.3\textwidth](wykre223.png)
 
