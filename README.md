@@ -137,19 +137,19 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 >**Definicja:** 
 
-Rodzinę $$\Theta=\left(N,\Sigma,\pi\right)$$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
+Rodzinę $$Θ=\left(N,Σ,\pi\right)$$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
 
 1. N={1,2,...n} jest zbiorem graczy;
 1. zbiór
 
-$$\Sigma_{i}$$ 
+$$Σ_{i}$$ 
 
 jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
-1. $\Sigma=\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n}$ jest zbiorem stanów w grze $\Theta$;
-1. funkcja $\pi_{i}:\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
-1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
+1. $Σ=Σ_{1}\timesΣ_{2}\times...\timesΣ_{n}$ jest zbiorem stanów w grze $Θ$;
+1. funkcja $\pi_{i}:Σ_{1}\timesΣ_{2}\times...\timesΣ_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
+1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\inΣ$.
 
-Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $\Sigma_i$.
+Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $Σ_i$.
 
 
 
@@ -240,11 +240,11 @@ Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o wsp�
 
 >Definicja:
 
-Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy **stanem równowagi Nasha gry** $\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
-$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{p} \in \Sigma_1,$$
-$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
+Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $Σ_1\timesΣ_2$ nazywamy **stanem równowagi Nasha gry** $Θ=(Σ_1,Σ_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
+$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{p} \in Σ_1,$$
+$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in Σ_2.$$
 
-Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
+Przez $E(Θ)$ oznaczamy zbiór wszystkich równowag Nasha gry $Θ$.
 
 
 >Uwaga: 
@@ -261,9 +261,9 @@ Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego n
 
 >Definicja:
 
-Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
-$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) =\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
-$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) =\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
+Niech $Θ=(Σ_1,Σ_2,\pi)$ będzie grą dwuosobową. Zbiory: 
+$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) =\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in Σ_2 \};$$
+$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) =\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in Σ_1 \};$$
 nazywamy **zbiorami najlepszych odpowiedzi**, odpowiednio dla pierwszego i dla drugiego gracza.
 
 >Twierdzenie:
@@ -372,8 +372,8 @@ $$\left[\begin{array}{cc}
 \end{array}\right]
 \\ =
 \left[\begin{array}{cc}
-( \alpha , \gamma )&(0,0)\\
-(0,0)&(β , \delta)\\
+( α , γ )&(0,0)\\
+(0,0)&(β , δ)\\
 \end{array}\right]$$
 \\
 Gdzie zastosowaliśmy podstawienie:
@@ -392,53 +392,53 @@ Jest to bimacierz diagonalna.
 
 Rozbijamy bimacierz gry 2x2 sprowadzonej do postaci diagonalnej  na dwie macierze:
 $$(A^{\prime},B^{\prime})=\left[\begin{array}{cc}
-( \alpha , \gamma )&(0,0)\\
-(0,0)&(β , \delta)\\
+( α , γ )&(0,0)\\
+(0,0)&(β , δ)\\
 \end{array}\right]
 \\ \to
 A^{\prime}=\left[\begin{array}{cc}
-\alpha&0\\
+α&0\\
 0&β\\
 \end{array}\right]
 \\, 
 B^{\prime}=\left[\begin{array}{cc}
-\gamma&0\\
-0&\delta\\
+γ&0\\
+0&δ\\
 \end{array}\right]$$
 Dla ułatwienia późniejszych obliczeń wyznaczamy wypłaty osiagane przy poszczególnych strategiach  Gracza 1  i Gracza 2 :
-$$\pi_1(1,q)=\alpha q+0(1-q)=\alpha q$$
+$$\pi_1(1,q)=α q+0(1-q)=α q$$
 $$\pi_1(0,q)=0q+β (1-q)=β - β q$$
-$$\pi_2(p,1)=\gamma p+0(1-p)=\gamma p$$
-$$\pi_2(p,0)=0p+\delta (1-p)=\delta-\delta p$$
+$$\pi_2(p,1)=γ p+0(1-p)=γ p$$
+$$\pi_2(p,0)=0p+δ (1-p)=δ-δ p$$
 
 Sprawdzamy dla jakich  wartości q spełniona jest nierówność pomiędy wypłatami Gracza 1:
 $$\pi_1(1,q) \ge \pi_1(0,q).$$
-Rozwiązanie tej nierówności pokaże nam, kiedy najlepszą odpowiedzią Gracza 1 na strategię q Gracza 2 jest strategia czysta p=1. Przedział do jakiego należy q otrzymamy poprzez wstawienie za $\pi_1(1,q)=\alpha q$ i $\pi_1(0,q)=β (1-q)$:
-$$\alpha q \ge β (1-q),$$
-$$\alpha q + β q \ge β.$$
+Rozwiązanie tej nierówności pokaże nam, kiedy najlepszą odpowiedzią Gracza 1 na strategię q Gracza 2 jest strategia czysta p=1. Przedział do jakiego należy q otrzymamy poprzez wstawienie za $\pi_1(1,q)=α q$ i $\pi_1(0,q)=β (1-q)$:
+$$α q \ge β (1-q),$$
+$$α q + β q \ge β.$$
 Dostajemy ostatecznie:
-$$q ( \alpha + β) \ge β.$$
-A więc zbiór $\{q:q(\alpha + β )\ge β \} \cap [0,1]$ jest zbiorem tych wartości q, dla których najlepszą odpowiedzią Gracza 1 na strategię q Gracza 2 jest strategia czysta p=1.
+$$q ( α + β) \ge β.$$
+A więc zbiór $\{q:q(α + β )\ge β \} \cap [0,1]$ jest zbiorem tych wartości q, dla których najlepszą odpowiedzią Gracza 1 na strategię q Gracza 2 jest strategia czysta p=1.
 
 Oczywiście równość:
  $$\pi_1(1,q) = \pi_1(0,q)$$
-oznacza, że obie strategie czyste Gracza 1: p=1 oraz p=0, a więc także każda jego strategia mieszana, są najlepszymi odpowiedziami Gracza 1 na strategię q Gracza 2. Jest tak wtedy, gdy $q ( \alpha + β) = β.$ 
+oznacza, że obie strategie czyste Gracza 1: p=1 oraz p=0, a więc także każda jego strategia mieszana, są najlepszymi odpowiedziami Gracza 1 na strategię q Gracza 2. Jest tak wtedy, gdy $q ( α + β) = β.$ 
 
 Ostatecznie wywnioskujemy, że odwzorowanie najlepszych odpowiedzi Gracza 1 na wszystkie możliwe strategie $q \in [0,1]$ Gracza 2 określamy następująco:
 $$
 W_1(q)= \begin{cases}
-1 & \text{gdy } q\in [0,1] \text{ jest takie, że } q(\alpha + β )\ge β\\
-[0,1] & \text{gdy } q\in [0,1] \text{ jest takie, że } q(\alpha + β )= β\\
-0 & \text{gdy } q\in [0,1] \text{ jest takie, że } q(\alpha + β )\le β\\
+1 & \text{gdy } q\in [0,1] \text{ jest takie, że } q(α + β )\ge β\\
+[0,1] & \text{gdy } q\in [0,1] \text{ jest takie, że } q(α + β )= β\\
+0 & \text{gdy } q\in [0,1] \text{ jest takie, że } q(α + β )\le β\\
 \end{cases}
 .$$
 
 Postępując analogicznie znajdujemy odwzorowanie najlepszych odpowiedzi Gracza 2 na wszystkie możliwe strategie $p \in [0,1]$ Gracza 1:
 $$
 W_2(p)= \begin{cases}
-1 & \text{gdy } p\in [0,1] \text{ jest takie, że } p(\gamma + \delta )\ge \delta\\
-[0,1] & \text{gdy } p\in [0,1] \text{ jest takie, że } p(\gamma + \delta )= \delta\\
-0 & \text{gdy } p\in [0,1] \text{ jest takie, że } p(\gamma + \delta )\le \delta\\
+1 & \text{gdy } p\in [0,1] \text{ jest takie, że } p(γ + δ )\ge δ\\
+[0,1] & \text{gdy } p\in [0,1] \text{ jest takie, że } p(γ + δ )= δ\\
+0 & \text{gdy } p\in [0,1] \text{ jest takie, że } p(γ + δ )\le δ\\
 \end{cases}
 .$$
 
@@ -458,23 +458,23 @@ Rozpoczynamy od znalezienia odwzorowania $W_1(q)$ w zależności od warości par
 
 
 
-1. α>0, $β > 0$, co daje $q ( \alpha + β) \ge β \Leftrightarrow q \ge \frac{β}{\alpha+β} \in [0,1]$.
+1. α>0, $β > 0$, co daje $q ( α + β) \ge β \Leftrightarrow q \ge \frac{β}{α+β} \in [0,1]$.
 Otrzymamy więc odwzorowanie najlepszych odpowiedzi Gracza 1:
 $
 W_1(q)=  \begin{cases}
-1 & \text{dla } \frac{β}{\alpha +β} \le q \le 1\\
-[0,1] & \text{dla } q=\frac{β}{\alpha +β}\\
-0 & \text{dla } 0\le q \le \frac{β}{\alpha +β}\\
+1 & \text{dla } \frac{β}{α +β} \le q \le 1\\
+[0,1] & \text{dla } q=\frac{β}{α +β}\\
+0 & \text{dla } 0\le q \le \frac{β}{α +β}\\
 \end{cases}
 .$
-2. α>0, $β < 0$. Wówczas nierówność $q(\alpha + β)\ge β$ jest spełniona dla każdego $q \in [0,1]$, gdyż jeżeli $\alpha < |β|$ to $q(\alpha + β)\ge β \Leftrightarrow q \le \frac{β}{\alpha+β}$, ale $\frac{β}{\alpha+β}>1$. Jeżeli zaś $\alpha \ge |β|$, to lewa strona nierówności $q(\alpha + β)\ge β$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy α>0, $β<0$, to $W_1(q)=1$ dla każdego $q\in [0,1]$.
+2. α>0, $β < 0$. Wówczas nierówność $q(α + β)\ge β$ jest spełniona dla każdego $q \in [0,1]$, gdyż jeżeli $α < |β|$ to $q(α + β)\ge β \Leftrightarrow q \le \frac{β}{α+β}$, ale $\frac{β}{α+β}>1$. Jeżeli zaś $α \ge |β|$, to lewa strona nierówności $q(α + β)\ge β$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy α>0, β<0, to $W_1(q)=1$ dla każdego $q\in [0,1]$.
 
-3. α<0, $β > 0$. Wówczas łatwo sprawdzimy, że dla każdego $q\in [0,1]$ spełniona jest nierówność  $q(\alpha + β)\le β$, a więc $W_1(q)=0$ dla każdego $q\in [0,1]$.
+3. α<0, $β > 0$. Wówczas łatwo sprawdzimy, że dla każdego $q\in [0,1]$ spełniona jest nierówność  $q(α + β)\le β$, a więc $W_1(q)=0$ dla każdego $q\in [0,1]$.
 
-4. α<0, $β < 0$, więc $q ( \alpha + β) \ge β \Leftrightarrow q\le \frac{β}{\alpha+β} \in [0,1]$, co daje: \\ ${W_1(q)= \begin{cases}
-1 & \text{dla } 0 \le q \le \frac{β}{\alpha +β}\\
-[0,1] & \text{dla } q=\frac{β}{\alpha +β}\\
-0 & \text{dla } \frac{β}{\alpha +β} \le q \le 1\\
+4. α<0, $β < 0$, więc $q ( α + β) \ge β \Leftrightarrow q\le \frac{β}{α+β} \in [0,1]$, co daje: \\ ${W_1(q)= \begin{cases}
+1 & \text{dla } 0 \le q \le \frac{β}{α +β}\\
+[0,1] & \text{dla } q=\frac{β}{α +β}\\
+0 & \text{dla } \frac{β}{α +β} \le q \le 1\\
 \end{cases}
 .}$
 
@@ -483,23 +483,23 @@ W_1(q)=  \begin{cases}
 Następnie znajdujemy odworownie $W_2(p)$ w zależności od parametrów γ i δ:
 
 
-1. γ>0, δ>0, dlatego $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\ge\frac{\delta}{\gamma+\delta}$. Więc odwzorowanie najlepszych odpowiedzi Gracza 2 jest następujące: ${W_2(p)= \begin{cases}
-1 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
-[0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
-0 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
+1. γ>0, δ>0, dlatego $p ( γ +δ) \ge δ \Leftrightarrow p\ge\frac{δ}{γ+δ}$. Więc odwzorowanie najlepszych odpowiedzi Gracza 2 jest następujące: ${W_2(p)= \begin{cases}
+1 & \text{dla } \frac{δ}{γ +δ} \le p \le 1\\
+[0,1] & \text{dla } p=\frac{δ}{γ +δ}\\
+0 & \text{dla } 0 \le p \le \frac{δ}{γ +δ}\\
 \end{cases}
 .}$
 
-2.  γ>0, δ<0. Wówczas nierówność $p (\gamma +\delta) \ge \delta$ jest spełniona dla każdego $p\in [0,1]$, gdyż jeżeli $\gamma<|\delta|$ to  $p (\gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma +\delta}$, ale $\frac{\delta}{\gamma +\delta}>1$. Jeżeli zaś $\gamma \ge |\delta|$, to lewa strona nierówności  $p (\gamma +\delta) \ge \delta$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy γ>0, δ<0, to $W_2(p)=1$ dla każdego $p\in [0,1]$.
+2.  γ>0, δ<0. Wówczas nierówność $p (γ +δ) \ge δ$ jest spełniona dla każdego $p\in [0,1]$, gdyż jeżeli $γ<|δ|$ to  $p (γ +δ) \ge δ \Leftrightarrow p\le \frac{δ}{γ +δ}$, ale $\frac{δ}{γ +δ}>1$. Jeżeli zaś $γ \ge |δ|$, to lewa strona nierówności  $p (γ +δ) \ge δ$ jest nieujemna, prawa zaś ujemna. Widzimy więc, że gdy γ>0, δ<0, to $W_2(p)=1$ dla każdego $p\in [0,1]$.
 
-3.  γ<0, δ>0. Wówczas łatwo sprawdzamy, że dla każdego $p \in [0,1]$ spełniona jest nierówność $p ( \gamma +\delta) \le \delta$, a więc $W_2(p)=0$ dla każdego $p\in [0,1]$.
+3.  γ<0, δ>0. Wówczas łatwo sprawdzamy, że dla każdego $p \in [0,1]$ spełniona jest nierówność $p ( γ +δ) \le δ$, a więc $W_2(p)=0$ dla każdego $p\in [0,1]$.
 
-4.  γ<0, δ<0. Wówczas $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\le \frac{\delta}{\gamma+\delta}$.
+4.  γ<0, δ<0. Wówczas $p ( γ +δ) \ge δ \Leftrightarrow p\le \frac{δ}{γ+δ}$.
 Co daje odwzorowanie najlepszych odpowiedzi Gracza 2:
 ${W_2(p)= \begin{cases}
-1 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
-[0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
-0 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
+1 & \text{dla } 0 \le p \le \frac{δ}{γ +δ}\\
+[0,1] & \text{dla } p=\frac{δ}{γ +δ}\\
+0 & \text{dla } \frac{δ}{γ +δ} \le p \le 1\\
 \end{cases}
 .}$
 
@@ -511,16 +511,16 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 |α | $β$ | $W_1(q)$ | wykres|
 | :--------: |:---------:| -------------------|---------------|
 |+ | +| $\begin{cases} 
-1 & \text{dla } \frac{β}{\alpha +β} \le q \le 1\\
-[0,1] & \text{dla } q=\frac{β}{\alpha +β}\\
-0 & \text{dla } 0\le q \le \frac{β}{\alpha +β}\\
+1 & \text{dla } \frac{β}{α +β} \le q \le 1\\
+[0,1] & \text{dla } q=\frac{β}{α +β}\\
+0 & \text{dla } 0\le q \le \frac{β}{α +β}\\
 \end{cases}$ |  (wykre100.png)|
 |+ | - | 1 dla $q\in[0,1]$ | (wykre101.png)|
 |- | + | 0 dla $q\in[0,1]$ | (wykre102.png)|
 |- | - | $\begin{cases}
-1 & \text{dla } 0 \le q \le \frac{β}{\alpha +β}\\
-[0,1] & \text{dla } q=\frac{β}{\alpha +β}\\
-0 & \text{dla } \frac{β}{\alpha +β} \le q \le 1\\
+1 & \text{dla } 0 \le q \le \frac{β}{α +β}\\
+[0,1] & \text{dla } q=\frac{β}{α +β}\\
+0 & \text{dla } \frac{β}{α +β} \le q \le 1\\
 \end{cases}$ |(wykre103.png)|
 
 
@@ -528,16 +528,16 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 |γ | δ | $W_2(p)$ | wykres|
 | :--------: |:---------:| -------------------|---------------|
 |+ | + | $\begin{cases}
-1 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
-[0,1] & \text{dla } p=\frac{\delta}{\gamma +\delta}\\
-0 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
+1 & \text{dla } \frac{δ}{γ +δ} \le p \le 1\\
+[0,1] & \text{dla } p=\frac{δ}{γ +δ}\\
+0 & \text{dla } 0 \le p \le \frac{δ}{γ +δ}\\
 \end{cases}$ | (wykre104.png) |
 |+ | - | 1 dla $p\in[0,1]$ | (wykre106.png) |
 |- | + | 0 dla $p\in[0,1]$ | (wykre107.png) |
 |- | - | $\begin{cases}
-1 & \text{dla } 0 \le p \le \frac{\delta}{\gamma +\delta}\\
-[0,1]  \text{dla } p=\frac{\delta}{\gamma +\delta}\\
-0 & \text{dla } \frac{\delta}{\gamma +\delta} \le p \le 1\\
+1 & \text{dla } 0 \le p \le \frac{δ}{γ +δ}\\
+[0,1]  \text{dla } p=\frac{δ}{γ +δ}\\
+0 & \text{dla } \frac{δ}{γ +δ} \le p \le 1\\
 \end{cases}$ |(wykre105.png)|
 
 
@@ -549,17 +549,17 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 ![width=0.3\textwidth](wykre1.png)
 W tym przypadku otrzymamy trzy równowagi Nasha:
 \\
-$NE_1=(1,1)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (\alpha, \gamma)$,
+$NE_1=(1,1)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (α, γ)$,
 \\
-$NE_2=(\frac{\delta}{\gamma+\delta},\frac{β}{\alpha+β})$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (\frac{\alpha β}{\alpha+β},\frac{\gamma \delta}{\gamma+ \delta})$, gdyż
+$NE_2=(\frac{δ}{γ+δ},\frac{β}{α+β})$ odpowiada jej wektor wypłat $\overrightarrow{\pi}= (\frac{α β}{α+β},\frac{γ δ}{γ+ δ})$, gdyż
 \begin{eqnarray*}
-\pi_1 & = & \alpha \frac{\delta}{\gamma+\delta} \frac{β}{\alpha+β}+ β (1-\frac{\delta}{\gamma+\delta})(1- \frac{β}{\alpha+β}) \\ & = & \frac{\alpha \delta β}{(\gamma+\delta)(\alpha+β)}+\frac{β \gamma \alpha}{(\gamma+\delta)(\alpha+β)} \\ & =&  \frac{\alpha β (\delta+\gamma)}{(\gamma+\delta)(\alpha+β)} \\ & = & \frac{\alpha β}{\alpha+β}
+\pi_1 & = & α \frac{δ}{γ+δ} \frac{β}{α+β}+ β (1-\frac{δ}{γ+δ})(1- \frac{β}{α+β}) \\ & = & \frac{α δ β}{(γ+δ)(α+β)}+\frac{β γ α}{(γ+δ)(α+β)} \\ & =&  \frac{α β (δ+γ)}{(γ+δ)(α+β)} \\ & = & \frac{α β}{α+β}
 \end{eqnarray*}
 \begin{eqnarray*}
-\pi_2 & = & \gamma \frac{\delta}{\gamma+\delta} \frac{β}{\alpha+β}+\delta(1-\frac{\delta}{\gamma+\delta})(1- \frac{β}{\alpha+β}) \\ & = & \frac{\gamma \delta β}{(\gamma+\delta)(\alpha+β)}+ \frac{\delta \gamma \alpha}{(\gamma+\delta)(\alpha+β)} \\&=& \frac{\delta \gamma(\alpha + β)}{(\gamma+\delta)(\alpha+β)}\\&=& \frac{\gamma \delta}{\gamma+ \delta}.
+\pi_2 & = & γ \frac{δ}{γ+δ} \frac{β}{α+β}+δ(1-\frac{δ}{γ+δ})(1- \frac{β}{α+β}) \\ & = & \frac{γ δ β}{(γ+δ)(α+β)}+ \frac{δ γ α}{(γ+δ)(α+β)} \\&=& \frac{δ γ(α + β)}{(γ+δ)(α+β)}\\&=& \frac{γ δ}{γ+ δ}.
 \end{eqnarray*}
 \\
-$NE_3=(0,0)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}=(β, \delta)$.
+$NE_3=(0,0)$ odpowiada jej wektor wypłat $\overrightarrow{\pi}=(β, δ)$.
 W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$NE_1=(1,1)$. Analogicznie zastosujemy skróty dla równowag Nasha $NE_2$, $NE_3$, $NE_4$ i $NE_5$.
 
 2. α>0, β>0, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_1$:
@@ -568,13 +568,13 @@ W dalszej części pracy zastosujemy skrót $NE_1$ dla onaczenia równowagi \\$N
 ![width=0.3\textwidth](wykre3.png)
 4. α>0, β>0, γ<0, δ<0. Rysujemy wykres i odczytujemy z niego, iż jest tylko jedna równowaga Nasha: $NE_2$.
 ![width=0.33\textwidth](wykre4.png)
-5. α>0, $β<0$, γ>0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_1$.
+5. α>0, β<0, γ>0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_1$.
 ![width=0.3\textwidth] (wykre16.png)
-6. α>0, $β<0$, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_1$.
+6. α>0, β<0, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_1$.
 ![width=0.3\textwidth](wykre17.png)
-7. α>0, $β<0$, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5=(1,0)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
+7. α>0, β<0, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5=(1,0)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
 ![width=0.3\textwidth](wykre14.png)
-8. α>0, $β<0$, γ<0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_5$.
+8. α>0, β<0, γ<0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_5$.
 ![width=0.3\textwidth](wykre18.png)
 9. α<0, β>0, γ>0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_3$.
 ![width=0.3\textwidth](wykre5.png)
@@ -584,16 +584,16 @@ $NE_4=(0,1)$, odpowiada jej wektor wypłat $\overrightarrow{\pi}=(0,0)$.
 11. α<0, β>0, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: 
 $NE_3$.
 ![width=0.3\textwidth](wykre8.png)
-12. α<0, β>0, γ<0, δ<0. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+12. α<0, β>0, γ<0, δ<0. Otrzymamy  nieskończenie wiele równowag Nasha: $NE=\{(p,0): \frac{δ}{γ+δ}\le p \le 1\}$.
 ![width=0.3\textwidth](wykre10.png)
 Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha.
-13. α<0, $β<0$, γ>0, δ>0. Z wykresu odczytamy: $NE_2$.
+13. α<0, β<0, γ>0, δ>0. Z wykresu odczytamy: $NE_2$.
 ![width=0.3\textwidth](wykre11.png)
-14. α<0, $β<0$, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_4$.
+14. α<0, β<0, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_4$.
 ![width=0.3\textwidth](wykre12.png)
-15. α<0, $β<0$, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5$.
+15. α<0, β<0, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5$.
 ![width=0.3\textwidth](wykre15.png)
-16. α<0, $β<0$, γ<0, δ<0. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
+16. α<0, β<0, γ<0, δ<0. Otrzymamy trzy równowagi Nasha: $NE_2$, $NE_4$ i $NE_5$.
 ![width=0.3\textwidth](wykre13.png)
 
 
@@ -610,32 +610,32 @@ Symbolem NE oznaczamy zbiór par strategii jakich wynikiem jest równowaga Nasha
 Rozpoczynamy od znaleznienia zbiorów $W_1(q)$ w zależności od wartości parametrów α i $β$:
 
 
-1. α>0, $β = 0$. Mamy $q ( \alpha + β) \ge β \Leftrightarrow q \alpha \ge 0 \Leftrightarrow q\ge0$.
+1. α>0, $β = 0$. Mamy $q ( α + β) \ge β \Leftrightarrow q α \ge 0 \Leftrightarrow q\ge0$.
 Więc 
 \\${W_1(q)= \begin{cases}
 1 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=0\\
 \end{cases}
 .}$
-2. α<0, $β = 0$. Mamy $q ( \alpha + β) \le β \Leftrightarrow q \alpha \le 0 \Leftrightarrow \ge0$.
+2. α<0, $β = 0$. Mamy $q ( α + β) \le β \Leftrightarrow q α \le 0 \Leftrightarrow \ge0$.
 Więc \\${W_1(q)= \begin{cases}
 0 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=0\\
 \end{cases}
 .}$
-3. α=0, $β > 0$. Mamy $q ( \alpha + β) \le β \Leftrightarrow  β \le β \Leftrightarrow q\le1$.
+3. α=0, $β > 0$. Mamy $q ( α + β) \le β \Leftrightarrow  β \le β \Leftrightarrow q\le1$.
 Więc \\${W_1(q)= \begin{cases}
 0 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=1\\
 \end{cases}
 .}$
-4. α=0, $β < 0$. Mamy $q ( \alpha + β) \ge β \Leftrightarrow q β \ge β \Leftrightarrow q\le1$.
+4. α=0, $β < 0$. Mamy $q ( α + β) \ge β \Leftrightarrow q β \ge β \Leftrightarrow q\le1$.
 Więc \\${W_1(q)= \begin{cases}
 1 & \text{dla }  q \in [0,1]\\
 [0,1] & \text{dla } q=1\\
 \end{cases}
 .}$
-5. α=0, $β = 0$, Wówczas $q(\alpha+β)=β$ dla dowolnego $q\in [0,1]$, więc 
+5. α=0, $β = 0$, Wówczas $q(α+β)=β$ dla dowolnego $q\in [0,1]$, więc 
 \\${W_1(q)= [0,1]  \text{ dla } q\in [0,1].}$
 Zauważamy, że α=0 i β=0 oznacza, że $a_{11}=a_{21}$ oraz $a_{22}=a_{21}$, a więc bimacierz gry wyjściowej wygląda tak:
 $$\left[\begin{array}{cc}
@@ -649,31 +649,31 @@ Widzimy więc, że Graczowi 1 jest obojętne, czy gra strategię czystą p=1, cz
 Następnie wyznaczamy zbiór $W_2(p)$ w zależności od parametrów γ i δ dla przypadków zdegenerowanych:
 
 
-1. γ>0, δ=0. Mamy $p ( \gamma +\delta) \ge \delta \Leftrightarrow p\gamma \ge 0 \Leftrightarrow p\ge 0$. Co daje \\${W_2(p)= \begin{cases}
+1. γ>0, δ=0. Mamy $p ( γ +δ) \ge δ \Leftrightarrow pγ \ge 0 \Leftrightarrow p\ge 0$. Co daje \\${W_2(p)= \begin{cases}
 1 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=0\\
 \end{cases}
 .}$
 
-2. γ<0, δ=0. Mamy $p ( \gamma +\delta) \le \delta \Leftrightarrow \gamma p \le 0 \Leftrightarrow p \ge 0$. Więc \\${W_2(p)= \begin{cases}
+2. γ<0, δ=0. Mamy $p ( γ +δ) \le δ \Leftrightarrow γ p \le 0 \Leftrightarrow p \ge 0$. Więc \\${W_2(p)= \begin{cases}
 0 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=0\\
 \end{cases}
 .}$
 
-3. γ=0, δ>0. Mamy $p(\gamma+\delta)\le\delta \Leftrightarrow \delta p \le \delta \Leftrightarrow p \le 1$. Więc \\${W_2(p)= \begin{cases}
+3. γ=0, δ>0. Mamy $p(γ+δ)\leδ \Leftrightarrow δ p \le δ \Leftrightarrow p \le 1$. Więc \\${W_2(p)= \begin{cases}
 0 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=1\\
 \end{cases}
 .}$
 
-4. γ=0, δ<0. Mamy $p(\gamma+\delta)  \ge \delta  \Leftrightarrow p \delta \ge \delta \Leftrightarrow p\le 1$. Co daje \\${W_2(p)= \begin{cases}
+4. γ=0, δ<0. Mamy $p(γ+δ)  \ge δ  \Leftrightarrow p δ \ge δ \Leftrightarrow p\le 1$. Co daje \\${W_2(p)= \begin{cases}
 1 & \text{dla }  p \in [0,1]\\
 [0,1] & \text{dla } p=1\\
 \end{cases}
 .}$
 
-5. γ=0, δ=0. Mamy $p(\gamma+\delta)  \ge \delta $ dla dowolnego $p\in[0,1]$, co daje \\${W_2(p)=[0,1]  \text{ dla } p\in [0,1].}$
+5. γ=0, δ=0. Mamy $p(γ+δ)  \ge δ $ dla dowolnego $p\in[0,1]$, co daje \\${W_2(p)=[0,1]  \text{ dla } p\in [0,1].}$
 Znowu zauważamy, że w tym przypadku $b_{11}=b_{21}$ oraz $b_{22}=b_{21}$, a więc bimacierz gry wyjściowej wygląda tak:
 $$\left[\begin{array}{cc}
 (a_{11} ,b_{11} )&(a_{22},b_{12})\\
@@ -750,46 +750,46 @@ Wcześniejsze obliczenia możemy przedstawić w tabeli:
 Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $W_1(q)$ i $W_2(p)$ w jednym układzie współrzędnych oraz zaznaczyć zbiór równowag Nasha określony jako $W_1(q) \cap W_2(p)$ w zależności od wartości parametrów: α, $β$, γ, δ:
 
 
-1. α>0, β>0, γ>0, δ=0, $NE=NE_1 \cup \{ (0,q):0\le q\le \frac{β}{\alpha+β}\}$.
+1. α>0, β>0, γ>0, δ=0, $NE=NE_1 \cup \{ (0,q):0\le q\le \frac{β}{α+β}\}$.
 
 
 ![width=0.3\textwidth] (wykre21.png)
 
 
-2. α>0, β>0, γ<0, δ=0, $NE=\{ (0,q):0\le q\le \frac{β}{\alpha+β}\}$.
+2. α>0, β>0, γ<0, δ=0, $NE=\{ (0,q):0\le q\le \frac{β}{α+β}\}$.
 
 ![width=0.3\textwidth](wykre22.png)
 
-3. α>0, β>0, γ=0, δ>0, $NE=NE_3 \cup \{ (1,q):\frac{β}{\alpha+β} \le q\le 1\}$.
+3. α>0, β>0, γ=0, δ>0, $NE=NE_3 \cup \{ (1,q):\frac{β}{α+β} \le q\le 1\}$.
 
 
 ![width=0.3\textwidth](wykre32.png)
 
-4. α>0, β>0, γ=0, δ<0, $NE=\{ (1,q):\frac{β}{\alpha+β} \le q\le 1\}$.
+4. α>0, β>0, γ=0, δ<0, $NE=\{ (1,q):\frac{β}{α+β} \le q\le 1\}$.
 
 ![width=0.3\textwidth](wykre33.png)
 
-5. α>0, β>0, γ=0, δ=0, \\$NE=\{(0,q):0\le q \le \frac{β}{\alpha+β}\} \cup \{ (p,\frac{β}{\alpha+β}): 0 \le p \le 1\} \cup\{ (1,q):\frac{β}{\alpha+β} \le q\le 1\}$.
+5. α>0, β>0, γ=0, δ=0, \\$NE=\{(0,q):0\le q \le \frac{β}{α+β}\} \cup \{ (p,\frac{β}{α+β}): 0 \le p \le 1\} \cup\{ (1,q):\frac{β}{α+β} \le q\le 1\}$.
 
 ![width=0.3\textwidth](wykre34.png)
 
-6. α>0, $β<0$, γ>0, δ=0. Otrzymamy jedną równowagę Nasha: $NE_1$.
+6. α>0, β<0, γ>0, δ=0. Otrzymamy jedną równowagę Nasha: $NE_1$.
 ![width=0.3\textwidth](wykre29.png)
 
-7.α>0, $β<0$, γ<0, δ=0. Otrzymamy jedną równowagę Nasha: $NE_5$.
+7.α>0, β<0, γ<0, δ=0. Otrzymamy jedną równowagę Nasha: $NE_5$.
 ![width=0.3\textwidth](wykre30.png)
 
-8. α>0, $β<0$, γ=0, δ>0, $NE=\{(1,q):0\le q \le 1 \}$.
+8. α>0, β<0, γ=0, δ>0, $NE=\{(1,q):0\le q \le 1 \}$.
 ![width=0.3\textwidth] (wykre42.png)
 
-9. α>0, $β<0$, γ=0, δ<0, $NE=\{(1,q):0\le q \le 1 \}$.
+9. α>0, β<0, γ=0, δ<0, $NE=\{(1,q):0\le q \le 1 \}$.
 ![width=0.3\textwidth](wykre43.png)
 
 
-10. α>0, $β<0$, γ=0, δ=0, $NE=\{(1,q):0\le q \le 1 \}$.
+10. α>0, β<0, γ=0, δ=0, $NE=\{(1,q):0\le q \le 1 \}$.
 ![width=0.3\textwidth](wykre44.png)
 	
-11. α>0, β=0, γ>0, δ>0, $NE=NE_1 \cup\{(p,0):0 \le p \le \frac{\delta}{\gamma+\delta} \}$.
+11. α>0, β=0, γ>0, δ>0, $NE=NE_1 \cup\{(p,0):0 \le p \le \frac{δ}{γ+δ} \}$.
 ![width=0.3\textwidth](wykre45.png)
 
 12. α>0, β=0, γ>0, δ<0. Otrzymamy jedną równowagę Nasha: $NE_1$.
@@ -802,7 +802,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 14. α>0, β=0, γ<0, δ>0, $NE=\{(p,0): 0\le p \le 1 \}$.
 ![width=0.3\textwidth](wykre49.png)
 		
-16. α>0, β=0, γ<0, δ<0, $NE=\{(p,0): \frac{\delta}{\gamma+ \delta}\le p \le 1 \}$.
+16. α>0, β=0, γ<0, δ<0, $NE=\{(p,0): \frac{δ}{γ+ δ}\le p \le 1 \}$.
 ![width=0.3\textwidth](wykre47.png)
 
 17. α>0, β=0, γ<0, δ=0, $NE=\{(p,0): 0\le p \le 1 \}$.
@@ -833,19 +833,19 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 25. α<0, β>0, γ=0, δ=0, $NE=\{ (0,q):0 \le q\le 1\}$.
 ![width=0.3\textwidth](wykre38.png)
 
-26. α<0, $β<0$, γ>0, δ=0, $NE=\{ (0,q):\frac{β}{\alpha+β} \le q\le 1\}$.
+26. α<0, β<0, γ>0, δ=0, $NE=\{ (0,q):\frac{β}{α+β} \le q\le 1\}$.
 ![width=0.3\textwidth](wykre27.png)
 
-27. α<0, $β<0$, γ<0, δ=0, $NE=NE_5 \cup \{ (0,q):\frac{β}{\alpha+β} \le q\le 1\}$.
+27. α<0, β<0, γ<0, δ=0, $NE=NE_5 \cup \{ (0,q):\frac{β}{α+β} \le q\le 1\}$.
 ![width=0.3\textwidth](wykre28.png)
 
-28. α<0, $β<0$, γ=0, δ>0, $NE=\{ (1,q): 0\le q\le \frac{β}{\alpha+β}\}$.
+28. α<0, β<0, γ=0, δ>0, $NE=\{ (1,q): 0\le q\le \frac{β}{α+β}\}$.
 ![width=0.3\textwidth](wykre40.png)
 
-29. α<0, $β<0$, γ=0, δ<0, $NE=NE_4 \cup\{ (1,q): 0\le q\le \frac{β}{\alpha+β}\}$.
+29. α<0, β<0, γ=0, δ<0, $NE=NE_4 \cup\{ (1,q): 0\le q\le \frac{β}{α+β}\}$.
 ![width=0.3\textwidth](wykre41.png)
 
-30. α<0, $β<0$, γ=0, δ=0, \\$NE=\{(0,q): \frac{β}{\alpha+β} \le q \le1\} \cup \{ (p,\frac{β}{\alpha+β}): 0 \le p \le 1\} \cup\{ (1,q):0 \le q\le \frac{β}{\alpha+β}\}$.
+30. α<0, β<0, γ=0, δ=0, \\$NE=\{(0,q): \frac{β}{α+β} \le q \le1\} \cup \{ (p,\frac{β}{α+β}): 0 \le p \le 1\} \cup\{ (1,q):0 \le q\le \frac{β}{α+β}\}$.
 ![width=0.3\textwidth](wykre39.png)
 
 31. α<0, β=0, γ>0, δ>0, $NE=\{(p,0): 0\le p \le 1 \}$.
@@ -860,7 +860,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 34. α<0, β=0, γ<0, δ>0, $NE=\{(p,0):0\le p \le 1\}$.
 ![width=0.3\textwidth](wykre58.png)
 
-35. α<0, β=0, γ<0, δ<0, $NE=NE_4 \cup\{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1 \}$.
+35. α<0, β=0, γ<0, δ<0, $NE=NE_4 \cup\{(p,0): \frac{δ}{γ+δ}\le p \le 1 \}$.
 ![width=0.3\textwidth](wykre56.png)
 
 36. α<0, β=0, γ<0, δ=0, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
@@ -875,7 +875,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 39. α<0, β=0, γ=0, δ=0, $NE=\{(0,q):0\le q\le 1\} \cup \{(p,0): 0 \le p \le 1 \}$.
 ![width=0.3\textwidth](wykre62.png)
 
-40. α=0, β>0, γ>0, δ>0, $NE=NE_3 \cup \{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
+40. α=0, β>0, γ>0, δ>0, $NE=NE_3 \cup \{(p,1): \frac{δ}{γ+δ} \le p \le 1\}$.
 ![width=0.3\textwidth](wykre63.png)
 
 41. α=0, β>0, γ>0, δ<0, $NE=\{(p,1): 0\le p \le 1 \}$.
@@ -887,7 +887,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 43. α=0, β>0, γ<0, δ>0, $NE=\{(0,q):0\le q \le 1\}$.
 ![width=0.3\textwidth](wykre67.png)
 		
-44. α=0, β>0, γ<0, δ<0, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
+44. α=0, β>0, γ<0, δ<0, $NE=\{(p,1): 0 \le p \le \frac{δ}{γ+δ}\}$.
 ![width=0.3\textwidth](wykre65.png)
 
 45. α=0, β>0, γ<0, δ=0, $NE=\{(0,q): 0 \le q \le 1\}$.
@@ -903,33 +903,33 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 48. α=0, β>0, γ=0, δ=0, $NE=\{(0,q):0 \le q \le 1 \} \cup \{(p,1):0\le p \le 1\}$.
 ![width=0.3\textwidth](wykre76.png)
 
-49. α=0, $β<0$, γ>0, δ>0, $NE=\{(p,1): \frac{\delta}{\gamma+\delta} \le p \le 1\}$.
+49. α=0, β<0, γ>0, δ>0, $NE=\{(p,1): \frac{δ}{γ+δ} \le p \le 1\}$.
 ![width=0.3\textwidth](wykre69.png)
 
-50. α=0, $β<0$, γ>0, δ<0, $NE=\{(p,1): 0 \le p \le 1\}$.
+50. α=0, β<0, γ>0, δ<0, $NE=\{(p,1): 0 \le p \le 1\}$.
 ![width=0.3\textwidth](wykre70.png)
 		
-51. α=0, $β<0$, γ>0, δ=0, $NE=\{(p,1): 0 \le p \le 1\}$.
+51. α=0, β<0, γ>0, δ=0, $NE=\{(p,1): 0 \le p \le 1\}$.
 ![width=0.3\textwidth](wykre72.png)
 
-52. α=0, $β<0$, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5$.
+52. α=0, β<0, γ<0, δ>0. Otrzymamy jedną równowagę Nasha: $NE_5$.
 ![width=0.3\textwidth](wykre71.png)
 
-53. α=0, $β<0$, γ<0, δ<0, $NE=\{(p,1): 0 \le p \le \frac{\delta}{\gamma+\delta}\}$.
+53. α=0, β<0, γ<0, δ<0, $NE=\{(p,1): 0 \le p \le \frac{δ}{γ+δ}\}$.
 ![width=0.3\textwidth](wykre89.png)
 
-54. α=0, $β<0$, γ<0, δ=0. Otrzymamy tu dwie równowagi: $ NE_4$ i $NE_5$.
+54. α=0, β<0, γ<0, δ=0. Otrzymamy tu dwie równowagi: $ NE_4$ i $NE_5$.
 ![width=0.3\textwidth](wykre73.png)
 
-55. α=0, $β<0$, γ=0, δ>0, $NE=\{(1,q):0 \le q \le 1 \}$.
+55. α=0, β<0, γ=0, δ>0, $NE=\{(1,q):0 \le q \le 1 \}$.
 ![width=0.3\textwidth](wykre77.png)
 
-56. α=0, $β<0$, γ=0, δ<0, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+56. α=0, β<0, γ=0, δ<0, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
 ![width=0.3\textwidth](wykre78.png)
 
-57. α=0, $β<0$, γ=0, δ=0, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
+57. α=0, β<0, γ=0, δ=0, $NE=\{(p,1):0\le p \le 1\}\cup \{(1,q):0 \le q \le 1 \}$.
 ![width=0.3\textwidth](wykre79.png)
-58. α=0, β=0, γ>0, δ>0, \\$NE=\{(p,0):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,1): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+58. α=0, β=0, γ>0, δ>0, \\$NE=\{(p,0):0\le p \le\frac{δ}{γ+δ}\}\cup \{(\frac{δ}{γ+δ},q):0 \le q \le 1 \} \cup \{(p,1): \frac{δ}{γ+δ}\le p \le 1\}$.
 ![width=0.3\textwidth](wykre80.png)
 
 59. α=0, β=0, γ>0, δ<0, $NE=\{(p,1):0\le p \le 1\}$.
@@ -941,7 +941,7 @@ Wykorzystując wcześniejsze obliczenia możemy narysować wykresy odwzorowań $
 61. α=0, β=0, γ<0, δ>0, $NE=\{(p,0):0\le p\le1\}$.
 ![width=0.3\textwidth](wykre84.png)
 
-62. α=0, β=0, γ<0, δ<0, \\$NE=\{(p,1):0\le p \le\frac{\delta}{\gamma+\delta}\}\cup \{(\frac{\delta}{\gamma+\delta},q):0 \le q \le 1 \} \cup \{(p,0): \frac{\delta}{\gamma+\delta}\le p \le 1\}$.
+62. α=0, β=0, γ<0, δ<0, \\$NE=\{(p,1):0\le p \le\frac{δ}{γ+δ}\}\cup \{(\frac{δ}{γ+δ},q):0 \le q \le 1 \} \cup \{(p,0): \frac{δ}{γ+δ}\le p \le 1\}$.
 ![width=0.3\textwidth](wykre82.png)
 
 63. α=0, β=0, γ<0, δ=0, $NE=\{(0,q):0\le q \le1\}\cup\{(p,0):0\le p \le 1\}$.
@@ -983,8 +983,8 @@ Poniżej wymieniamy poszczególne przypadki, jakie dają pierwszą rownowagę Na
 $NE_1$. Odpowiada jej para strategii czystych obu graczy $(1,1)$:
 
 1. α>0, β>0, γ>0, δ<0,
-2. α>0, $β<0$, γ>0, δ>0,
-3. α>0, $β<0$, γ>0, δ<0,
+2. α>0, β<0, γ>0, δ>0,
+3. α>0, β<0, γ>0, δ<0,
 4. α>0, β>0, γ<0, δ=0,
 5. α>0, β=0, γ>0, δ<0.
 
@@ -1007,7 +1007,7 @@ Zauważamy, iż jest to przypadek gry postaci:
 
 
 
-Nstępnym rozwiązaniem jest równowaga  $NE_2 $, prowadzi do niej para strategii $(\frac{\delta}{\gamma+\delta},\frac{β}{\alpha+β})$. Uzyskamy ją w dwóch przypadkach: α>0, β>0, γ<0, δ<0, lub α<0, $β<0$, γ>0, δ>0.
+Nstępnym rozwiązaniem jest równowaga  $NE_2 $, prowadzi do niej para strategii $(\frac{δ}{γ+δ},\frac{β}{α+β})$. Uzyskamy ją w dwóch przypadkach: α>0, β>0, γ<0, δ<0, lub α<0, β<0, γ>0, δ>0.
 
 >PRZYKŁAD:
 Mamy grę w postaci macierzowej:
@@ -1022,7 +1022,7 @@ $$
 (0,0)&(-2,2)\\
 \end{array}\right].$$
 Zauważmy, iż jest to przypadek postaci:
-α<0, $β<0$, γ>0, δ>0.
+α<0, β<0, γ>0, δ>0.
 Więc jego rozwiązaniem jest jedna równowaga Nasha. Prowadzi do niej para strategii $(\frac{1}{2},\frac{2}{3})$, a wypłata jaką osiągną gracze jest równa $\overrightarrow{\pi}=(\frac{-5}{6},0)$.
 
 
@@ -1054,7 +1054,7 @@ Posiada on jedną równowagę Nasha i prowadzi do niej para strategii (0,0). Daj
 Przedostatnią pojedyńczą równowagą Nasha w grach 2x2 jest $NE_4$, która osiagana jest przy strategiach graczy $(0,1)$. Takie rozwiązanie gry otrzymujemy w przypadkach:
 
 1. α<0, β>0, γ>0, δ<0,
-2. α<0, $β<0$, γ>0, δ<0,
+2. α<0, β<0, γ>0, δ<0,
 3. α<0, β>0, γ=0, δ<0, 
 4. α<0, β=0, γ>0, δ<0.
 
@@ -1072,17 +1072,17 @@ $$
 (0,0)&(-2,-2)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-α>0, $β<0$, γ>0, δ<0.
+α>0, β<0, γ>0, δ<0.
 Rozwiązaniem tej gry są wypłaty $\overrightarrow{\pi}=(2,0)$ osiągane przy parze strategii graczy (0,1).
 
 
 Ostanim rodzajem gier 2x2, których rozwiązaniem jest tylko jedna równowaga to gry, w których jedyną równowagą Nasha jest $NE_5$. Gracze kierują się wówczas strategiami $(1,0)$. Efekt ten jest osiągnięty w przypadkach:
 
-1. α<0, $β<0$, γ<0, δ>0,
-2. α>0, $β<0$, γ<0, δ>0,
-3. α>0, $β<0$, γ<0, δ=0,
-4. α=0, $β<0$, γ<0, δ>0,
-5. α>0, $β<0$, γ<0, δ<0.
+1. α<0, β<0, γ<0, δ>0,
+2. α>0, β<0, γ<0, δ>0,
+3. α>0, β<0, γ<0, δ=0,
+4. α=0, β<0, γ<0, δ>0,
+5. α>0, β<0, γ<0, δ<0.
 
 
 >PRZYKŁAD:
@@ -1098,7 +1098,7 @@ $$
 (0,0)&(-2,1)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-α<0, $β<0$, γ<0, δ>0.
+α<0, β<0, γ<0, δ>0.
 Rozwiązaniem tej gry jest wypłata $\overrightarrow{\pi}=(0,1)$ osiągana przy strategiach graczy (1,0).
 
 
@@ -1128,7 +1128,7 @@ Zauważamy, iż jest to przypadek postaci:
 Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłatę $\overrightarrow{\pi}=(1,2)$ i otrzymamy ją przy strategiach (1,1), natomiast druga równowaga jest osiągana dzięki strategiom (0,0) i wygrana wynosi $\overrightarrow{\pi}=(2,3)$.
 
 
-Drugim rodzajem takich gier są gry, których rowiązanie znajduje się w punktach $NE_4$ i $NE_5$. Otrzymamy je w przypadku α<0, β=0, γ=0, δ<0, lub α=0, $β<0$, γ<0, δ=0.
+Drugim rodzajem takich gier są gry, których rowiązanie znajduje się w punktach $NE_4$ i $NE_5$. Otrzymamy je w przypadku α<0, β=0, γ=0, δ<0, lub α=0, β<0, γ<0, δ=0.
 
 >PRZYKŁAD:
 Mamy grę w postaci macierzowej:
@@ -1143,7 +1143,7 @@ $$
 (0,0)&(-2,0)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-α=0, $β<0$, γ<0, δ=0.
+α=0, β<0, γ<0, δ=0.
 Są tutaj dwie równowagi Nasha. Pierwsza równowaga daje wypłaty $\overrightarrow{\pi}=(1,1)$ i otrzymamy ją przy parze  strategii (1,0), natomiast druga równowaga jest osiągana dzięki parze strategii (0,1) i wygrana wynosi $\overrightarrow{\pi}=(2,1)$.
 
 
@@ -1167,12 +1167,12 @@ Zauważamy, iż jest to przypadek postaci:
 Więc rozwiązaniem są trzy równowagi Nasha:
 \begin {enumerate}
 \item $NE_1$: strategie graczy wyglądają następująco: $(1,1)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(a_{11}, b_{11})=(2,2)$,
-\item $NE_2$: strategie graczy wyglądają następująco: \\$(\frac{\delta}{\gamma+\delta},\frac{β}{\alpha+β})=(\frac{1}{2+1},\frac{1}{2+1})=(\frac{1}{3},\frac{1}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3},\frac{2}{3})$,
+\item $NE_2$: strategie graczy wyglądają następująco: \\$(\frac{δ}{γ+δ},\frac{β}{α+β})=(\frac{1}{2+1},\frac{1}{2+1})=(\frac{1}{3},\frac{1}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3},\frac{2}{3})$,
 \item $NE_3$: strategie graczy wyglądają następująco: $(0,0)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(a_{22}, b_{22})=(1,1)$.
 \end{enumerate}
 
 
-Inny rodzaj takich gier to gry, które kończą się równowagami w punktach $NE_2$, $NE_4$ i $NE_5$. Prowadzi do takiego rozwiązania  przypadek α<0, $β<0$, γ<0, δ<0.
+Inny rodzaj takich gier to gry, które kończą się równowagami w punktach $NE_2$, $NE_4$ i $NE_5$. Prowadzi do takiego rozwiązania  przypadek α<0, β<0, γ<0, δ<0.
 
 >PRZYKŁAD: Gra  ,,Jastrząb i gołąb".
 \\
@@ -1188,11 +1188,11 @@ $$
 (0,0)&(-2,-2)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-α<0, $β<0$, γ<0, δ<0.
+α<0, β<0, γ<0, δ<0.
 Więc jego rozwiązaniem są trzy równowagi Nasha:
 \begin {enumerate}
 \item $NE_4$: strategie graczy wyglądają następująco: $(0,1)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(0, 4)$,
-\item $NE_2$: strategie graczy wyglądają następująco: $(\frac{\delta}{\gamma+\delta},\frac{β}{\alpha+β})=(\frac{-2}{-2-1},\frac{-2}{-2-1})=(\frac{2}{3},\frac{2}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3}, \frac{2}{3})$,
+\item $NE_2$: strategie graczy wyglądają następująco: $(\frac{δ}{γ+δ},\frac{β}{α+β})=(\frac{-2}{-2-1},\frac{-2}{-2-1})=(\frac{2}{3},\frac{2}{3})$. Osiągają oni wypłaty $\overrightarrow{\pi}=(\frac{2}{3}, \frac{2}{3})$,
 \item $NE_5$:strategie graczy wyglądają następująco: $(1,0)$. Osiągają oni wypłaty \\$\overrightarrow{\pi}=(4,0)$.
 \end {enumerate}
 
@@ -1208,25 +1208,25 @@ Pojedyncze równowagi Nasha możemy przedstawić na jednym wykresie:
 Jeżeli gra 2x2 nie należy do którejś z wymienionych wcześniej klas, to ma nieskończenie wiele równowag Nasha. Gry takie możemy podzielić na kilka grup. Takie, w których równowagi Nasha tworzą odcinek i punkt, takie w których tworzą tylko odcinek, łamaną i w końcu cały kwadrat jednostkowy.
 
 Pierwszą grupą będą gry, w których równowagi Nasha tworzą odcinek i punkt. Możemy wyniki wcześniejszych obliczeń podzielić ze względu na zbiory strategii.
-W ten sposób otrzymamy pierwszy zbiór składający sie ze strategii: (1,1) i \\$(0,q): q\in [0,\frac{β}{\alpha+β}]$. Takie rozwiązanie otrzymamy w przypadku: α>0, β>0, γ>0, δ=0.
+W ten sposób otrzymamy pierwszy zbiór składający sie ze strategii: (1,1) i \\$(0,q): q\in [0,\frac{β}{α+β}]$. Takie rozwiązanie otrzymamy w przypadku: α>0, β>0, γ>0, δ=0.
 ![width=0.33\textwidth](wykre201.png)
 
-Następny zbiór równowag Nasha składa się ze strategii $(0,0)$ i \\$(p,1): p\in [\frac{\delta}{\gamma+\delta},1]$, otrzymamy go w przypadku: α=0, β>0, γ>0, δ>0.
+Następny zbiór równowag Nasha składa się ze strategii $(0,0)$ i \\$(p,1): p\in [\frac{δ}{γ+δ},1]$, otrzymamy go w przypadku: α=0, β>0, γ>0, δ>0.
 ![width=0.33\textwidth](wykre202.png)
 
-Kolejnym przykładem zbioru równowag Nasha składającego się z odcinka i punktu jest zbiór strategii (0,1) i $(p,0): p\in [\frac{\delta}{\gamma+\delta},1]$, otrzymamy go w przypadku: α<0, β=0, γ<0, δ<0.
+Kolejnym przykładem zbioru równowag Nasha składającego się z odcinka i punktu jest zbiór strategii (0,1) i $(p,0): p\in [\frac{δ}{γ+δ},1]$, otrzymamy go w przypadku: α<0, β=0, γ<0, δ<0.
 ![width=0.33\textwidth](wykre203.png)
 
-Innym przykładem analogicznego zbioru równowag Nasha są strategie (1,1) i $(p,0):p \in [0,\frac{\delta}{\gamma+\delta}]$. Osiągamy je w przypadku: α>0, β=0, γ>0, δ>0.
+Innym przykładem analogicznego zbioru równowag Nasha są strategie (1,1) i $(p,0):p \in [0,\frac{δ}{γ+δ}]$. Osiągamy je w przypadku: α>0, β=0, γ>0, δ>0.
 ![width=0.33\textwidth](wykre204.png)
 
-Jeszcze inny rodzaj zbioru równowag Nasha postaci odcinek i punkt dają strategie (0,1) i $(1,q): q\in [0,\frac{β}{\alpha+β}]$. Jest to efekt przypadku: α<0, $β<0$, γ=0, δ<0.
+Jeszcze inny rodzaj zbioru równowag Nasha postaci odcinek i punkt dają strategie (0,1) i $(1,q): q\in [0,\frac{β}{α+β}]$. Jest to efekt przypadku: α<0, β<0, γ=0, δ<0.
 ![width=0.33\textwidth](wykre205.png)
 
-Przedostatnim zbiorem równowag Nasha postaci odcinek i punkt są strategie (0,0) i $(1,q): q\in [\frac{β}{\alpha+β},1]$. Powstaje on w przypadku: α>0, β>0, γ=0, δ>0,.
+Przedostatnim zbiorem równowag Nasha postaci odcinek i punkt są strategie (0,0) i $(1,q): q\in [\frac{β}{α+β},1]$. Powstaje on w przypadku: α>0, β>0, γ=0, δ>0,.
 ![width=0.33\textwidth](wykre206.png)
 
-Ostatnim zbiorem równowag Nasha  jest zbiór strategii postaci \\(1,0) i $(0,q):q\in [\frac{β}{\alpha+β},1]$, jest tak w przypadku: α<0, $β<0$, γ<0, δ=0.
+Ostatnim zbiorem równowag Nasha  jest zbiór strategii postaci \\(1,0) i $(0,q):q\in [\frac{β}{α+β},1]$, jest tak w przypadku: α<0, β<0, γ<0, δ=0.
 ![width=0.33\textwidth](wykre207.png)
 
 >PRZYKŁAD:
@@ -1247,32 +1247,32 @@ Więc jego rozwiązaniem jest zbiór równowag Nasha postaci:
 strategie (0,1) i wypłaty \\$\overrightarrow{\pi}=(4,1)$ oraz kombinacja strategii $(p,0): p\in [\frac{1}{2},1]$ i daje ona wypłatę \\$\overrightarrow{\pi}=(4,p+1),p\in [\frac{1}{2},1]$.
 
 
-Drugą grupą gier są gry, w których równowagi Nasha tworzą odcinek. Otrzymamy kilka rodzajów odcinków. Pierwym rodzajem są odcinki postaci \\$(p,1):p\in [0,\frac{\delta}{\gamma+\delta}]$. Powstają one w dwóch przypadkach: α=0, β>0, γ<0, δ<0, lub α=0, $β<0$, γ<0, δ<0.
+Drugą grupą gier są gry, w których równowagi Nasha tworzą odcinek. Otrzymamy kilka rodzajów odcinków. Pierwym rodzajem są odcinki postaci \\$(p,1):p\in [0,\frac{δ}{γ+δ}]$. Powstają one w dwóch przypadkach: α=0, β>0, γ<0, δ<0, lub α=0, β<0, γ<0, δ<0.
 ![width=0.33\textwidth](wykre208.png)
 
-Następnym rodzajem są odcinki postaci $(1,q):q\in [0,\frac{β}{\alpha+β}]$ i jest tak w przypadku 
- α<0, $β<0$, γ=0, δ>0.
+Następnym rodzajem są odcinki postaci $(1,q):q\in [0,\frac{β}{α+β}]$ i jest tak w przypadku 
+ α<0, β<0, γ=0, δ>0.
 ![width=0.33\textwidth](wykre209.png)
 
-Kolejnym są odcinki postaci $(p,0):p\in [\frac{\delta}{\gamma+\delta},1]$ i osiągamy je w dwóch przypadkach:
+Kolejnym są odcinki postaci $(p,0):p\in [\frac{δ}{γ+δ},1]$ i osiągamy je w dwóch przypadkach:
  α<0, β>0, γ<0, δ<0, lub α>0, β=0, γ<0, δ<0.
 ![width=0.33\textwidth](wykre210.png)
 
-Inne odcinki równowag Nasha uzyskamy ze strategii $(0,q): q\in [\frac{β}{\alpha+β},1]$. Dzieje się tak w przypadku: α<0, $β<0$, γ>0, δ=0.
+Inne odcinki równowag Nasha uzyskamy ze strategii $(0,q): q\in [\frac{β}{α+β},1]$. Dzieje się tak w przypadku: α<0, β<0, γ>0, δ=0.
 ![width=0.33\textwidth](wykre211.png)
 
-Kolejne odcinki powstają ze strategii $(1,q):q\in [\frac{β}{\alpha+β},1]$ i osiągamy je w przypadku: 
+Kolejne odcinki powstają ze strategii $(1,q):q\in [\frac{β}{α+β},1]$ i osiągamy je w przypadku: 
 α>0, β>0, γ=0, δ<0.
 ![width=0.33\textwidth](wykre212.png)
 
-Następny rodzaj równowag Nasha powstaje ze strategii $(p,0):p\in [0,\frac{\delta}{\gamma+\delta}]$. Powstają one w przypadku: α<0, β=0, γ>0, δ>0.
+Następny rodzaj równowag Nasha powstaje ze strategii $(p,0):p\in [0,\frac{δ}{γ+δ}]$. Powstają one w przypadku: α<0, β=0, γ>0, δ>0.
 ![width=0.33\textwidth](wykre213.png)
 
-Jeszcze inny rodzaj odcinków tworzą strategie $(p,1):p\in [\frac{\delta}{\gamma+\delta},1]$ i jest tak w przypadku:
- α=0, $β<0$, γ>0, δ>0.
+Jeszcze inny rodzaj odcinków tworzą strategie $(p,1):p\in [\frac{δ}{γ+δ},1]$ i jest tak w przypadku:
+ α=0, β<0, γ>0, δ>0.
 ![width=0.33\textwidth](wykre214.png)
 
-Kolejne odcinki uzyskamy ze strategii $(0,q):q\in [0,\frac{β}{\alpha+β}]$. Zbiór tych strategii możemy otrzymać w przypadku:  α>0, β>0, γ<0, δ=0.
+Kolejne odcinki uzyskamy ze strategii $(0,q):q\in [0,\frac{β}{α+β}]$. Zbiór tych strategii możemy otrzymać w przypadku:  α>0, β>0, γ<0, δ=0.
 ![width=0.33\textwidth](wykre215.png)
 
 Następne odcinki powstają ze strategii $(p,0:p\in [0,1]$ i jest tak w przypadkach:
@@ -1366,16 +1366,16 @@ Czwartym rodzajem łamamnej są zbiory strategii $(p,1)):p\in[0,1]$ i \\$(0,q):q
 
 ![width=0.3\textwidth](wykre223.png)
 
-Kolejnym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(0,q):q\in[\frac{β}{\alpha+β},1]$, $(p,\frac{β}{\alpha+β}):p\in[0,1]$ i $(1,q):q\in[0,\frac{β}{\alpha+β}]$. Dzieje się tak w dwóch przypadkach: α<0, $β<0$, γ=0, δ=0, lub α>0, $β<0$, γ=0, δ=0 i $|\alpha|<|β|$.
+Kolejnym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(0,q):q\in[\frac{β}{α+β},1]$, $(p,\frac{β}{α+β}):p\in[0,1]$ i $(1,q):q\in[0,\frac{β}{α+β}]$. Dzieje się tak w dwóch przypadkach: α<0, β<0, γ=0, δ=0, lub α>0, β<0, γ=0, δ=0 i $|α|<|β|$.
 ![width=0.3\textwidth](wykre224.png)
 
-Następnym zbiorem rozwiązań tworzących łamaną tworzą strategie postaci \\$(0,q):q\in[0,\frac{β}{\alpha+β}]$, $(p,\frac{β}{\alpha+β}):p\in[0,1]$ i $(1,q):q\in[\frac{β}{\alpha+β},1]$. Jest to efekt przypadku: α>0, β>0, γ=0, δ=0.
+Następnym zbiorem rozwiązań tworzących łamaną tworzą strategie postaci \\$(0,q):q\in[0,\frac{β}{α+β}]$, $(p,\frac{β}{α+β}):p\in[0,1]$ i $(1,q):q\in[\frac{β}{α+β},1]$. Jest to efekt przypadku: α>0, β>0, γ=0, δ=0.
 ![width=0.3\textwidth](wykre225.png)
 
-Innym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,0):p\in[0,\frac{\delta}{\gamma+\delta}]$, $(\frac{\delta}{\gamma+\delta},q):q\in[0,1]$ i $(p,1):p\in[\frac{\delta}{\gamma+\delta},1]$. Dzieje się tak w przypadku: α=0, β=0, γ>0, δ>0.
+Innym zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,0):p\in[0,\frac{δ}{γ+δ}]$, $(\frac{δ}{γ+δ},q):q\in[0,1]$ i $(p,1):p\in[\frac{δ}{γ+δ},1]$. Dzieje się tak w przypadku: α=0, β=0, γ>0, δ>0.
 ![width=0.3\textwidth](wykre226.png)
 
-Ostatnim zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,1):p\in[0,\frac{\delta}{\gamma+\delta}]$, $(\frac{\delta}{\gamma+\delta},q):q\in[0,1]$ i $(p,0):p\in[\frac{\delta}{\gamma+\delta},1]$. Jest ona uzyskiwana w przypadku:
+Ostatnim zbiorem rozwiązań opisanym łamaną tworzą strategie postaci \\$(p,1):p\in[0,\frac{δ}{γ+δ}]$, $(\frac{δ}{γ+δ},q):q\in[0,1]$ i $(p,0):p\in[\frac{δ}{γ+δ},1]$. Jest ona uzyskiwana w przypadku:
  α=0, β=0, γ<0, δ<0.
 ![width=0.3\textwidth](wykre227.png)
 
@@ -1393,7 +1393,7 @@ $$
 (0,0)&(-1,0)\\
 \end{array}\right].$$
 Zauważamy, iż jest to przypadek postaci:
-α=0, $β<0$, γ=0, δ=0.
+α=0, β<0, γ=0, δ=0.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,1+p), p\in[0,1]$ oraz kombinacja strategii $(1,q):q\in [0,1]$ i daje ona wypłatę $\overrightarrow{\pi}=(q,2),q\in [0,1]$.
 
 
