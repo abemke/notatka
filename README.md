@@ -137,7 +137,7 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 >**Definicja:** 
 
->Rodzinę $\Theta=\left(N,\Sigma,\pi\right)$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
+>Rodzinę $$\Theta=\left(N,\Sigma,\pi\right)$$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
 
 >1. N={1,2,...n} jest zbiorem graczy;
 >1. zbiór
@@ -172,19 +172,12 @@ L&(a_{21},b_{21})&(a_{22},b_{22})
 Jest to zapis w postaci podwójnej macierzy gry, gdyż bimacierz (A,B) jest parą macierzy 
 
 $$A=\left[\begin{array}{cc}
-
 a_{11}&a_{12}
-
 a_{21}&a_{22}
-
 \end{array}\right]
-
 B=\left[\begin{array}{cc}
-
 b_{11} &b_{12}
-
 b_{21}&b_{22}
-
 \end{array}\right]$$
 
 przedstawiających, odpowiednio, wypłaty dla Gracza 1 (Wiersza) i Gracza 2 (Kolumny). W przedstawionej bimacierzy Wiersz gra jedną z dwóch strategii P lub L i są one reprezentowne prez wiersze. Kolumna gra również jedną z dwóch strategii I lub II oraz odpowiadają im kolumny. W miejscu przecięcia się wiersza i kolumny znajdują się liczby reprezentujące wypłaty dla graczy odpowiadające wybranym przez graczy strategiom. Na przykład jeżeli Wiersz gra według strategii P i Kolumna postępuje zgodnie ze strategią II to wypłatami będą liczby $a_{12}$ i $b_{12}$. Kwota $a_{12}$ jest wypłatą jaką otrzyma Wiersz, natomiast $ b_{12}$ jest wygraną Kolumny.
