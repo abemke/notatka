@@ -1397,7 +1397,7 @@ $\alpha=0$, $\beta<0$, $\gamma=0$, $\delta=0$.
 Więc jego rozwiązaniem jest zbiór równowag Nasha postaci: strategie $(p,0):p\in [0,1]$ i wypłaty $\overrightarrow{\pi}=(1,1+p), p\in[0,1]$ oraz kombinacja strategii $(1,q):q\in [0,1]$ i daje ona wypłatę $\overrightarrow{\pi}=(q,2),q\in [0,1]$.
 
 
-Ostatnia grupa rozwiązań to wszystkie możliwe strategie mieszane i czyste jakie mogą zastosować gracze w grze. Ogólnie możemy je zapisać jako \\$(p,q):p\in [0,1], q\in[0,1]$ i są one rezultatem przypadku: $\alpha=0$, $\beta=0$, $\gamma=0$, $\delta=0$.
+Ostatnia grupa rozwiązań to wszystkie możliwe strategie mieszane i czyste jakie mogą zastosować gracze w grze. Ogólnie możemy je zapisać jako \\$(p,q):p\in [0,1], q\in[0,1]$ i są one rezultatem przypadku: $$\alpha=0$$, $$\beta=0$$, $$\gamma=0$$, $$\delta=0$$.
 ![width=0.3\textwidth](wykre228.png)
 
 >PRZYKŁAD:
