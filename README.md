@@ -1424,214 +1424,87 @@ Uzyskane wyniki przedstawiamy zbiorczo w tabeli pokazującej zaleźność ilośc
 |$\alpha$ | $\beta$ | $\gammas$ | $\delta$ | $|NE|$ | Lp. |
 | :--------: | :------: | :-------: | :--------: | :-----: | :----: |
 | + | + | + | + | 3 | N1 |
-
-
-\begin{tabular}{cc}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-$\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
-\hline
-\hline
-+&+&+&+&3 & N1\\
-\hline
-+&+&+&-&1 & N2\\
-\hline
-+&+&-&+&1 & N3\\
-\hline
-+&+&-&-&1 & N4\\
-\hline
-+&-&+&+&1 & N5\\
-\hline
-+&-&+&-&1 & N6\\
-\hline
-+&-&-&+&1 & N7\\
-\hline
-+&-&-&-&1 & N8\\
-\hline
--&+&+&+&1 & N9\\
-\hline
--&+&+&-&1 & N10\\
-\hline
--&+&-&+&1 & N11\\
-\hline
--&+&-&-&$\infty$ & N12\\
-\hline
--&-&+&+&1 & N13\\
-\hline
--&-&+&-&1 & N14\\
-\hline
--&-&-&+&1 & N15\\
-\hline
--&-&-&-&3 & N16\\
-\hline
-%-----
-\end{tabular}
-
-&
-
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-$\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
-\hline
-\hline
-+&+&+&0&$\infty$ & Z1\\
-\hline
-+&+&-&0&$\infty$ & Z2\\
-\hline
-+&+&0&+&$\infty$ & Z3\\
-\hline
-+&+&0&-&$\infty$ & Z4\\
-\hline
-+&+&0&0&$\infty$ & Z5\\
-\hline
-+&-&+&0&1 & Z6\\
-\hline
-+&-&-&0&1 & Z7\\
-\hline
-+&-&0&+&$\infty$ & Z8\\
-\hline
-+&-&0&-&$\infty$ & Z9\\
-\hline
-+&-&0&0&$\infty$ & Z10\\
-\hline
-+&0&+&+&$\infty$ & Z11\\
-\hline
-+&0&+&-&$\infty$ & Z12\\
-\hline
-+&0&+&0&2 & Z13\\
-\hline
-+&0&-&+&$\infty$ & Z14\\
-\hline
-+&0&-&-&$\infty$ & Z15\\
-\hline
-+&0&-&0&$\infty$ & Z16\\
-\hline
-\end{tabular}
-\\
-\end{tabular}
-%----
-
-\begin{tabular}{cc}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-$\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
-\hline
-\hline
-+&0&0&+&$\infty$ & Z17\\
-\hline
-+&0&0&-&$\infty$ & Z18\\
-\hline
-+&0&0&0&$\infty$ & Z19\\
-\hline
--&+&+&0&$\infty$ & Z20\\
-\hline
--&+&-&0&$\infty$ & Z21\\
-\hline
--&+&0&+&1 & Z22\\
-\hline
--&+&0&-&1 & Z23\\
-\hline
--&+&0&0&$\infty$ & Z24\\
-\hline
--&-&+&0&$\infty$ & Z25\\
-\hline
--&-&-&0&$\infty$ & Z26\\
-\hline
--&-&0&+&$\infty$ & Z27\\
-\hline
--&-&0&-&$\infty$ & Z28\\
-\hline
--&-&0&0&$\infty$ & Z29\\
-\hline
--&0&+&+&$\infty$ & Z30\\
-\hline
--&0&+&-&1 & Z31\\
-\hline
--&0&+&0&$\infty$ & Z32\\
-\hline
--&0&-&+&$\infty$ & Z33\\
-\hline
--&0&-&-&$\infty$ & Z34\\
-\hline
--&0&-&0&$\infty$ & Z35\\
-\hline
--&0&0&+&$\infty$ & Z36\\
-\hline
--&0&0&-&2 & Z37\\
-\hline
--&0&0&0&$\infty$ & Z38\\
-\hline
-0&+&+&+&$\infty$ & Z39\\
-\hline
-0&+&+&-&$\infty$ & Z40\\
-\hline
-0&+&+&0&$\infty$ & Z41\\
-\hline
-
-
-
-
-
-\end{tabular}
-%-----
-&
-%----
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-$\alpha$ & $\beta$ & $\gamma$ & $\delta$ & $|NE|$ & Lp.\\
-\hline
-\hline
-0&+&-&+&$\infty$ & Z42\\
-\hline
-0&+&-&-&$\infty$ & Z43\\
-\hline
-0&+&-&0&$\infty$ & Z44\\
-\hline
-0&+&0&+&2 & Z45\\
-\hline
-0&+&+&0&$\infty$ & Z46\\
-\hline
-0&+&0&0&$\infty$ & Z47\\
-\hline
-0&-&+&+&$\infty$ & Z48\\
-\hline
-0&-&+&-&$\infty$ & Z49\\
-\hline
-0&-&+&0&$\infty$ & Z50\\
-\hline
-0&-&-&+&1 & Z51\\
-\hline
-0&-&-&-&$\infty$ & Z52\\
-\hline
-0&-&-&0&2 & Z53\\
-\hline
-0&-&0&+&$\infty$ & Z54\\
-\hline
-0&-&0&-&$\infty$ & Z55\\
-\hline
-0&-&0&0&$\infty$ & Z56\\
-\hline
-0&0&+&+&$\infty$ & Z57\\
-\hline
-0&0&+&-&$\infty$ & Z58\\
-\hline
-0&0&+&0&$\infty$ & Z59\\
-\hline
-0&0&-&+&$\infty$ & Z60\\
-\hline
-0&0&-&-&$\infty$ & Z61\\
-\hline
-0&0&-&0&$\infty$ & Z62\\
-\hline
-0&0&0&+&$\infty$ & Z63\\
-\hline
-0&0&0&-&$\infty$ & Z64\\
-\hline
-0&0&0&0&$\infty$ & Z65\\
-\hline
-\end{tabular}
-\\
-\end{tabular}
+| + | + | + | - | 1 | N2 |
+| + | + | - | + | 1 | N3 |
+| + | + | - | +| 1 | N4 |
+| + | - | + | + | 1| N5 |
+| + | - | + | - | 1 | N6 |
+| + | - | - | + | 1 | N7 |
+| + | - | - | - | 1 | N8 |
+| - | + | + | + | 1 | N9 |
+| - | + | + | - | 1 | N10 |
+| - | + | - | + | 1 | N11|
+| - | + | - | - | $$\infty$$ | N12 |
+| - | - | + | + | 1 | N13 |
+| - | - | + | - | 1 | N14 |
+| - | - | - | + | 1 | N15 |
+| - | - | - | - | 3 | N16 |
+| + | + | + | 0 |  $$\infty$$ | Z1 |
+| + | + | - | 0 |  $$\infty$$ | Z2 |
+| + | + | 0 | + |  $$\infty$$ | Z3 |
+| + | + | 0 | - |  $$\infty$$ | Z4 |
+| + | + | 0 | 0 |  $$\infty$$ | Z5 |
+| + | - | + | 0 |  1 | Z6 |
+| + | - | - | 0 |  1 | Z7 |
+| + | - | 0 | + |  $$\infty$$ | Z8 |
+| + | - | 0 | - |  $$\infty$$ | Z9 |
+| + | - | 0 | 0 |  $$\infty$$ | Z10 |
+| + | 0 | + | + |  $$\infty$$ | Z11 |
+| + | 0 | + | - |  $$\infty$$ | Z12 |
+| + | 0 | + | 0 |  2 | Z13 |
+| + | 0 | - | + |  $$\infty$$ | Z14 |
+| + | 0 | - | - |  $$\infty$$ | Z15 |
+| + | 0 | - | 0 |  $$\infty$$ | Z16 |
+| + | 0 | 0 | + |  $$\infty$$ | Z17 |
+| + | 0 | 0 | - |  $$\infty$$ | Z18 |
+| + | 0 | 0 | 0 |  $$\infty$$ | Z19 |
+| - | + | + | 0 |  $$\infty$$ | Z20 |
+| - | + | - | 0 |  $$\infty$$ | Z21 |
+| - | + | 0 | + |  1 | Z22 |
+| - | + | 0 | - |  $$\infty$$ | Z23 |
+| - | + | 0 | 0 |  $$\infty$$ | Z24 |
+| - | - | + | 0 |  $$\infty$$ | Z25 |
+| - | - | - | 0 |  $$\infty$$ | Z26 |
+| - | - | 0 | + |  $$\infty$$ | Z27 |
+| - | - | 0 | - |  $$\infty$$ | Z28 |
+| - | - | 0 | 0 |  $$\infty$$ | Z29 |
+| - | 0 | + | + |  $$\infty$$ | Z30 |
+| - | 0 | + | - |  1 | Z31 |
+| - | 0 | + | 0 |  $$\infty$$ | Z32 |
+| - | 0 | - | + |  $$\infty$$ | Z33 |
+| - | 0 | - | - |  $$\infty$$ | Z34 |
+| - | 0 | - | 0 |  $$\infty$$ | Z35 |
+| - | 0 | 0 | + |  $$\infty$$ | Z36 |
+| - | 0 | 0 | - |  2 | Z37 |
+| - | 0 | 0 | 0 |  $$\infty$$ | Z38 |
+| 0 | + | + | + |  $$\infty$$ | Z39 |
+| 0 | + | + | - |  $$\infty$$ | Z40 |
+| 0 | + | + | 0 |  $$\infty$$ | Z41 |
+| 0 | + | - | + |  $$\infty$$ | Z42 |
+| 0 | + | - | - |  $$\infty$$ | Z43 |
+| 0 | + | - | 0 |  $$\infty$$ | Z44 |
+| 0 | + | 0 | + |  2 | Z45 |
+| 0 | + | + | 0 |  $$\infty$$ | Z46 |
+| 0 | + | 0 | 0 |  $$\infty$$ | Z47 |
+| 0 | - | + | + |  $$\infty$$ | Z48 |
+| 0 | - | + | - |  $$\infty$$ | Z49 |
+| 0 | - | + | 0 |  $$\infty$$ | Z50 |
+| 0 | - | - | + |  $$\infty$$ | Z51 |
+| 0 | - | - | - |  $$\infty$$ | Z52 |
+| 0 | - | - | 0 |  2 | Z53 |
+| 0 | - | 0 | + |  $$\infty$$ | Z54 |
+| 0 | - | 0 | - |  $$\infty$$ | Z55 |
+| 0 | - | 0 | 0 |  $$\infty$$ | Z56 |
+| 0 | 0 | + | + |  $$\infty$$ | Z57 |
+| 0 | 0 | + | + |  $$\infty$$ | Z57 |
+| 0 | 0 | + | - |  $$\infty$$ | Z58 |
+| 0 | 0 | + | 0 |  $$\infty$$ | Z59 |
+| 0 | 0 | - | + |  $$\infty$$ | Z60 |
+| 0 | 0 | - | - |  $$\infty$$ | Z61 |
+| 0 | 0 | - | 0 |  $$\infty$$ | Z62 |
+| 0 | 0 | 0 | + |  $$\infty$$ | Z63 |
+| 0 | 0 | 0 | - |  $$\infty$$ | Z64 |
+| 0 | 0 | 0 | 0 |  $$\infty$$ | Z65 |
 		
 
 
@@ -1652,7 +1525,7 @@ Na końcu zaprezentowano tabelę przedstawiającą zależność ilość równowa
 
 
 
-##thebibliography
+##Bibliografia
 
 1. Kałuski J.,*Teoria gier*, Wydawnictwo Politechniki Śląskiej, Gliwice 2002. 
 2. Peters H., *Game Theory*. A Multi-Leveled Approach}, Springer-Verlag, Berlin 2008. 
