@@ -137,19 +137,19 @@ Po nieformalnym przedstawieniu pojecia gry i jej elementów wprowadzimy formaln�
 
 >**Definicja:** 
 
->Rodzinę $$\Theta=\left(N,\Sigma,\pi\right)$$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
+Rodzinę $$\Theta=\left(N,\Sigma,\pi\right)$$ nazywamy **n-osobową grą w postaci normalnej**, gdzie:
 
->1. N={1,2,...n} jest zbiorem graczy;
->1. zbiór
-~Math
+1. N={1,2,...n} jest zbiorem graczy;
+1. zbiór
+
 $$\Sigma_{i}$$ 
-~
-jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
->1. $\Sigma=\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n}$ jest zbiorem stanów w grze $\Theta$;
->1. funkcja $\pi_{i}:\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
->1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
 
->Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $\Sigma_i$.
+jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
+1. $\Sigma=\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n}$ jest zbiorem stanów w grze $\Theta$;
+1. funkcja $\pi_{i}:\Sigma_{1}\times\Sigma_{2}\times...\times\Sigma_{n} \rightarrow \mathbb{R}$ jest funkcją wypłaty (wygranych) tego gracza,  $1 \leq i \leq n$ oraz $\pi=\left(\pi_1,\pi_2,...,\pi_n\right)$;
+1. wektor $\left(\pi_1\left(s\right),\pi_2\left(s\right),...,\pi_n\left(s\right)\right) \in \mathbb{R}^{n}$, nazywamy wektorem wypłat (wygranych) stanu $s=\left(s_1,s_2,...,s_n\right)\in\Sigma$.
+
+Celem i-tego gracza jest maksymalizacja jego funkcji wypłaty $\pi_i$ przez wybór strategii ze zbioru $\Sigma_i$.
 
 
 
@@ -161,13 +161,13 @@ jest zbiorem strategii i-tego gracza, $1 \leq i \leq n$;
 
 Grę 2x2 w postaci normalnej zapisujemy za pomocą bimacierzy:
 
-~Math
+
 $$\left(A,B\right)=
 \kbordermatrix{\mbox{ }&I&II
 P&(a_{11} ,b_{11} )&(a_{12},b_{12})
 L&(a_{21},b_{21})&(a_{22},b_{22})
 }$$
-~
+
 
 Jest to zapis w postaci podwójnej macierzy gry, gdyż bimacierz (A,B) jest parą macierzy 
 
@@ -183,8 +183,8 @@ b_{21}&b_{22}
 przedstawiających, odpowiednio, wypłaty dla Gracza 1 (Wiersza) i Gracza 2 (Kolumny). W przedstawionej bimacierzy Wiersz gra jedną z dwóch strategii P lub L i są one reprezentowne prez wiersze. Kolumna gra również jedną z dwóch strategii I lub II oraz odpowiadają im kolumny. W miejscu przecięcia się wiersza i kolumny znajdują się liczby reprezentujące wypłaty dla graczy odpowiadające wybranym przez graczy strategiom. Na przykład jeżeli Wiersz gra według strategii P i Kolumna postępuje zgodnie ze strategią II to wypłatami będą liczby $a_{12}$ i $b_{12}$. Kwota $a_{12}$ jest wypłatą jaką otrzyma Wiersz, natomiast $ b_{12}$ jest wygraną Kolumny.
 
 >Definicja: 
->Jeżeli gracz ma do dyspozycji zbiór strategii $\{ s_1,s_2\}$ i wybiera je z prawdopodobieństwami $\{p_1,p_2\}$, $0\leq p_i \leq 1$, >$p_1+p_2 =1$, to mówimy, że gra **strategię mieszaną** określoną rozkładem prawdopodobieństwa $\{p_1,p_2\}$. 
->Natomiast o strategiach $s_1,s_2$ mówimy, że są to **strategie czyste**.
+Jeżeli gracz ma do dyspozycji zbiór strategii $\{ s_1,s_2\}$ i wybiera je z prawdopodobieństwami $\{p_1,p_2\}$, $0\leq p_i \leq 1$, $p_1+p_2 =1$, to mówimy, że gra **strategię mieszaną** określoną rozkładem prawdopodobieństwa $\{p_1,p_2\}$. 
+Natomiast o strategiach $s_1,s_2$ mówimy, że są to **strategie czyste**.
 
 
 Inaczej mówiąc strategia mieszana jest rozkładem prawdopodobieństwa określonym na zbiorze strategii czystych. Zauważamy, że strategie czyste są szczególnymi przypadkami strategi mieszanych. W strategiach czystych dla pewnego indeksu \\i=1 lub 2~$p_i=1$, natomiast $ p_j=0~ dla~~ j\ne i$. 
@@ -193,38 +193,38 @@ Dla uproszczenia zapisów w pracy zastosowaliśmy skrótową formę zapisu strat
 
 >Przykład:
 
->Wektor $\overrightarrow{p}=(p,1-p)=(1,0)$ jest strategią czystą Wiersza, czyli Gracz 1 gra strategię czystą $s_1$ nazwaną w >przykładowej bimacierzy strategią P. W tej samej grze Kolumna może grać strategię mieszaną, np. $ >\overrightarrow{q}=(q,1-q)=(\frac{1}{2},\frac{1}{2})$, w tym przypadku Gracz 2 wybiera strategię czystą I z prawdopodobieństwem >$\frac{1}{2}$ i strategię czystą II z prawdopodobieństwem $\frac{1}{2}$.
+Wektor $\overrightarrow{p}=(p,1-p)=(1,0)$ jest strategią czystą Wiersza, czyli Gracz 1 gra strategię czystą $s_1$ nazwaną w przykładowej bimacierzy strategią P. W tej samej grze Kolumna może grać strategię mieszaną, np. $ \overrightarrow{q}=(q,1-q)=(\frac{1}{2},\frac{1}{2})$, w tym przypadku Gracz 2 wybiera strategię czystą I z prawdopodobieństwem $\frac{1}{2}$ i strategię czystą II z prawdopodobieństwem $\frac{1}{2}$.
 
 
 >Definicja:
 
->Gdy gracze w grze 2x2 grają strategie mieszane $(\overrightarrow{p},\overrightarrow{q})$, gdzie $\overrightarrow{p}=(p_1,p_2)$, >$\overrightarrow{q}=(q_1,q_2)$ funkcjami wypłaty są wartości oczekiwane
->$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_ja_{ij},$$ 
->$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_jb_{ij}.$$ 
+Gdy gracze w grze 2x2 grają strategie mieszane $(\overrightarrow{p},\overrightarrow{q})$, gdzie $\overrightarrow{p}=(p_1,p_2)$, $\overrightarrow{q}=(q_1,q_2)$ funkcjami wypłaty są wartości oczekiwane
+$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_ja_{ij},$$ 
+$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=\sum\limits_{i=1}^2\sum\limits_{j=1}^2 p_iq_jb_{ij}.$$ 
 
 
 W dalszej części pracy oznaczmy przez $\pi$ funkcję wypłat obu graczy, czyli: $$\pi=(\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)),\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)).$$
 
 >Przykład:
 
->Jeżeli strategie graczy są następujące $\overrightarrow{q}=(q,1-q)$, $\overrightarrow{p}=(p,1-p)$ i jest to gra 2x2:
->$$\left(A,B\right)=
->\kbordermatrix{\mbox{ }&I~q&II~1-q\\
->P&(a_{11} ,b_{11} )&(a_{12},b_{12})\\
->L&(a_{21},b_{21})&(a_{22},b_{22})\\
->} 
->\begin{array}{c}
->\\
->p\\
->1-p\\ 
->\\
->\end{array}
->$$
->\\
->to funkcja wypłat dla Wiersza jest następująca:
->$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqa_{11}+p(1-q)a_{12}+(1-p)qa_{21}+(1-p)(1-q)a_{22},$$
->a dla Kolumny jest taka:
->$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqb_{11}+p(1-q)b_{12}+(1-p)qb_{21}+(1-p)(1-q)b_{22}.$$
+Jeżeli strategie graczy są następujące $\overrightarrow{q}=(q,1-q)$, $\overrightarrow{p}=(p,1-p)$ i jest to gra 2x2:
+$$\left(A,B\right)=
+\kbordermatrix{\mbox{ }&I~q&II~1-q\\
+P&(a_{11} ,b_{11} )&(a_{12},b_{12})\\
+L&(a_{21},b_{21})&(a_{22},b_{22})\\
+} 
+\begin{array}{c}
+\\
+p\\
+1-p\\ 
+\\
+\end{array}
+$$
+\\
+to funkcja wypłat dla Wiersza jest następująca:
+$$\pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqa_{11}+p(1-q)a_{12}+(1-p)qa_{21}+(1-p)(1-q)a_{22},$$
+a dla Kolumny jest taka:
+$$\pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right)=pqb_{11}+p(1-q)b_{12}+(1-p)qb_{21}+(1-p)(1-q)b_{22}.$$
 
 
 
@@ -239,40 +239,40 @@ Niech $A,B \in M_{2x2}\left( \mathbb{R} \right)$ będą dwiema macierzami o wsp�
 
 
 >Definicja:
->
->Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy **stanem równowagi Nasha gry** >$\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
->$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) >\forall ~\overrightarrow{p} \in \Sigma_1,$$
->$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
+
+Element $(\overrightarrow{p^*},\overrightarrow{q^*})$ zbioru $\Sigma_1\times\Sigma_2$ nazywamy **stanem równowagi Nasha gry** $\Theta=(\Sigma_1,\Sigma_2,\pi)$, albo po prostu równowagą Nasha, jeżeli spełnione są nierówności:
+$$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{p} \in \Sigma_1,$$
+$$\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right) \forall ~\overrightarrow{q} \in \Sigma_2.$$
 
 Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
 >Uwaga: 
->
->Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
+
+Gdy Wiersz zamieni strategię $\overrightarrow{p^*} $ na inną, a drugi gracz tego nie zrobi, to jego wygrana nie wzrośnie.
 
 
 >Uwaga: 
->
->Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
+
+Gdy Kolumna zamieni strategię $\overrightarrow{q^*} $ na inną, a Wiersz tego nie zrobi to jej wygrana nie wzrośnie.
 
 
 **Metoda graficzna** poszukiwania równowag Nasha w grach 2x2:
 
 >Definicja:
->
->Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
->$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) >=\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
->$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) >=\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
->nazywamy **zbiorami najlepszych odpowiedzi**, odpowiednio dla pierwszego i dla drugiego gracza.
+
+Niech $\Theta=(\Sigma_1,\Sigma_2,\pi)$ będzie grą dwuosobową. Zbiory: 
+$$W_1= \{ \left(\overrightarrow{p^*},\overrightarrow{q} \right) :\pi_1 \left( \overrightarrow{p^*},\overrightarrow{q} \right) =\max_{\overrightarrow{p}}  \pi_1 \left( \overrightarrow{p},\overrightarrow{q} \right), \overrightarrow{q} \in \Sigma_2 \};$$
+$$W_2= \{ \left( \overrightarrow{p},\overrightarrow{q^*} \right) :\pi_2 \left( \overrightarrow{p},\overrightarrow{q^*} \right) =\max_{\overrightarrow{q}}  \pi_2 \left( \overrightarrow{p},\overrightarrow{q} \right) , \overrightarrow{p} \in \Sigma_1 \};$$
+nazywamy **zbiorami najlepszych odpowiedzi**, odpowiednio dla pierwszego i dla drugiego gracza.
 
 >Twierdzenie:
->
->Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha wtedy i tylko wtedy, gdy >$(\overrightarrow{p^*},\overrightarrow{q^*}) \in W_1 \cap W_2$.
+
+Stan $(\overrightarrow{p^*},\overrightarrow{q^*})$ jest stanem równowagi Nasha wtedy i tylko wtedy, gdy $(\overrightarrow{p^*},\overrightarrow{q^*}) \in W_1 \cap W_2$.
 
 >Dowód:
->Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
->
+Wynika z definicji stanu równowagi Nasha, gdyż tworzą go najlepsze na siebie nawzajem odpowiedzi graczy.
+
 
 
 
@@ -282,56 +282,56 @@ Przez $E(\Theta)$ oznaczamy zbiór wszystkich równowag Nasha gry $\Theta$.
 
 
 >Definicja:
->
->**Lokalnymi przesunięciami** w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat >Gracza 2:
->$$\left[\begin{array}{cc}
->(a_{11} ,b_{11} )&(a_{12},b_{12})\\
->(a_{21},b_{21})&(a_{22},b_{22})\\
->\end{array}\right] 
->\\ \to
->\left[\begin{array}{cc}
->(a_{11} ,b_{11}+d )&(a_{12},b_{12}+d)\\
->(a_{21},b_{21}+g)&(a_{22},b_{22}+g)\\
->\end{array}\right]$$
->\\
->i dodanie tej samej liczby w poszczególnych kolumnach macierzy wypłat Gracza 1:
->$$\left[\begin{array}{cc}
->(a_{11} ,b_{11} )&(a_{12},b_{12})\\
->(a_{21},b_{21})&(a_{22},b_{22})\\
->\end{array}\right]
->\\ \to
->\left[\begin{array}{cc}
->(a_{11}+c ,b_{11} )&(a_{12}+f,b_{12})\\
->(a_{21}+c,b_{21})&(a_{22}+f,b_{22})\\
->\end{array}\right]$$
+
+**Lokalnymi przesunięciami** w grze bimacierzowej (A,B) nazywamy dodanie tej samej liczby w poszczególnych wierszach macierzy wypłat Gracza 2:
+$$\left[\begin{array}{cc}
+(a_{11} ,b_{11} )&(a_{12},b_{12})\\
+(a_{21},b_{21})&(a_{22},b_{22})\\
+\end{array}\right] 
+\\ \to
+\left[\begin{array}{cc}
+(a_{11} ,b_{11}+d )&(a_{12},b_{12}+d)\\
+(a_{21},b_{21}+g)&(a_{22},b_{22}+g)\\
+\end{array}\right]$$
+\\
+i dodanie tej samej liczby w poszczególnych kolumnach macierzy wypłat Gracza 1:
+$$\left[\begin{array}{cc}
+(a_{11} ,b_{11} )&(a_{12},b_{12})\\
+(a_{21},b_{21})&(a_{22},b_{22})\\
+\end{array}\right]
+\\ \to
+\left[\begin{array}{cc}
+(a_{11}+c ,b_{11} )&(a_{12}+f,b_{12})\\
+(a_{21}+c,b_{21})&(a_{22}+f,b_{22})\\
+\end{array}\right]$$
 >
 
 
 >Uwaga:
->
->Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
+
+Definicję zilustrowano przykładami lokalnych przesunięć w grze 2x2, ale obowiązuje ona dla dowolnej gry bimacierzowej.
 
 >Twierdzenie:
->
->Lokalne przesunięcia w grach bimacierzowych nie zmieniają zbiorów najlepszych odpowiedzi i położenia równowag Nasha.
+
+Lokalne przesunięcia w grach bimacierzowych nie zmieniają zbiorów najlepszych odpowiedzi i położenia równowag Nasha.
 
 >Dowód:
->
->Dowód zostanie przeprowadzony dla gier 2x2. Dowód w przypadku ogólnym jest analogiczny. Niech w grze wyjściowej spełnione będą >nierówności: 
-<$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$ <i $\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 <\left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$, gdzie $\overrightarrow{p}=(p_1,p_2)$ oraz $\overrightarrow{q}=(q_1,q_2)$, <czyli:
-<\\
-<$p_1q_1^*a_{11}+p_1q_2^*a_{12}+p_2q_1^*a_{21}+p_2q_2^*a_{22}  \le <p_1^*q_1^*a_{11}+p_1^*q_2^*a_{12}+p_2^*q_1^*a_{21}+p_2^*q_2^*a_{22}$ i 
-<$p_1^*q_1b_{11}+p_1^*q_2b_{12}+p_2^*q_1b_{21}+p_2^*q_2b_{22} \le <p_1^*q_1^*b_{11}+p_1^*q_2^*b_{12}+p_2^*q_1^*b_{21}+p_2^*q_2^*b_{22}$. \\
-<Jeżeli zastosujmy lokalne przesunięcia w kolumnach i wierszach, to odpowiadające im nierówności w grze przekształconej będą miały <postać:
-<\\
-<$p_1q_1^*(a_{11}+c)+p_1q_2^*(a_{12}+f)+p_2q_1^*(a_{21}+c)+p_2q_2^*(a_{22}+f)  \le <p_1^*q_1^*(a_{11}+c)+\\p_1^*q_2^*(a_{12}+f)+p_2^*q_1^*(a_{21}+c)+p_2^*q_2^*(a_{22}+f)$,\\
-<$p_1^*q_1(b_{11}+d)+p_1^*q_2(b_{12}+d)+p_2^*q_1(b_{21}+g)+p_2^*q_2(b_{22}+g) \le <p_1^*q_1^*(b_{11}+d)+\\p_1^*q_2^*(b_{12}+d)+p_2^*q_1^*(b_{21}+g)+p_2^*q_2^*(b_{22}+g)$.\\
-<Oznaczmy przez $L_1$, $L_2$, $L'_1$, $L'_2$ oraz $R_1$, $R_2$, $ R'_1$, $ R'_2$ lewe i prawe strony tych nierówności. Indeksy 1 i 2 <odnoszą się, odpowiednio, do nierówności dotyczących wypłat Gracza 1 i 2, symbole nieprimowane odnoszą się do nierówności <dotyczących gry wyjściowej, zaś primowane - przekształconej. Po wymnożeniu i pogrupowaniu wyrazów otrzymamy:
-<$$L'_1=L_1+(p_1+p_2)q^*_1c+(p_1+p_2)q^*_2f=L_1+q^*_1c+q^*_2f,$$
-<$$R'_1=R_1+(p^*_1+p^*_2)q^*_1c+(p^*_1+p^*_2)q^*_2f=R_1+q^*_1c+q^*_2f,$$
-<a więc nierówność $L_1\le R_1$ dla gry wyjściowej jest równoważna nierówności \\$L'_1\le R'_1$ dla gry przekształconej. Analogiczny <związek zachodzi także dla nierówności dotyczących wypłat Gracza 2: $L_1\le R_2 \Leftrightarrow L'_2 \le R'_2$.
-<Widzimy więc, że lokalne przesunięcia nie zmieniają nierówności występujących w definicji stanu równowagi Nasha, więc położenie <równowag Nasha i zbiorów najlepszych odpowiedzi nie ulega zmianie.
->
+
+Dowód zostanie przeprowadzony dla gier 2x2. Dowód w przypadku ogólnym jest analogiczny. Niech w grze wyjściowej spełnione będą nierówności: 
+$\pi_1 \left(\overrightarrow{p},\overrightarrow{q^*}\right) \leqslant  \pi_1 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$ i $\pi_2 \left(\overrightarrow{p^*},\overrightarrow{q}\right) \leqslant  \pi_2 \left(\overrightarrow{p^*},\overrightarrow{q^*}\right)$, gdzie $\overrightarrow{p}=(p_1,p_2)$ oraz $\overrightarrow{q}=(q_1,q_2)$, czyli:
+\\
+$p_1q_1^*a_{11}+p_1q_2^*a_{12}+p_2q_1^*a_{21}+p_2q_2^*a_{22}  \le p_1^*q_1^*a_{11}+p_1^*q_2^*a_{12}+p_2^*q_1^*a_{21}+p_2^*q_2^*a_{22}$ i 
+$p_1^*q_1b_{11}+p_1^*q_2b_{12}+p_2^*q_1b_{21}+p_2^*q_2b_{22} \le p_1^*q_1^*b_{11}+p_1^*q_2^*b_{12}+p_2^*q_1^*b_{21}+p_2^*q_2^*b_{22}$. \\
+Jeżeli zastosujmy lokalne przesunięcia w kolumnach i wierszach, to odpowiadające im nierówności w grze przekształconej będą miały postać:
+\\
+$p_1q_1^*(a_{11}+c)+p_1q_2^*(a_{12}+f)+p_2q_1^*(a_{21}+c)+p_2q_2^*(a_{22}+f)  \le p_1^*q_1^*(a_{11}+c)+\\p_1^*q_2^*(a_{12}+f)+p_2^*q_1^*(a_{21}+c)+p_2^*q_2^*(a_{22}+f)$,\\
+$p_1^*q_1(b_{11}+d)+p_1^*q_2(b_{12}+d)+p_2^*q_1(b_{21}+g)+p_2^*q_2(b_{22}+g) \le p_1^*q_1^*(b_{11}+d)+\\p_1^*q_2^*(b_{12}+d)+p_2^*q_1^*(b_{21}+g)+p_2^*q_2^*(b_{22}+g)$.\\
+Oznaczmy przez $L_1$, $L_2$, $L'_1$, $L'_2$ oraz $R_1$, $R_2$, $ R'_1$, $ R'_2$ lewe i prawe strony tych nierówności. Indeksy 1 i 2 odnoszą się, odpowiednio, do nierówności dotyczących wypłat Gracza 1 i 2, symbole nieprimowane odnoszą się do nierówności dotyczących gry wyjściowej, zaś primowane - przekształconej. Po wymnożeniu i pogrupowaniu wyrazów otrzymamy:
+$$L'_1=L_1+(p_1+p_2)q^*_1c+(p_1+p_2)q^*_2f=L_1+q^*_1c+q^*_2f,$$
+$$R'_1=R_1+(p^*_1+p^*_2)q^*_1c+(p^*_1+p^*_2)q^*_2f=R_1+q^*_1c+q^*_2f,$$
+a więc nierówność $L_1\le R_1$ dla gry wyjściowej jest równoważna nierówności \\$L'_1\le R'_1$ dla gry przekształconej. Analogiczny związek zachodzi także dla nierówności dotyczących wypłat Gracza 2: $L_1\le R_2 \Leftrightarrow L'_2 \le R'_2$.
+Widzimy więc, że lokalne przesunięcia nie zmieniają nierówności występujących w definicji stanu równowagi Nasha, więc położenie równowag Nasha i zbiorów najlepszych odpowiedzi nie ulega zmianie.
+
 
 Dzięki powyższemu twierdzeniu dowolną grę 2x2 możemy przekształcić do postaci diagonalnej, co znacznie ułatwia badanie zbiorów równowag Nasha w tych grach.
 
@@ -377,10 +377,10 @@ $$\left[\begin{array}{cc}
 \end{array}\right]$$
 \\
 Gdzie zastosowaliśmy podstawienie:
-$$\alpha=a_{11}-a_{21};$$
+$$α=a_{11}-a_{21};$$
 $$β=a_{22}-a_{12};$$
-$$\gamma=b_{11}-b_{12};$$
-$$\delta=b_{22}-b_{21};$$
+$$γ=b_{11}-b_{12};$$
+$$δ=b_{22}-b_{21};$$
 \\
 Jest to bimacierz diagonalna.
 
